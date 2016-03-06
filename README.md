@@ -1,44 +1,5 @@
-# Testing Distributed Systems
-
-**Table of Contents**
-
-- [Testing Distributed Systems](#)
-	- [Overview of  testing approaches](#)
-		- [RICON 2014: Ines Sombra, Fastly - Testing in a Distributed World](#)
-		- [Richard Cook](#)
-		- [Misc testing approaches](#)
-		- [Aphyr's Jepsen](#)
-		- [Formal Methods](#)
-		- [Fuzzing](#)
-		- [Kill-dash-nine](#)
-		- [Performance and Benchmarking](#)
-		- [etc](#)
-	- [Concrete approaches in different distributed systems](#)
-		- [Amazon DynamoDB](#)
-		- [Netflix](#)
-		- [Twitter](#)
-		- [Datastax (Cassandra)](#)
-		- [VoltDB](#)
-		- [MemSQL](#)
-		- [FoundationDB](#)
-		- [Google ###](#)
-		- [Microsoft](#)
-		- [Dropbox](#)
-		- [Atomix Copycat](#)
-		- [LinkedIn](#)
-		- [Druid.io](#)
-		- [Salesforce](#)
-		- [TimSort](#)
-		- [SQLite](#)
-		- [InfluxDB](#)
-	- [Tools](#)
-		- [QuickCheck](#)
-		- [Benchmarking](#)
-		- [Linkbench](#)
-		- [YCSB](#)
-		- [Traffic Control](#)
-		
-
+Testing Distributed Systems
+==================================
 
 ## Overview of  testing approaches
 
