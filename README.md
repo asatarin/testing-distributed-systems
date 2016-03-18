@@ -90,6 +90,14 @@ Additional materials for this talk could be found in [this Github repo](https://
 * [Jepsen Cassandra Testing on Git](https://github.com/riptano/jepsen)
 * [Netflix A STATE OF XEN - CHAOS MONKEY & CASSANDRA](https://vimeopro.com/user35188327/cassandra-summit-2015/video/140949186) from Cassandra Summit 2015
 
+### ScyllaDB
+They published series of blog posts on testing ScyllaDB:
+* [Scylla testing part 1: Cassandra compatibility testing](http://www.scylladb.com/2016/02/04/cassandra-compatibility-testing/)
+* [Scylla testing part 2: Extending Jepsen for testing Scylla](http://www.scylladb.com/2016/02/11/jepsen-testing/)
+* [CharybdeFS: a new fault-injecting filesystem for software testing](http://www.scylladb.com/2016/02/16/fault-injection-filesystem-software-testing/)
+* [Testing part 4: Distributed tests](http://www.scylladb.com/2016/03/10/dtest-scylla/)
+* [Testing part 5: Longevity testing](http://www.scylladb.com/2016/03/15/longevity-testing-scylla/)
+
 ### VoltDB 
 * [How We Test at VoltDB](https://voltdb.com/blog/how-we-test-voltdb)
 * ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
