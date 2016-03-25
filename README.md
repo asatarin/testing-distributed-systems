@@ -13,7 +13,7 @@ Additional materials for this talk could be found in [this Github repo](https://
 ### Technologies for Testing Distributed Systems by Colin Skott
 Colin Skott shares his viewpoint from academia on testing distributed systems.
 * [Technologies for Testing Distributed Systems, Part I](http://colin-scott.github.io/blog/2016/03/04/technologies-for-testing-and-debugging-distributed-systems/)
-* [Distributed Systems Testing: The Lost World by Crista Lopes](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/)
+* See also post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/) by Crista Lopes
 
 ### Richard Cook
 * [Velocity NY 2013: Richard Cook, "Resilience In Complex Adaptive Systems"](https://www.youtube.com/watch?v=PGLYEDpNu60&feature=youtu.be)
