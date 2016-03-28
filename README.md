@@ -77,6 +77,8 @@ Colin Skott shares his viewpoint from academia on testing distributed systems.
 * [Debugging Designs by Chris Newcombie](http://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also a  [source bundle](http://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
 
 ### Netflix 
+* [Monkeys in Lab Coats: Applying Failure Testing Research @Netflix](http://www.infoq.com/presentations/failure-test-research-netflix)
+* [“Monkeys in Labs Coats”: Applied Failure Testing Research at Netflix](http://www.infoq.com/news/2016/03/failure-testing-netflix)
 * [Automated Failure Testing](http://techblog.netflix.com/2016/01/automated-failure-testing.html)
 * [Netflix Simian Army](http://techblog.netflix.com/2011/07/netflix-simian-army.html)
 * [Failure Injection Testing](http://techblog.netflix.com/2014/10/fit-failure-injection-testing.html)
