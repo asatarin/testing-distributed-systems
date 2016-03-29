@@ -52,7 +52,7 @@ Colin Skott shares his viewpoint from academia on testing distributed systems.
 
 
 ### Kill-dash-nine
-* [Game Day Exercises at Stripe: Learning from `kill -9`](https://stripe.com/blog/game-day-exercises-at-stripe)
+* [Game Day Exercises at Stripe: Learning from kill -9](https://stripe.com/blog/game-day-exercises-at-stripe)
 * [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
 * [Comcast tool](https://github.com/tylertreat/Comcast)
 * [Slow tool](https://github.com/ModusCreateOrg/slow/)
