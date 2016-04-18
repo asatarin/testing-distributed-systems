@@ -120,10 +120,13 @@ Describes how they test SQL query functionality using 5 millions queries generat
 * [How to Make a Believable Benchmark](http://blog.memsql.com/how-to-make-a-believable-benchmark/)
 * [Building an Infinitely Scalable Testing System](http://blog.memsql.com/building-an-infinitely-scalable-testing-system/) -- description of internal test system PsyDuck
 
+### CockroachDB
+* [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) -- great read about using Jepsen at Cockroach Labs
+
 ### FoundationDB 
 * ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://www.youtube.com/watch?v=4fFDFbi3toc&feature=youtu.be)
 
-### Google ### 
+### Google
 * [Efficient Exploratory Testing of Concurrent Systems](http://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf) -- They don`t mention it but looks like they describe testing of Google Omega
 * [Exploratory Testing Architecture (ETA) ](https://github.com/google/cluster-data/blob/master/ETAExplorationTraces.md)
 * [Paxos Made Live - An Engineering Perspective](http://research.google.com/pubs/pub33002.html)  has a section on testing
