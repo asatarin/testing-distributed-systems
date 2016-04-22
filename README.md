@@ -107,9 +107,13 @@ They published series of blog posts on testing ScyllaDB:
 * [Testing part 5: Longevity testing](http://www.scylladb.com/2016/03/15/longevity-testing-scylla/)
 
 ### VoltDB 
+Series of post on testing at VoltDB:
+* [How We Test at VoltDB](https://voltdb.com/blog/how-we-test-voltdb)
 * [Testing at VoltDB: SQLCoverage](https://voltdb.com/blog/testing-voltdb-sqlcoverage) 
 Describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB.
-* [How We Test at VoltDB](https://voltdb.com/blog/how-we-test-voltdb)
+* [Testing VoltDB Against PostgreSQL](https://voltdb.com/blog/testing-voltdb-against-postgresql)
+
+Additional resources:
 * ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
 * [SelfCheck workload](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/txnid-selfcheck2)
 * [TPC-C implementation](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/tpcc)
