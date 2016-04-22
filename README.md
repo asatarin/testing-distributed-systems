@@ -123,6 +123,10 @@ Describes how they test SQL query functionality using 5 millions queries generat
 ### CockroachDB
 * [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) -- great read about using Jepsen at Cockroach Labs
 
+### Cloudera
+* [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) -- Cloudera describes their approach to fault injection testing
+ 
+
 ### FoundationDB 
 * ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://www.youtube.com/watch?v=4fFDFbi3toc&feature=youtu.be)
 
