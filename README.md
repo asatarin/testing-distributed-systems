@@ -153,6 +153,7 @@ Additional resources:
 
 ### LinkedIn 
 * [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) -- Failure inducer implemented in Python
+* [A Deep Dive into Simoo](https://engineering.linkedin.com/blog/2016/03/deep-dive-Simoorg-open-source-failure-induction-framework)
 
 ### Druid.io 
 * [Architecting Distributed Databases for Failure](http://www.infoq.com/presentations/data-integrity-distributed-systems)
