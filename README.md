@@ -1,6 +1,3 @@
-Testing Distributed Systems
-==================================
-
 ## Overview of  testing approaches
 
 ### RICON 2014: Ines Sombra, Fastly - Testing in a Distributed World
