@@ -106,6 +106,7 @@ They published series of blog posts on testing ScyllaDB:
 * [CharybdeFS: a new fault-injecting filesystem for software testing](http://www.scylladb.com/2016/02/16/fault-injection-filesystem-software-testing/)
 * [Testing part 4: Distributed tests](http://www.scylladb.com/2016/03/10/dtest-scylla/)
 * [Testing part 5: Longevity testing](http://www.scylladb.com/2016/03/15/longevity-testing-scylla/)
+* [Fault-injecting filesystem cookbook](http://www.scylladb.com/2016/05/02/fault-injection-filesystem-cookbook/)
 
 ### VoltDB 
 Series of post on testing at VoltDB:
