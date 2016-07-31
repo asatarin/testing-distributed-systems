@@ -61,6 +61,7 @@ and Flume)
 * [Comcast tool](https://github.com/tylertreat/Comcast)
 * [Slow tool](https://github.com/ModusCreateOrg/slow/)
 * [Python API for Linux Traffic Control](https://github.com/praus/shapy)
+* [Blockade is a utility for testing network failures and partitions in distributed applications](https://github.com/dcm-oss/blockade)
 
 ### Performance and Benchmarking
 * [Your Load Generator Is Probably Lying To You](http://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)
