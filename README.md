@@ -150,10 +150,13 @@ Additional resources:
 ### Dropbox 
 * [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](http://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) -- example of how to use QuickCheck to test synchronisation in Dropbox and similar tools (Google Drive)
 
-
 ### Atomix Copycat 
 * [A novel implementation of the Raft consensus algorithm](https://github.com/atomix/copycat)
 * [Jepsen tests for Atomix Copycat](https://github.com/atomix/atomix-jepsen)
+
+### Onyx
+* [Onyx Straps in For a Jepsening](http://www.onyxplatform.org/jekyll/update/2016/03/15/Onyx-Straps-In-For-A-Jepsening.html)
+* [Jepsen test Onyx](https://github.com/onyx-platform/onyx-jepsen)
 
 ### LinkedIn 
 * [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) -- Failure inducer implemented in Python
