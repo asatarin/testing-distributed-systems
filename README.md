@@ -140,7 +140,8 @@ Additional resources:
 ### Google
 * [Efficient Exploratory Testing of Concurrent Systems](http://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf) -- They don`t mention it but looks like they describe testing of Google Omega
 * [Exploratory Testing Architecture (ETA) ](https://github.com/google/cluster-data/blob/master/ETAExplorationTraces.md)
-* [Paxos Made Live - An Engineering Perspective](http://research.google.com/pubs/pub33002.html)  has a section on testing
+* [Paxos Made Live - An Engineering Perspective](http://research.google.com/pubs/pub33002.html) has a section on testing
+* [10 Years of Crashing Google](https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan) describes some war stories from Disaster Recovery Testing (DiRT) team at Google
 
 ### Microsoft 
 * [Uncovering Bugs in Distributed Storage Systems during Testing (not in Production!) ](http://research.microsoft.com/pubs/260939/paper.pdf)
