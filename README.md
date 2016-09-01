@@ -202,6 +202,7 @@ Additional resources:
 * [OLTP Benchmark Wiki](http://oltpbenchmark.com/wiki/index.php?title=Main_Page)
 * [OLTP Benchmark on Github](https://github.com/oltpbenchmark)
 * [Py-TPCC](https://github.com/apavlo/py-tpcc)
+* [Netflix Data Benchmark: Benchmarking Cloud Data Stores](http://techblog.netflix.com/2016/09/netflix-data-benchmark-benchmarking.html)
 
 ### Linkbench 
 * [LinkBench from Facebook](https://www.facebook.com/notes/facebook-engineering/linkbench-a-database-benchmark-for-the-social-graph/10151391496443920) and [Github.com repo](https://github.com/facebookarchive/linkbench)
