@@ -79,9 +79,13 @@ and Flume)
 * [Debugging Designs by Chris Newcombie](http://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also a  [source bundle](http://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
 
 ### Netflix 
+On automated failure injection:
 * [Monkeys in Lab Coats: Applying Failure Testing Research @Netflix](http://www.infoq.com/presentations/failure-test-research-netflix)
 * [“Monkeys in Labs Coats”: Applied Failure Testing Research at Netflix](http://www.infoq.com/news/2016/03/failure-testing-netflix)
 * [Automated Failure Testing](http://techblog.netflix.com/2016/01/automated-failure-testing.html)
+* [Automating Failure Testing Research at Internet Scale](https://scholar.google.ru/scholar?hl=en&q=Automating+Failure+Testing+Research+at+Internet+Scale&btnG=&as_sdt=1%2C5&as_sdtp=) by P. Alvaro et.el
+
+Random/manual failure injection testing: 
 * [Netflix Simian Army](http://techblog.netflix.com/2011/07/netflix-simian-army.html)
 * [Failure Injection Testing](http://techblog.netflix.com/2014/10/fit-failure-injection-testing.html)
 * [From Chaos to Control - Testing the resiliency of Netflix’s Content Discovery Platform](http://techblog.netflix.com/2015/08/from-chaos-to-control-testing.html)
