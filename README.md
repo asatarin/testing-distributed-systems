@@ -42,7 +42,7 @@ and Flume)
 * [Comparisons of Alloy and Spin](http://www2.research.att.com/~pamela/model.html)
 * [Verdi: Formally Verifying Distributed Systems](http://verdi.uwplse.org/)
 * [Network Semantics for Verifying Distributed Systems](https://homes.cs.washington.edu/~jrw12/network-semantics.html)
-* [The verification of a distributed system By Caitie McCaffrey](http://queue.acm.org/detail.cfm?id=2889274) also [podcast](https://www.infoq.com/articles/podcast-caitie-mccaffrey) and [talk](https://www.infoq.com/presentations/distributed-systems-verification) on InfoQ.com and [accompanying materials](https://github.com/CaitieM20/TheVerificationOfDistributedSystem) on GitHub and a [slidedeck](https://speakerdeck.com/caitiem20/qcon-newyork-2016-the-verification-of-a-distributed-system)
+* [The verification of a distributed system By Caitie McCaffrey](http://queue.acm.org/detail.cfm?id=2889274) also [podcast](https://www.infoq.com/articles/podcast-caitie-mccaffrey) and [talk](https://www.infoq.com/presentations/distributed-systems-verification) on InfoQ.com and [accompanying materials](https://github.com/CaitieM20/Talks/tree/master/TheVerificationOfADistributedSystem) on GitHub and a [slidedeck](https://speakerdeck.com/caitiem20/qcon-newyork-2016-the-verification-of-a-distributed-system)
 
 
 ### Fuzzing
