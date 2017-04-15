@@ -31,6 +31,7 @@ and Flume)
 
 ### Aphyr's Jepsen
 * [Kyle Kingsbury on InfoQ](http://www.infoq.com/author/Kyle-Kingsbury)
+* [CockroachDB beta-20160829](https://jepsen.io/analyses/cockroachdb-beta-20160829)
 * [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
 * [Jepsen: RethinkDB 2.2.3 reconfiguration](https://aphyr.com/posts/330-jepsen-rethinkdb-2-2-3-reconfiguration)
 * [Aphyr's Jepsen posts](https://aphyr.com/tags/Jepsen)
