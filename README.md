@@ -106,6 +106,7 @@ Random/manual failure injection testing:
 * [Testing Cassandra Guarantees under Diverse Failure Modes with Jepsen](http://cassandrasummit-datastax.com/agenda/testing-cassandra-guarantees-under-diverse-failure-modes-with-jepsen/)
 * [Jepsen Cassandra Testing on Git](https://github.com/riptano/jepsen)
 * [Netflix A STATE OF XEN - CHAOS MONKEY & CASSANDRA](https://vimeopro.com/user35188327/cassandra-summit-2015/video/140949186) from Cassandra Summit 2015
+* [Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems](https://youtu.be/OnG1FCr5WTI) by Joel Knighton presented at Devoxx UK 2016
 
 ### ScyllaDB
 They published series of blog posts on testing ScyllaDB:
