@@ -30,6 +30,7 @@ and Flume)
 * ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
 
 ### Aphyr's Jepsen
+* [Jepsen is used by Microsoft CosmosDB](https://twitter.com/dharmashukla/status/869104163510034432)
 * [Kyle Kingsbury on InfoQ](http://www.infoq.com/author/Kyle-Kingsbury)
 * [CockroachDB beta-20160829](https://jepsen.io/analyses/cockroachdb-beta-20160829)
 * [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
