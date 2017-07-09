@@ -122,10 +122,10 @@ They published series of blog posts on testing ScyllaDB:
 
 ### VoltDB 
 Series of post on testing at VoltDB:
-* [How We Test at VoltDB](https://voltdb.com/blog/how-we-test-voltdb)
-* [Testing at VoltDB: SQLCoverage](https://voltdb.com/blog/testing-voltdb-sqlcoverage) 
+* [How We Test at VoltDB](https://www.voltdb.com/blog/2015/09/30/how-we-test-at-voltdb/)
+* [Testing at VoltDB: SQLCoverage](https://www.voltdb.com/blog/2016/03/30/testing-voltdb-sqlcoverage/) 
 Describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB.
-* [Testing VoltDB Against PostgreSQL](https://voltdb.com/blog/testing-voltdb-against-postgresql)
+* [Testing VoltDB Against PostgreSQL](https://www.voltdb.com/blog/2016/04/11/testing-voltdb-postgresql/)
 
 Additional resources:
 * ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
