@@ -126,6 +126,7 @@ Series of post on testing at VoltDB:
 * [Testing at VoltDB: SQLCoverage](https://www.voltdb.com/blog/2016/03/30/testing-voltdb-sqlcoverage/) 
 Describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB.
 * [Testing VoltDB Against PostgreSQL](https://www.voltdb.com/blog/2016/04/11/testing-voltdb-postgresql/)
+* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) -- VoltDB hired Kyle Kingsbury (Jepsen.io) to tests their database, they share results in this post
 
 Additional resources:
 * ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
@@ -140,6 +141,7 @@ Additional resources:
 
 ### CockroachDB
 * [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) -- great read about using Jepsen at Cockroach Labs
+* [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) -- CockroachDB tested by Kyle Kingsbury (Jepsen.io)
 
 ### MongoDB
 * [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-creating-chaos/)
