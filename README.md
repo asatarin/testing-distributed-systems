@@ -30,6 +30,7 @@ and Flume)
 
 ###  Misc testing approaches
 * ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
+* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
 
 ### Aphyr's Jepsen
 * [Jepsen is used by Microsoft CosmosDB](https://twitter.com/dharmashukla/status/869104163510034432)
