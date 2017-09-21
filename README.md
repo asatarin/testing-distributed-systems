@@ -213,6 +213,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Muxy Simulating real-world distributed system failures](https://github.com/mefellows/muxy)
 * [faketime](http://manpages.ubuntu.com/manpages/natty/man1/faketime.1.html)
 * [Namazu — Programmable fuzzy scheduler for testing distributed systems](https://github.com/osrg/namazu) 
+* [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
 
 ### QuickCheck 
 * [PolyConf 14: Testing the Hard Stuff and Staying Sane / John Hughes](http://www.youtube.com/watch?v=F6LzB6SdFKA&feature=youtu.be)
