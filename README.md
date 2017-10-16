@@ -147,6 +147,7 @@ Additional resources:
 
 ### PingCap (TiDB)
 * [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d) — describes Jepsen-like framework implemented in Go and used at PingCap to test TiDB
+* [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like framework written in Go
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — linearizability testing library used by Chaos framework
 
 ### MongoDB
