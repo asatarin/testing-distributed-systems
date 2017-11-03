@@ -1,0 +1,8 @@
+title: Testing Distributed Systems
+description: List of curated materials on testing distributed systems
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
