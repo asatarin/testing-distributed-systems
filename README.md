@@ -1,4 +1,9 @@
-## Overview of  testing approaches
+
+- [Overview of testing approaches](#overview-of-testing-approaches)
+- [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems)
+- [Tools](#tools)
+
+## Overview of testing approaches
 
 ### RICON 2014: Ines Sombra, Fastly - Testing in a Distributed World
 https://youtu.be/KSdNYi55kjg
@@ -77,7 +82,7 @@ and Flume)
 * ["Benchmarking: You're Doing It Wrong" by Aysylu Greenberg](https://www.youtube.com/watch?v=XmImGiVuJno)
 
 
-## Concrete approaches in different distributed systems
+## Specific approaches in different distributed systems
 ### Amazon DynamoDB
 * [The Evolution of Testing Methodology at AWS: From Status Quo to Formal Methods with TLA+](http://www.infoq.com/presentations/aws-testing-tla)
 * [Use of Formal Methods at Amazon Web Services](http://research.microsoft.com/en-us/um/people/lamport/tla/formal-methods-amazon.pdf)
