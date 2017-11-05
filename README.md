@@ -83,7 +83,7 @@ and Flume)
 
 
 ## Specific approaches in different distributed systems
-### Amazon DynamoDB
+### Amazon Web Services
 * [The Evolution of Testing Methodology at AWS: From Status Quo to Formal Methods with TLA+](http://www.infoq.com/presentations/aws-testing-tla)
 * [Use of Formal Methods at Amazon Web Services](http://research.microsoft.com/en-us/um/people/lamport/tla/formal-methods-amazon.pdf)
 * [CACM Article "How Amazon Web Services Uses Formal Methods"](http://cacm.acm.org/magazines/2015/4/184701-how-amazon-web-services-uses-formal-methods/fulltext)
@@ -146,7 +146,7 @@ Additional resources:
 * [How to Make a Believable Benchmark](http://blog.memsql.com/how-to-make-a-believable-benchmark/)
 * [Building an Infinitely Scalable Testing System](http://blog.memsql.com/building-an-infinitely-scalable-testing-system/) -- description of internal test system PsyDuck
 
-### CockroachDB
+### CockroachLabs (CockroachDB)
 * [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) -- great read about using Jepsen at Cockroach Labs
 * [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) -- CockroachDB tested by Kyle Kingsbury (Jepsen.io)
 
@@ -196,7 +196,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 
 ### LinkedIn 
 * [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) -- Failure inducer implemented in Python
-* [A Deep Dive into Simoo](https://engineering.linkedin.com/blog/2016/03/deep-dive-Simoorg-open-source-failure-induction-framework)
+* [A Deep Dive into Simoorg](https://engineering.linkedin.com/blog/2016/03/deep-dive-Simoorg-open-source-failure-induction-framework)
 
 ### Druid.io 
 * [Architecting Distributed Databases for Failure](http://www.infoq.com/presentations/data-integrity-distributed-systems)
