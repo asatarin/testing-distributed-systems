@@ -6,7 +6,7 @@
 ## Overview of testing approaches
 
 ### RICON 2014: Ines Sombra, Fastly - Testing in a Distributed World
-https://youtu.be/KSdNYi55kjg
+[https://youtu.be/KSdNYi55kjg](https://youtu.be/KSdNYi55kjg)
 
 Great overview of techniques for testing distributed systems.
 Additional materials for this talk could be found in [this Github repo](https://github.com/Randommood/RICON2014)
