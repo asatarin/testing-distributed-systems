@@ -1,4 +1,6 @@
+List of resources on testing distributed systems curated by Andrey Satarin ([@asatarin](https://twitter.com/asatarin)).
 
+**Table of contents**
 - [Overview of testing approaches](#overview-of-testing-approaches)
 - [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems)
 - [Tools](#tools)
