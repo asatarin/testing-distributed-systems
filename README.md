@@ -129,7 +129,7 @@ They published series of blog posts on testing ScyllaDB:
 * [Testing part 5: Longevity testing](http://www.scylladb.com/2016/03/15/longevity-testing-scylla/)
 * [Fault-injecting filesystem cookbook](http://www.scylladb.com/2016/05/02/fault-injection-filesystem-cookbook/)
 Video from Scylla Summit 2017 on testing
-* [How We Constantly Try to Bring Scylla to its Knees](https://youtu.be/K38RDEdt070) — overview of different testing types at ScyllaDB
+* [How We Constantly Try to Bring Scylla to its Knees](https://youtu.be/K38RDEdt070) and [slides](https://www.slideshare.net/ScyllaDB/scylla-summit-2017-cry-in-the-dojo-laugh-in-the-battlefield-how-we-constantly-try-to-bring-scylla-to-its-knees) — overview of different testing types at ScyllaDB
 
 ### VoltDB 
 Series of post on testing at VoltDB:
