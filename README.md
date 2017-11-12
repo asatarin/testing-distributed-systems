@@ -1,8 +1,31 @@
 List of resources on testing distributed systems curated by Andrey Satarin ([@asatarin](https://twitter.com/asatarin)).
 
-**Table of contents**
+**Contents**
 - [Overview of testing approaches](#overview-of-testing-approaches)
-- [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems)
+- [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems) 
+  - [Amazon Web Services](#amazon-web-services)
+  - [Netflix](#netflix)
+  - [Twitter](#twitter)
+  - [Datastax (Cassandra)](#datastax-cassandra)
+  - [ScyllaDB](#scylladb)
+  - [VoltDB](#voltdb)
+  - [MemSQL](#memsql)
+  - [CockroachLabs (CockroachDB)](#cockroachlabs-cockroachdb)
+  - [PingCap (TiDB)](#pingcap-tidb)
+  - [MongoDB](#mongodb)
+  - [Cloudera](#cloudera)
+  - [FoundationDB](#foundationdb)
+  - [Sendence](#sendence)
+  - [Google](#google)
+  - [Microsoft](#microsoft)
+  - [Dropbox](#dropbox)
+  - [Atomix Copycat](#atomix-copycat)
+  - [Onyx](#onyx)
+  - [LinkedIn](#linkedin)
+  - [Druid.io](#druidio)
+  - [Salesforce](#salesforce)
+  - [SQLite](#sqlite)
+  - [InfluxDB](#influxdb)
 - [Tools](#tools)
 
 ## Overview of testing approaches
