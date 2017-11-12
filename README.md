@@ -260,6 +260,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Combining Fault-Injection with Property-Based Testing](http://www2.hh.se/staff/magnusj/papers/2014_DATE_ES4CPS.pdf)
 * [Testing Telecoms Software with Quviq QuickCheck](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6554&rep=rep1&type=pdf)
 * [Fuzz testing distributed systems with QuickCheck](https://making.pusher.com/fuzz-testing-distributed-systems-with-quickcheck/index.html) — using QuickCheck to test Raft protocol implementation in Haskell
+* [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — testing Riak eventual consistency guarantees with QuickCheck
 
 ### Benchmarking 
 * [OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases](http://www.vldb.org/pvldb/vol7/p277-difallah.pdf)
