@@ -92,6 +92,14 @@ Some notable Jepsen analyses:
 
 See also section on [Amazon Web Services](#amazon-web-services).
 
+
+### Lineage-driven Fault Injection
+* [Lineage-driven Fault Injection](https://dl.acm.org/citation.cfm?id=2723711)
+* [Abstracting the Geniuses Away from Failure Testing](http://queue.acm.org/detail.cfm?id=3155114)
+
+[Netflix](#netflix) adopted lineage-driven fault injection techniques for testing it's microservices.
+
+
 ### Fuzzing
 * [Fuzzing Raft for Fun and Publication](https://colin-scott.github.io/blog/2015/10/07/fuzzing-raft-for-fun-and-profit/)
 * [DNS parser, meet Go fuzzer](https://blog.cloudflare.com/dns-parser-meet-go-fuzzer/)
