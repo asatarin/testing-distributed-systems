@@ -27,11 +27,11 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [SQLite](#sqlite)
   - [InfluxDB](#influxdb)
 - [Tools](#tools)
+  - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
   - [Benchmarking](#benchmarking)
   - [Linkbench](#linkbench)
   - [YCSB](#ycsb)
-  - [Traffic Control](#traffic-control)
 
 ## Overview of testing approaches
 
@@ -85,6 +85,7 @@ Some notable Jepsen analyses:
 ### Formal Methods
 * [Comparisons of Alloy and Spin](http://www2.research.att.com/~pamela/model.html)
 * [Verdi: Formally Verifying Distributed Systems](http://verdi.uwplse.org/)
+* [Verdi — A framework for formally verifying distributed systems implementations in Coq](https://github.com/uwplse/verdi)
 * [Network Semantics for Verifying Distributed Systems](https://homes.cs.washington.edu/~jrw12/network-semantics.html)
 * [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) — using formal verification to find a bug in TimSort sorting algorithm
 * [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analizying quicksort implementation in Java 
@@ -260,12 +261,14 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 ## Tools
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
 * [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
-* [Verdi — A framework for formally verifying distributed systems implementations in Coq](https://github.com/uwplse/verdi)
+* [faketime](http://manpages.ubuntu.com/manpages/natty/man1/faketime.1.html)
+
+### Network Simulation
 * [Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
 * [Muxy Simulating real-world distributed system failures](https://github.com/mefellows/muxy)
-* [faketime](http://manpages.ubuntu.com/manpages/natty/man1/faketime.1.html)
 * [Namazu — Programmable fuzzy scheduler for testing distributed systems](https://github.com/osrg/namazu) 
 * [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
+* [Traffic Control](http://www.funtoo.org/Traffic_Control)
 
 ### QuickCheck 
 * [PolyConf 14: Testing the Hard Stuff and Staying Sane / John Hughes](http://www.youtube.com/watch?v=F6LzB6SdFKA&feature=youtu.be)
@@ -295,5 +298,3 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [YCSB++](http://www.pdl.cmu.edu/ycsb++/)
 * [Correcting YCSB's Coordinated Omission problem](http://psy-lob-saw.blogspot.ru/2015/03/fixing-ycsb-coordinated-omission.html)
 
-### Traffic Control 
-* [Traffic Control](http://www.funtoo.org/Traffic_Control)
