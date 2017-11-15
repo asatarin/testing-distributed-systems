@@ -49,14 +49,14 @@ Colin Skott shares his viewpoint from academia on testing distributed systems.
 
 
 ### Research papers on testing distributed systems
-* [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) -- Great overview of how even simple testing can help a lot, you just need right focus.
-* [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf)  -- study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
+* [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need right focus.
+* [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf) — study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
 and Flume)
-* [TaxDC: A Taxonomy of Non-Deterministic Concurrency Bugs in Datacenter Distributed Systems](http://ucare.cs.uchicago.edu/pdf/asplos16-TaxDC.pdf) -- comprehencive taxonomy of bugs in distributed systems (Cassandra, Hadoop MapReduce, HBase, ZooKeeper)
-* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/) -- study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault tolerant they are to data corruption and read/write errors
-* [An empirical study on the correctness of formally verified distributed systems](https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/) -- stydy of bugs in formally verified distributed systems
-* [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) -- research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
-* [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) -- why and how to test configuration files of your system
+* [TaxDC: A Taxonomy of Non-Deterministic Concurrency Bugs in Datacenter Distributed Systems](http://ucare.cs.uchicago.edu/pdf/asplos16-TaxDC.pdf) — comprehencive taxonomy of bugs in distributed systems (Cassandra, Hadoop MapReduce, HBase, ZooKeeper)
+* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/) — study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault tolerant they are to data corruption and read/write errors
+* [An empirical study on the correctness of formally verified distributed systems](https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/) — stydy of bugs in formally verified distributed systems
+* [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
+* [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) — why and how to test configuration files of your system
 
 ### Richard Cook
 * [Velocity NY 2013: Richard Cook, "Resilience In Complex Adaptive Systems"](https://www.youtube.com/watch?v=PGLYEDpNu60&feature=youtu.be)
@@ -86,8 +86,8 @@ Some notable Jepsen analyses:
 * [Comparisons of Alloy and Spin](http://www2.research.att.com/~pamela/model.html)
 * [Verdi: Formally Verifying Distributed Systems](http://verdi.uwplse.org/)
 * [Network Semantics for Verifying Distributed Systems](https://homes.cs.washington.edu/~jrw12/network-semantics.html)
-* [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) — using formal verification to find a bug in TimSort sorting algorithm
-* [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analizying quicksort implementation in Java 
+* [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) — using formal verification to find a bug in TimSort sorting algorithm
+* [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analizying quicksort implementation in Java 
 * [The verification of a distributed system By Caitie McCaffrey](http://queue.acm.org/detail.cfm?id=2889274) also [podcast](https://www.infoq.com/articles/podcast-caitie-mccaffrey) and [talk](https://www.infoq.com/presentations/distributed-systems-verification) on InfoQ.com and [accompanying materials](https://github.com/CaitieM20/Talks/tree/master/TheVerificationOfADistributedSystem) on GitHub and a [slidedeck](https://speakerdeck.com/caitiem20/qcon-newyork-2016-the-verification-of-a-distributed-system)
 
 See also section on [Amazon Web Services](#amazon-web-services).
@@ -99,7 +99,7 @@ See also section on [Amazon Web Services](#amazon-web-services).
 * [Randomized testing for Go](https://github.com/dvyukov/go-fuzz) and talk on this tool [GopherCon 2015: Dmitry Vyukov - Go Dynamic Tools](https://www.youtube.com/watch?v=a9xrxRsIbSU)
 * [Simple guided fuzzing for libraries using LLVM's new libFuzzer](http://blog.llvm.org/2015/04/fuzz-all-clangs.html)
 * [LibFuzzer – a library for coverage-guided fuzz testing](http://llvm.org/docs/LibFuzzer.html)
-* [How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html) -- example of how fuzzing could be used for finding famous HeartBleed vulnerability
+* [How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html) — example of how fuzzing could be used for finding famous HeartBleed vulnerability
 * [Combining AFL and QuickCheck for Directed Fuzzing by Dan Luu](http://danluu.com/testing/)
 
 
@@ -113,7 +113,7 @@ See also section on [Amazon Web Services](#amazon-web-services).
 
 ### Performance and Benchmarking
 * [Your Load Generator Is Probably Lying To You](http://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)
-* [Everything You Know About Latency Is Wrong](http://bravenewgeek.com/everything-you-know-about-latency-is-wrong/) -- great overview of Gil Tene`s "How NOT to Measure Latency" talk
+* [Everything You Know About Latency Is Wrong](http://bravenewgeek.com/everything-you-know-about-latency-is-wrong/) — great overview of Gil Tene`s "How NOT to Measure Latency" talk
 * ["How NOT to Measure Latency" by Gil Tene](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 * ["Benchmarking: You're Doing It Wrong" by Aysylu Greenberg](https://www.youtube.com/watch?v=XmImGiVuJno)
 
@@ -138,7 +138,7 @@ Random/manual failure injection testing:
 * [Failure Injection Testing](http://techblog.netflix.com/2014/10/fit-failure-injection-testing.html)
 * [From Chaos to Control - Testing the resiliency of Netflix’s Content Discovery Platform](http://techblog.netflix.com/2015/08/from-chaos-to-control-testing.html)
 * [Breaking Bad at Netflix: Building Failure as a Service](http://www.infoq.com/presentations/failure-as-a-service-netflix)
-* [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4) -- Netflix different testing strategies
+* [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4) — Netflix different testing strategies
 * [Principles of Chaos Engineering](http://www.principlesofchaos.org/)
 * [Chaos Engineering](http://www.oreilly.com/webops-perf/free/chaos-engineering.csp) free book from Netflix engineers
 
@@ -168,10 +168,9 @@ Video from Scylla Summit 2017 on testing
 ### VoltDB 
 Series of post on testing at VoltDB:
 * [How We Test at VoltDB](https://www.voltdb.com/blog/2015/09/30/how-we-test-at-voltdb/)
-* [Testing at VoltDB: SQLCoverage](https://www.voltdb.com/blog/2016/03/30/testing-voltdb-sqlcoverage/) 
-Describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB.
+* [Testing at VoltDB: SQLCoverage](https://www.voltdb.com/blog/2016/03/30/testing-voltdb-sqlcoverage/) — describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB.
 * [Testing VoltDB Against PostgreSQL](https://www.voltdb.com/blog/2016/04/11/testing-voltdb-postgresql/)
-* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) -- VoltDB hired Kyle Kingsbury (Jepsen.io) to tests their database, they share results in this post
+* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) — VoltDB hired Kyle Kingsbury (Jepsen.io) to tests their database, they share results in this post
 
 Additional resources:
 * ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
@@ -185,20 +184,20 @@ Additional resources:
 * [Building an Infinitely Scalable Testing System](http://blog.memsql.com/building-an-infinitely-scalable-testing-system/) -- description of internal test system PsyDuck
 
 ### CockroachLabs (CockroachDB)
-* [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) -- great read about using Jepsen at Cockroach Labs
-* [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) -- CockroachDB tested by Kyle Kingsbury (Jepsen.io)
+* [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) — great read about using Jepsen at Cockroach Labs
+* [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) — CockroachDB tested by Kyle Kingsbury (Jepsen.io)
 
 ### PingCap (TiDB)
-* [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d) — describes Jepsen-like framework implemented in Go and used at PingCap to test TiDB
+* [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d) — describes Jepsen-like framework implemented in Go and used at PingCap to test TiDB
 * [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like framework written in Go
-* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — linearizability testing library used by Chaos framework
+* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — linearizability testing library used by Chaos framework
 
 ### MongoDB
 * [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-creating-chaos/)
 * [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-harnessing-havoc/)
 
 ### Cloudera
-* [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) -- Cloudera describes their approach to fault injection testing
+* [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) — Cloudera describes their approach to fault injection testing
  
 ### FoundationDB 
 * ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://www.youtube.com/watch?v=4fFDFbi3toc&feature=youtu.be)
@@ -222,7 +221,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/ru-ru/blog/inside-azure-search-chaos-engineering/)
 
 ### Dropbox 
-* [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](http://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) -- example of how to use QuickCheck to test synchronisation in Dropbox and similar tools (Google Drive)
+* [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](http://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) — example of how to use QuickCheck to test synchronisation in Dropbox and similar tools (Google Drive)
 
 ### Atomix Copycat 
 * [A novel implementation of the Raft consensus algorithm](https://github.com/atomix/copycat)
@@ -233,7 +232,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Jepsen test Onyx](https://github.com/onyx-platform/onyx-jepsen)
 
 ### LinkedIn 
-* [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) -- Failure inducer implemented in Python
+* [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) — Failure inducer implemented in Python
 * [A Deep Dive into Simoorg](https://engineering.linkedin.com/blog/2016/03/deep-dive-Simoorg-open-source-failure-induction-framework)
 
 ### Druid.io 
@@ -243,7 +242,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Go Fast and Don't Break Things: Ensuring Quality in the Cloud](http://www.hpts.ws/papers/2011/sessions_2011/HansmaHPTS2011.pdf)
 
 ### SQLite 
-* [Finding bugs in SQLite, the easy way](http://lcamtuf.blogspot.ru/2015/04/finding-bugs-in-sqlite-easy-way.html) -- how fuzzing used in testing SQLite database 
+* [Finding bugs in SQLite, the easy way](http://lcamtuf.blogspot.ru/2015/04/finding-bugs-in-sqlite-easy-way.html) — how fuzzing used in testing SQLite database 
 * [How SQLite Is Tested](https://www.sqlite.org/testing.html)
 
 ### InfluxDB 
@@ -252,8 +251,8 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 
 ## Tools
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
-* [RapidCheck - QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
-* [Verdi - A framework for formally verifying distributed systems implementations in Coq](https://github.com/uwplse/verdi)
+* [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
+* [Verdi — A framework for formally verifying distributed systems implementations in Coq](https://github.com/uwplse/verdi)
 * [Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
 * [Muxy Simulating real-world distributed system failures](https://github.com/mefellows/muxy)
 * [faketime](http://manpages.ubuntu.com/manpages/natty/man1/faketime.1.html)
@@ -269,7 +268,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Combining Fault-Injection with Property-Based Testing](http://www2.hh.se/staff/magnusj/papers/2014_DATE_ES4CPS.pdf)
 * [Testing Telecoms Software with Quviq QuickCheck](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6554&rep=rep1&type=pdf)
 * [Fuzz testing distributed systems with QuickCheck](https://making.pusher.com/fuzz-testing-distributed-systems-with-quickcheck/index.html) — using QuickCheck to test Raft protocol implementation in Haskell
-* [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — testing Riak eventual consistency guarantees with QuickCheck
+* [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — testing Riak eventual consistency guarantees with QuickCheck
 
 ### Benchmarking 
 * [OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases](http://www.vldb.org/pvldb/vol7/p277-difallah.pdf)
