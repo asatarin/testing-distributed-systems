@@ -67,17 +67,19 @@ and Flume)
 * ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
 
-### Aphyr's Jepsen
-* [Jepsen is used by Microsoft CosmosDB](https://twitter.com/dharmashukla/status/869104163510034432)
+### Jepsen
+* [Jepsen Analyses](http://jepsen.io/analyses) — most recent Jepsen analyses of different distributed systems
+* [Jepsen Talks](http://jepsen.io/talks) — talks by Kyle Kingsbury on various conferences
+* [Aphyr's Jepsen posts](https://aphyr.com/tags/Jepsen) — older Jepsen analyses on Kyle Kingsbury's (Aphyr) personal site
+* [Jepsen Talks on Github](https://github.com/aphyr/jepsen-talks) — Jepsen talks slides before 2015 on Github
 * [Kyle Kingsbury on InfoQ](http://www.infoq.com/author/Kyle-Kingsbury)
+* [Call me maybe: Jepsen and flaky networks](http://www.slideshare.net/shalinmangar/call-me-maybe-jepsen-and-flaky-networks) — talk on Jepsen, not by Kyle
+* [Jepsen is used by Microsoft CosmosDB](https://twitter.com/dharmashukla/status/869104163510034432) — founder of Azure CosmosDB confirms, that they are using Jepsen
+
+Some notable Jepsen analyses:
 * [CockroachDB beta-20160829](https://jepsen.io/analyses/cockroachdb-beta-20160829)
 * [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
 * [Jepsen: RethinkDB 2.2.3 reconfiguration](https://aphyr.com/posts/330-jepsen-rethinkdb-2-2-3-reconfiguration)
-* [Aphyr's Jepsen posts](https://aphyr.com/tags/Jepsen)
-* [Jepsen Talks](https://github.com/aphyr/jepsen-talks)
-* [Call me maybe: Jepsen and flaky networks](http://www.slideshare.net/shalinmangar/call-me-maybe-jepsen-and-flaky-networks)
-* [Test scaffolding](https://github.com/aphyr/jepsen/blob/master/doc/scaffolding.md) -- start page if you want to write Jepsen test
-
 
 ### Formal Methods
 * [Comparisons of Alloy and Spin](http://www2.research.att.com/~pamela/model.html)
