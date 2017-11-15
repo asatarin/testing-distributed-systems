@@ -77,9 +77,10 @@ and Flume)
 * [Jepsen is used by Microsoft CosmosDB](https://twitter.com/dharmashukla/status/869104163510034432) — founder of Azure CosmosDB confirms, that they are using Jepsen
 
 Some notable Jepsen analyses:
-* [CockroachDB beta-20160829](https://jepsen.io/analyses/cockroachdb-beta-20160829)
-* [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
+* [Jepsen: CockroachDB beta-20160829](https://jepsen.io/analyses/cockroachdb-beta-20160829)
+* [Jepsen: VoltDB 6.3](http://jepsen.io/analyses/voltdb-6-3)
 * [Jepsen: RethinkDB 2.2.3 reconfiguration](https://aphyr.com/posts/330-jepsen-rethinkdb-2-2-3-reconfiguration)
+* [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
 
 ### Formal Methods
 * [Comparisons of Alloy and Spin](http://www2.research.att.com/~pamela/model.html)
