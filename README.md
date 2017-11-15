@@ -27,6 +27,11 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [SQLite](#sqlite)
   - [InfluxDB](#influxdb)
 - [Tools](#tools)
+  - [QuickCheck](#quickcheck)
+  - [Benchmarking](#benchmarking)
+  - [Linkbench](#linkbench)
+  - [YCSB](#ycsb)
+  - [Traffic Control](#traffic-control)
 
 ## Overview of testing approaches
 
