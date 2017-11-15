@@ -63,7 +63,7 @@ and Flume)
 * [Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://www.youtube.com/watch?v=2S0k12uZR14&feature=youtu.be)
 * [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
 
-###  Misc testing approaches
+### Misc testing approaches
 * ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
 
@@ -98,7 +98,7 @@ See also section on [Amazon Web Services](#amazon-web-services).
 * [Lineage-driven Fault Injection](https://dl.acm.org/citation.cfm?id=2723711)
 * [Abstracting the Geniuses Away from Failure Testing](http://queue.acm.org/detail.cfm?id=3155114)
 
-[Netflix](#netflix) adopted lineage-driven fault injection techniques for testing it's microservices.
+[Netflix](#netflix) adopted lineage-driven fault injection techniques for testing microservices.
 
 
 ### Fuzzing
@@ -112,11 +112,12 @@ See also section on [Amazon Web Services](#amazon-web-services).
 * [Combining AFL and QuickCheck for Directed Fuzzing by Dan Luu](http://danluu.com/testing/)
 
 
-### Kill-dash-nine
+### Game days
 * [Game Day Exercises at Stripe: Learning from kill -9](https://stripe.com/blog/game-day-exercises-at-stripe)
 * [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
 
-### Performance and Benchmarking
+
+### Performance and benchmarking
 * [Your Load Generator Is Probably Lying To You](http://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)
 * [Everything You Know About Latency Is Wrong](http://bravenewgeek.com/everything-you-know-about-latency-is-wrong/) — great overview of Gil Tene`s "How NOT to Measure Latency" talk
 * ["How NOT to Measure Latency" by Gil Tene](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
@@ -124,6 +125,7 @@ See also section on [Amazon Web Services](#amazon-web-services).
 
 
 ## Specific approaches in different distributed systems
+
 ### Amazon Web Services
 * [The Evolution of Testing Methodology at AWS: From Status Quo to Formal Methods with TLA+](http://www.infoq.com/presentations/aws-testing-tla)
 * [Use of Formal Methods at Amazon Web Services](http://research.microsoft.com/en-us/um/people/lamport/tla/formal-methods-amazon.pdf)
