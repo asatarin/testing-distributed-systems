@@ -103,7 +103,7 @@ See also section on [Amazon Web Services](#amazon-web-services).
 [Netflix](#netflix) adopted lineage-driven fault injection techniques for testing microservices.
 
 
-## Chaos Engineering
+### Chaos Engineering
 * [Principles of Chaos Engineering](http://principlesofchaos.org/)
 * Free [Chaos Engineering](http://www.oreilly.com/webops-perf/free/chaos-engineering.csp) book by [Netflix](#netflix) engineers
 * [A curated list of awesome Chaos Engineering resources](https://github.com/dastergon/awesome-chaos-engineering)
