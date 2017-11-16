@@ -184,9 +184,9 @@ Video from Scylla Summit 2017 on testing
 ### VoltDB 
 Series of post on testing at VoltDB:
 * [How We Test at VoltDB](https://www.voltdb.com/blog/2015/09/30/how-we-test-at-voltdb/)
-* [Testing at VoltDB: SQLCoverage](https://www.voltdb.com/blog/2016/03/30/testing-voltdb-sqlcoverage/) — describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB.
+* [Testing at VoltDB: SQLCoverage](https://www.voltdb.com/blog/2016/03/30/testing-voltdb-sqlcoverage/) — describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB
 * [Testing VoltDB Against PostgreSQL](https://www.voltdb.com/blog/2016/04/11/testing-voltdb-postgresql/)
-* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) — VoltDB hired Kyle Kingsbury (Jepsen.io) to tests their database, they share results in this post
+* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) — VoltDB hired Kyle Kingsbury ([Jepsen](#jepsen)) to tests their database, they share results in this post
 
 Additional resources:
 * ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
@@ -232,7 +232,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [10 Years of Crashing Google](https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan) describes some war stories from Disaster Recovery Testing (DiRT) team at Google
 
 ### Microsoft 
-* [Uncovering Bugs in Distributed Storage Systems during Testing (not in Production!) ](http://research.microsoft.com/pubs/260939/paper.pdf)
+* [Uncovering Bugs in Distributed Storage Systems during Testing (not in Production!)](http://research.microsoft.com/pubs/260939/paper.pdf)
 * [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://www.sigops.org/sosp/sosp11/current/2011-Cascais/11-calder-online.pdf) describes "Pressure Point Testing" approach used for Azure Cloud Storage
 * [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/ru-ru/blog/inside-azure-search-chaos-engineering/)
 
