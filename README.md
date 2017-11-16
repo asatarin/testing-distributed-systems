@@ -82,6 +82,8 @@ Some notable Jepsen analyses:
 * [Jepsen: RethinkDB 2.2.3 reconfiguration](https://aphyr.com/posts/330-jepsen-rethinkdb-2-2-3-reconfiguration)
 * [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
 
+Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), [Cassandra](#datastax-cassandra), [ScyllaDB](#scylladb) and others.
+
 ### Formal Methods
 * [Comparisons of Alloy and Spin](http://www2.research.att.com/~pamela/model.html)
 * [Verdi: Formally Verifying Distributed Systems](http://verdi.uwplse.org/)
