@@ -103,6 +103,14 @@ See also section on [Amazon Web Services](#amazon-web-services).
 [Netflix](#netflix) adopted lineage-driven fault injection techniques for testing microservices.
 
 
+## Chaos Engineering
+* [Principles of Chaos Engineering](http://principlesofchaos.org/)
+* Free [Chaos Engineering](http://www.oreilly.com/webops-perf/free/chaos-engineering.csp) book by [Netflix](#netflix) engineers
+* [A curated list of awesome Chaos Engineering resources](https://github.com/dastergon/awesome-chaos-engineering)
+
+[Netflix](#netflix) pioneered chaos engineering discipline.
+
+
 ### Fuzzing
 * [Fuzzing Raft for Fun and Publication](https://colin-scott.github.io/blog/2015/10/07/fuzzing-raft-for-fun-and-profit/)
 * [DNS parser, meet Go fuzzer](https://blog.cloudflare.com/dns-parser-meet-go-fuzzer/)
@@ -148,8 +156,7 @@ Random/manual failure injection testing:
 * [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](http://techblog.netflix.com/2015/08/from-chaos-to-control-testing.html)
 * [Breaking Bad at Netflix: Building Failure as a Service](http://www.infoq.com/presentations/failure-as-a-service-netflix)
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4) — Netflix different testing strategies
-* [Principles of Chaos Engineering](http://www.principlesofchaos.org/)
-* [Chaos Engineering](http://www.oreilly.com/webops-perf/free/chaos-engineering.csp) free book from Netflix engineers
+
 
 ### Twitter 
 * [Diffy: Testing services without writing tests](https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests)
