@@ -2,6 +2,16 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
 
 **Contents**
 - [Overview of testing approaches](#overview-of-testing-approaches)
+  - [Research papers](#research-papers)
+  - [Richard Cook](#richard-cook)
+  - [Jepsen](#jepsen)
+  - [Formal Methods](#formal-methods)
+  - [Lineage-driven Fault Injection](#lineage-driven-fault-injection)
+  - [Chaos Engineering](#chaos-engineering)
+  - [Fuzzing](#fuzzing)
+  - [Game days](#game-days)
+  - [Benchmarking](#benchmarking)
+  - [Misc](#misc)
 - [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems) 
   - [Amazon Web Services](#amazon-web-services)
   - [Netflix](#netflix)
@@ -48,7 +58,7 @@ Colin Skott shares his viewpoint from academia on testing distributed systems.
 * See also post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/) by Crista Lopes
 
 
-### Research papers on testing distributed systems
+### Research papers
 * [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need right focus.
 * [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf) — study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
 and Flume)
@@ -58,14 +68,12 @@ and Flume)
 * [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
 * [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) — why and how to test configuration files of your system
 
+
 ### Richard Cook
 * [Velocity NY 2013: Richard Cook, "Resilience In Complex Adaptive Systems"](https://www.youtube.com/watch?v=PGLYEDpNu60&feature=youtu.be)
 * [Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://www.youtube.com/watch?v=2S0k12uZR14&feature=youtu.be)
 * [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
 
-### Misc testing approaches
-* ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
-* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
 
 ### Jepsen
 * [Jepsen Analyses](http://jepsen.io/analyses) — most recent Jepsen analyses of different distributed systems
@@ -83,6 +91,7 @@ Some notable Jepsen analyses:
 * [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
 
 Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), [Cassandra](#datastax-cassandra), [ScyllaDB](#scylladb) and others.
+
 
 ### Formal Methods
 * [Comparisons of Alloy and Spin](http://www2.research.att.com/~pamela/model.html)
@@ -127,11 +136,16 @@ See also section on [Amazon Web Services](#amazon-web-services).
 * [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
 
 
-### Performance and benchmarking
+### Benchmarking
 * [Your Load Generator Is Probably Lying To You](http://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)
 * [Everything You Know About Latency Is Wrong](http://bravenewgeek.com/everything-you-know-about-latency-is-wrong/) — great overview of Gil Tene`s "How NOT to Measure Latency" talk
 * ["How NOT to Measure Latency" by Gil Tene](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 * ["Benchmarking: You're Doing It Wrong" by Aysylu Greenberg](https://www.youtube.com/watch?v=XmImGiVuJno)
+
+
+### Misc
+* ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
+* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
 
 
 ## Specific approaches in different distributed systems
