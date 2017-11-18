@@ -172,6 +172,7 @@ Random/manual failure injection testing:
 * [Breaking Bad at Netflix: Building Failure as a Service](http://www.infoq.com/presentations/failure-as-a-service-netflix)
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4) — Netflix different testing strategies
 
+See also [Chaos Engineering](#chaos-engineering).
 
 ### Twitter 
 * [Diffy: Testing services without writing tests](https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests)
