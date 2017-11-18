@@ -10,7 +10,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [Chaos Engineering](#chaos-engineering)
   - [Fuzzing](#fuzzing)
   - [Game days](#game-days)
-  - [Benchmarking](#benchmarking)
+  - [Performance and Benchmarking](#performance-and-benchmarking)
   - [Misc](#misc)
 - [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems) 
   - [Amazon Web Services](#amazon-web-services)
@@ -136,12 +136,13 @@ See also section on [Amazon Web Services](#amazon-web-services).
 * [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
 
 
-### Benchmarking
+### Performance and Benchmarking
 * [Your Load Generator Is Probably Lying To You](http://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)
 * [Everything You Know About Latency Is Wrong](http://bravenewgeek.com/everything-you-know-about-latency-is-wrong/) — great overview of Gil Tene`s "How NOT to Measure Latency" talk
 * ["How NOT to Measure Latency" by Gil Tene](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 * ["Benchmarking: You're Doing It Wrong" by Aysylu Greenberg](https://www.youtube.com/watch?v=XmImGiVuJno)
 
+See also [benchmarking](#benchmarking) tools.
 
 ### Misc
 * ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
