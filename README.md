@@ -2,14 +2,14 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
 
 **Contents**
 - [Overview of testing approaches](#overview-of-testing-approaches)
-  - [Research papers](#research-papers)
+  - [Research Papers](#research-papers)
   - [Richard Cook](#richard-cook)
   - [Jepsen](#jepsen)
   - [Formal Methods](#formal-methods)
   - [Lineage-driven Fault Injection](#lineage-driven-fault-injection)
   - [Chaos Engineering](#chaos-engineering)
   - [Fuzzing](#fuzzing)
-  - [Game days](#game-days)
+  - [Game Days](#game-days)
   - [Performance and Benchmarking](#performance-and-benchmarking)
   - [Misc](#misc)
 - [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems) 
@@ -58,7 +58,7 @@ Colin Skott shares his viewpoint from academia on testing distributed systems.
 * See also post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/) by Crista Lopes
 
 
-### Research papers
+### Research Papers
 * [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need right focus.
 * [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf) — study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
 and Flume)
@@ -131,7 +131,7 @@ See also section on [Amazon Web Services](#amazon-web-services).
 * [Combining AFL and QuickCheck for Directed Fuzzing by Dan Luu](http://danluu.com/testing/)
 
 
-### Game days
+### Game Days
 * [Game Day Exercises at Stripe: Learning from kill -9](https://stripe.com/blog/game-day-exercises-at-stripe)
 * [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
 
