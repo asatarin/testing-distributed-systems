@@ -144,6 +144,7 @@ See also section on [Amazon Web Services](#amazon-web-services).
 
 See also [benchmarking](#benchmarking) tools.
 
+
 ### Misc
 * ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
@@ -157,6 +158,7 @@ See also [benchmarking](#benchmarking) tools.
 * [CACM Article "How Amazon Web Services Uses Formal Methods"](http://cacm.acm.org/magazines/2015/4/184701-how-amazon-web-services-uses-formal-methods/fulltext)
 * [Experience of software engineers using TLA+, PlusCal and TLC](http://tla2012.loria.fr/contributed/newcombe-slides.pdf)
 * [Debugging Designs by Chris Newcombie](http://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also a  [source bundle](http://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
+
 
 ### Netflix 
 On automated failure injection:
@@ -174,9 +176,11 @@ Random/manual failure injection testing:
 
 See also [Chaos Engineering](#chaos-engineering).
 
+
 ### Twitter 
 * [Diffy: Testing services without writing tests](https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests)
 * [How we break things at Twitter: failure testing](https://blog.twitter.com/2015/how-we-break-things-at-twitter-failure-testing)
+
 
 ### Datastax (Cassandra) 
 * [Testing Apache Cassandra with Jepsen](http://www.datastax.com/dev/blog/testing-apache-cassandra-with-jepsen)
@@ -185,6 +189,7 @@ See also [Chaos Engineering](#chaos-engineering).
 * [Jepsen Cassandra Testing on Git](https://github.com/riptano/jepsen)
 * [Netflix A STATE OF XEN — CHAOS MONKEY & CASSANDRA](https://vimeopro.com/user35188327/cassandra-summit-2015/video/140949186) from Cassandra Summit 2015
 * [Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems](https://youtu.be/OnG1FCr5WTI) by Joel Knighton presented at Devoxx UK 2016
+
 
 ### ScyllaDB
 They published series of blog posts on testing ScyllaDB:
@@ -196,6 +201,7 @@ They published series of blog posts on testing ScyllaDB:
 * [Fault-injecting filesystem cookbook](http://www.scylladb.com/2016/05/02/fault-injection-filesystem-cookbook/)
 Video from Scylla Summit 2017 on testing
 * [How We Constantly Try to Bring Scylla to its Knees](https://youtu.be/K38RDEdt070) and [slides](https://www.slideshare.net/ScyllaDB/scylla-summit-2017-cry-in-the-dojo-laugh-in-the-battlefield-how-we-constantly-try-to-bring-scylla-to-its-knees) — overview of different testing types at ScyllaDB
+
 
 ### VoltDB 
 Series of post on testing at VoltDB:
@@ -209,30 +215,37 @@ Additional resources:
 * [SelfCheck workload](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/txnid-selfcheck2)
 * [TPC-C implementation](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/tpcc)
 
+
 ### MemSQL 
 * [Running MemSQL’s 107 Node Test Infrastructure on CoreOS](http://blog.memsql.com/running-memsqls-107-node-test-infrastructure-on-coreos/)
 * [Practical Techniques to Achieve Quality in Large Software Projects](http://blog.memsql.com/practical-techniques-to-achieve-quality-in-large-software-projects-3/)
 * [How to Make a Believable Benchmark](http://blog.memsql.com/how-to-make-a-believable-benchmark/)
 * [Building an Infinitely Scalable Testing System](http://blog.memsql.com/building-an-infinitely-scalable-testing-system/) — description of internal test system PsyDuck
 
+
 ### CockroachLabs (CockroachDB)
 * [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) — great read about using Jepsen at Cockroach Labs
 * [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) — CockroachDB tested by Kyle Kingsbury (Jepsen.io)
+
 
 ### PingCap (TiDB)
 * [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d) — describes Jepsen-like framework implemented in Go and used at PingCap to test TiDB
 * [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like framework written in Go
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — linearizability testing library used by Chaos framework
 
+
 ### MongoDB
 * [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-creating-chaos/)
 * [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-harnessing-havoc/)
 
+
 ### Cloudera
 * [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) — Cloudera describes their approach to fault injection testing
- 
+
+
 ### FoundationDB 
 * ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://www.youtube.com/watch?v=4fFDFbi3toc&feature=youtu.be)
+
 
 ### Sendence
 There is one talk from Sean T. Allen on testing stream processing system at Sendence
@@ -241,27 +254,33 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Video from CodeMeshIO on YouTube](https://www.youtube.com/watch?v=6MsPDtpe2tg)
 * [Presentation on Speakerdeck](https://speakerdeck.com/seantallen/how-did-i-get-here-building-confidence-in-a-distributed-stream-processor-1)
 
+
 ### Google
 * [Efficient Exploratory Testing of Concurrent Systems](http://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf) — They don`t mention it but looks like they describe testing of Google Omega
 * [Exploratory Testing Architecture (ETA) ](https://github.com/google/cluster-data/blob/master/ETAExplorationTraces.md)
 * [Paxos Made Live — An Engineering Perspective](http://research.google.com/pubs/pub33002.html) has a section on testing
 * [10 Years of Crashing Google](https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan) describes some war stories from Disaster Recovery Testing (DiRT) team at Google
 
+
 ### Microsoft 
 * [Uncovering Bugs in Distributed Storage Systems during Testing (not in Production!)](http://research.microsoft.com/pubs/260939/paper.pdf)
 * [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://www.sigops.org/sosp/sosp11/current/2011-Cascais/11-calder-online.pdf) describes "Pressure Point Testing" approach used for Azure Cloud Storage
 * [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/ru-ru/blog/inside-azure-search-chaos-engineering/)
 
+
 ### Dropbox 
 * [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](http://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) — example of how to use QuickCheck to test synchronisation in Dropbox and similar tools (Google Drive)
+
 
 ### Atomix Copycat 
 * [A novel implementation of the Raft consensus algorithm](https://github.com/atomix/copycat)
 * [Jepsen tests for Atomix Copycat](https://github.com/atomix/atomix-jepsen)
 
+
 ### Onyx
 * [Onyx Straps in For a Jepsening](http://www.onyxplatform.org/jekyll/update/2016/03/15/Onyx-Straps-In-For-A-Jepsening.html)
 * [Jepsen test Onyx](https://github.com/onyx-platform/onyx-jepsen)
+
 
 ### LinkedIn 
 * [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) — Failure inducer implemented in Python
@@ -270,21 +289,26 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 ### Druid.io 
 * [Architecting Distributed Databases for Failure](http://www.infoq.com/presentations/data-integrity-distributed-systems)
 
+
 ### Salesforce 
 * [Go Fast and Don't Break Things: Ensuring Quality in the Cloud](http://www.hpts.ws/papers/2011/sessions_2011/HansmaHPTS2011.pdf)
+
 
 ### SQLite 
 * [Finding bugs in SQLite, the easy way](http://lcamtuf.blogspot.ru/2015/04/finding-bugs-in-sqlite-easy-way.html) — how fuzzing used in testing SQLite database 
 * [How SQLite Is Tested](https://www.sqlite.org/testing.html)
 
+
 ### InfluxDB 
 * [Jepsen and InfluxDB part 1](http://www.refactorium.com/distributed_systems/Hacking-up-a-testing-environment-for-jepsen-and-influxdb/)
 * [Jepsen and InfluxDB part 2](http://www.refactorium.com/distributed_systems/InfluxDB-and-Jepsen-Chapter-II-Where-is-influxdb-on-the-cap-scale/)
+
 
 ## Tools
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
 * [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
 * [faketime](http://manpages.ubuntu.com/manpages/natty/man1/faketime.1.html)
+
 
 ### Network Simulation
 * [Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
@@ -309,6 +333,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Fuzz testing distributed systems with QuickCheck](https://making.pusher.com/fuzz-testing-distributed-systems-with-quickcheck/index.html) — using QuickCheck to test Raft protocol implementation in Haskell
 * [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — testing Riak eventual consistency guarantees with QuickCheck
 
+
 ### Benchmarking 
 * [OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases](http://www.vldb.org/pvldb/vol7/p277-difallah.pdf)
 * [OLTP Benchmark Wiki](http://oltpbenchmark.com/wiki/index.php?title=Main_Page)
@@ -316,9 +341,11 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Py-TPCC](https://github.com/apavlo/py-tpcc)
 * [Netflix Data Benchmark: Benchmarking Cloud Data Stores](http://techblog.netflix.com/2016/09/netflix-data-benchmark-benchmarking.html)
 
+
 ### Linkbench 
 * [LinkBench from Facebook](https://www.facebook.com/notes/facebook-engineering/linkbench-a-database-benchmark-for-the-social-graph/10151391496443920) and [Github.com repo](https://github.com/facebookarchive/linkbench)
 * [LinkBenchX from Percona](https://www.percona.com/blog/2015/05/01/linkbenchx-benchmark-based-arrival-request-rate/)
+
 
 ### YCSB 
 * [Yahoo! Cloud System Benchmark (YCSB)](https://github.com/brianfrankcooper/YCSB)
