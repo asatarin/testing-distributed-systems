@@ -304,6 +304,11 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Jepsen and InfluxDB part 2](http://www.refactorium.com/distributed_systems/InfluxDB-and-Jepsen-Chapter-II-Where-is-influxdb-on-the-cap-scale/)
 
 
+### Shopify
+* [Resiliency Testing with Toxiproxy](https://www.usenix.org/conference/lisa17/conference-program/presentation/pittis) 
+* [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
+ 
+
 ## Tools
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
 * [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
