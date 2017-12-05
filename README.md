@@ -36,6 +36,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [Salesforce](#salesforce)
   - [SQLite](#sqlite)
   - [InfluxDB](#influxdb)
+  - [Shopify](#shopify)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
