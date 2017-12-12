@@ -37,6 +37,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [SQLite](#sqlite)
   - [InfluxDB](#influxdb)
   - [Shopify](#shopify)
+  - [Confluent (Kafka)](#confluent-kafka)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
@@ -308,7 +309,11 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 ### Shopify
 * [Resiliency Testing with Toxiproxy](https://www.usenix.org/conference/lisa17/conference-program/presentation/pittis) 
 * [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
- 
+
+
+### Confluent (Kafka)
+* [Kafka Fault Injection framework](https://cwiki.apache.org/confluence/display/KAFKA/Fault+Injection)
+
 
 ## Tools
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
