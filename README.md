@@ -243,6 +243,7 @@ Additional resources:
 
 ### Cloudera
 * [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) — Cloudera describes their approach to fault injection testing
+* [Quality Assurance at Cloudera: Highly-Controlled Disk Injection](http://blog.cloudera.com/blog/2016/08/quality-assurance-at-cloudera-highly-controlled-disk-injection/)
 
 
 ### FoundationDB 
