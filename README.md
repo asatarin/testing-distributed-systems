@@ -38,6 +38,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [InfluxDB](#influxdb)
   - [Shopify](#shopify)
   - [Confluent (Kafka)](#confluent-kafka)
+  - [Elastic (Elastic Search)](#elastic-elastic-search)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
@@ -314,6 +315,10 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 
 ### Confluent (Kafka)
 * [Kafka Fault Injection framework](https://cwiki.apache.org/confluence/display/KAFKA/Fault+Injection)
+
+
+### Elastic (Elastic Search)
+* [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elastic Search replication protocol
 
 
 ## Tools
