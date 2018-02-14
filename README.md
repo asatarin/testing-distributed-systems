@@ -290,6 +290,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 ### LinkedIn 
 * [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) — Failure inducer implemented in Python
 * [A Deep Dive into Simoorg](https://engineering.linkedin.com/blog/2016/03/deep-dive-Simoorg-open-source-failure-induction-framework)
+* [Dynamometer: Scale Testing HDFS on Minimal Hardware with Maximum Fidelity](https://engineering.linkedin.com/blog/2018/02/dynamometer--scale-testing-hdfs-on-minimal-hardware-with-maximum) — testing scalability of large Hadoop clusters (namely NameNode) with just fraction of nodes
 
 ### Druid.io 
 * [Architecting Distributed Databases for Failure](http://www.infoq.com/presentations/data-integrity-distributed-systems)
