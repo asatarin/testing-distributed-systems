@@ -3,7 +3,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
 **Contents**
 - [Overview of testing approaches](#overview-of-testing-approaches)
   - [Research Papers](#research-papers)
-  - [Richard Cook](#richard-cook)
+  - [Resilience In Complex Adaptive Systems](#resilience-in-complex-adaptive-systems)
   - [Jepsen](#jepsen)
   - [Formal Methods](#formal-methods)
   - [Lineage-driven Fault Injection](#lineage-driven-fault-injection)
@@ -48,19 +48,6 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
 
 ## Overview of testing approaches
 
-### RICON 2014: Ines Sombra, Fastly — Testing in a Distributed World
-[https://youtu.be/KSdNYi55kjg](https://youtu.be/KSdNYi55kjg)
-
-Great overview of techniques for testing distributed systems.
-Additional materials for this talk could be found in [this Github repo](https://github.com/Randommood/RICON2014)
-
-
-### Technologies for Testing Distributed Systems by Colin Skott
-Colin Skott shares his viewpoint from academia on testing distributed systems.
-* [Technologies for Testing Distributed Systems, Part I](http://colin-scott.github.io/blog/2016/03/04/technologies-for-testing-and-debugging-distributed-systems/)
-* See also post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/) by Crista Lopes
-
-
 ### Research Papers
 * [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need right focus.
 * [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf) — study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
@@ -71,14 +58,27 @@ and Flume)
 * [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
 * [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) — why and how to test configuration files of your system
 
+#### Technologies for Testing Distributed Systems by Colin Skott
+Colin Skott shares his viewpoint from academia on testing distributed systems.
+* [Technologies for Testing Distributed Systems, Part I](http://colin-scott.github.io/blog/2016/03/04/technologies-for-testing-and-debugging-distributed-systems/)
+* See also post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/) by Crista Lopes
 
-### Richard Cook
-* [Velocity NY 2013: Richard Cook, "Resilience In Complex Adaptive Systems"](https://www.youtube.com/watch?v=PGLYEDpNu60&feature=youtu.be)
-* [Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://www.youtube.com/watch?v=2S0k12uZR14&feature=youtu.be)
+#### Testing in a Distributed World by Ines Sombra (RICON 2014)
+Great overview of techniques for testing distributed systems. Unfortunately video of this talk is lost.
+Additional materials could be found in [this Github repo](https://github.com/Randommood/RICON2014)
+
+
+### Resilience In Complex Adaptive Systems
+These materials are not directly related to testing distributed systems, but they greatly contribute to general understanding of such systems.
+
+* [Velocity NY 2013: Richard Cook, "Resilience In Complex Adaptive Systems"](https://youtu.be/PGLYEDpNu60)
+* [Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://youtu.be/2S0k12uZR14)
 * [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
 
 
 ### Jepsen
+State of the art approach for testing stateful distributed  systems.
+
 * [Jepsen Analyses](http://jepsen.io/analyses) — most recent Jepsen analyses of different distributed systems
 * [Jepsen Talks](http://jepsen.io/talks) — talks by Kyle Kingsbury on various conferences
 * [Aphyr's Jepsen posts](https://aphyr.com/tags/Jepsen) — older Jepsen analyses on Kyle Kingsbury's (Aphyr) personal site
