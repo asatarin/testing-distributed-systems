@@ -77,7 +77,7 @@ These materials are not directly related to testing distributed systems, but the
 
 
 ### Jepsen
-State of the art approach for testing stateful distributed  systems.
+State of the art approach to testing stateful distributed  systems.
 
 * [Jepsen Analyses](http://jepsen.io/analyses) — most recent Jepsen analyses of different distributed systems
 * [Jepsen Talks](http://jepsen.io/talks) — talks by Kyle Kingsbury on various conferences
