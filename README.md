@@ -280,6 +280,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 
 
 ### Microsoft 
+* [Asynchronous programming, analysis and testing with state machines](https://dl.acm.org/citation.cfm?id=2737996) — Open source language for building distributed systems. Language is designed with tooling in mind, particularly, automatic exploration of message orderings in order to find bugs.
 * [Uncovering Bugs in Distributed Storage Systems during Testing (not in Production!)](http://research.microsoft.com/pubs/260939/paper.pdf)
 * [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://www.sigops.org/sosp/sosp11/current/2011-Cascais/11-calder-online.pdf) describes "Pressure Point Testing" approach used for Azure Cloud Storage
 * [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/ru-ru/blog/inside-azure-search-chaos-engineering/)
