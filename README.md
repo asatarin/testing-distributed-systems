@@ -347,6 +347,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 * [Comcast tool](https://github.com/tylertreat/Comcast)
 * [Slow tool](https://github.com/ModusCreateOrg/slow/)
 * [Blockade is a utility for testing network failures and partitions in distributed applications](https://github.com/dcm-oss/blockade)
+* [DEMi: Distributed Execution Minimizer for Akka](https://github.com/NetSys/demi)
 
 
 ### QuickCheck 
