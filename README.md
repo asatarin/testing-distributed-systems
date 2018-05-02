@@ -347,6 +347,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 * [Python API for Linux Traffic Control](https://github.com/praus/shapy)
 * [Slow tool](https://github.com/ModusCreateOrg/slow/)
 * [Blockade is a utility for testing network failures and partitions in distributed applications](https://github.com/dcm-oss/blockade)
+* [DEMi: Distributed Execution Minimizer for Akka](https://github.com/NetSys/demi)
 
 
 ### QuickCheck 
