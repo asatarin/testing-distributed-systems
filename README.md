@@ -126,14 +126,17 @@ See also section on [Amazon Web Services](#amazon-web-services).
 
 
 ### Fuzzing
+There are two flavors of fuzzing. First, randomized concurrency testing, where the ordering of messages is fuzzed:
 * [Fuzzing Raft for Fun and Publication](https://colin-scott.github.io/blog/2015/10/07/fuzzing-raft-for-fun-and-profit/)
+* [Combining AFL and QuickCheck for Directed Fuzzing by Dan Luu](http://danluu.com/testing/)
+
+And input fuzzing, where message contents or user inputs are fuzzed:
 * [DNS parser, meet Go fuzzer](https://blog.cloudflare.com/dns-parser-meet-go-fuzzer/)
 * [Fuzz Testing with afl-fuzz (American Fuzzy Loop)](http://spin.atomicobject.com/2015/08/23/fuzz-testing-american-fuzzy-lop/)
 * [Randomized testing for Go](https://github.com/dvyukov/go-fuzz) and talk on this tool [GopherCon 2015: Dmitry Vyukov — Go Dynamic Tools](https://www.youtube.com/watch?v=a9xrxRsIbSU)
 * [Simple guided fuzzing for libraries using LLVM's new libFuzzer](http://blog.llvm.org/2015/04/fuzz-all-clangs.html)
 * [LibFuzzer – a library for coverage-guided fuzz testing](http://llvm.org/docs/LibFuzzer.html)
 * [How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html) — example of how fuzzing could be used for finding famous HeartBleed vulnerability
-* [Combining AFL and QuickCheck for Directed Fuzzing by Dan Luu](http://danluu.com/testing/)
 
 
 ### Game Days
