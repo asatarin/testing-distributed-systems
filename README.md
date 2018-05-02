@@ -11,6 +11,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [Fuzzing](#fuzzing)
   - [Game Days](#game-days)
   - [Performance and Benchmarking](#performance-and-benchmarking)
+  - [Test Case Reduction](#test-case-reduction)
   - [Misc](#misc)
 - [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems) 
   - [Amazon Web Services](#amazon-web-services)
@@ -58,8 +59,9 @@ and Flume)
 * [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
 * [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) — why and how to test configuration files of your system
 
-#### Technologies for Testing Distributed Systems by Colin Skott
-Colin Skott shares his viewpoint from academia on testing distributed systems.
+#### Technologies for Testing Distributed Systems by Colin Scott
+Colin Scott shares his viewpoint from academia on testing distributed systems,
+specifically regression testing for correctness and performance bugs.
 * [Technologies for Testing Distributed Systems, Part I](http://colin-scott.github.io/blog/2016/03/04/technologies-for-testing-and-debugging-distributed-systems/)
 * See also post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/) by Crista Lopes
 
@@ -146,6 +148,11 @@ See also section on [Amazon Web Services](#amazon-web-services).
 * ["Benchmarking: You're Doing It Wrong" by Aysylu Greenberg](https://www.youtube.com/watch?v=XmImGiVuJno)
 
 See also [benchmarking](#benchmarking) tools.
+
+
+### Test Case Reduction
+* [Minimizing Faulty Executions of Distributed Systems](https://people.eecs.berkeley.edu/~rcs/research/nsdi16.pdf) — reducing the size of buggy executions to make them easier to understand. 60 minute talk [here](https://www.microsoft.com/en-us/research/video/minimizing-faulty-executions-distributed-systems/)
+* [Troubleshooting Blackbox SDN Control Software with Minimal Causal Sequences](https://people.eecs.berkeley.edu/~rcs/research/sts.pdf) — similar to above, but requires less instrumentation.
 
 
 ### Misc
