@@ -331,13 +331,12 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 
 
 ### Network Simulation
-* [Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
+* [Comcast - Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
 * [Muxy Simulating real-world distributed system failures](https://github.com/mefellows/muxy)
 * [Namazu — Programmable fuzzy scheduler for testing distributed systems](https://github.com/osrg/namazu) 
 * [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
 * [Traffic Control](http://www.funtoo.org/Traffic_Control)
 * [Python API for Linux Traffic Control](https://github.com/praus/shapy)
-* [Comcast tool](https://github.com/tylertreat/Comcast)
 * [Slow tool](https://github.com/ModusCreateOrg/slow/)
 * [Blockade is a utility for testing network failures and partitions in distributed applications](https://github.com/dcm-oss/blockade)
 
