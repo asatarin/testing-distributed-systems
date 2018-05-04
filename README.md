@@ -302,6 +302,7 @@ There is one talk from Sean T. Allen on testing stream processing system at Send
 
 
 ### SQLite 
+SQLite is not a distributed system by any stretch of the imagination, but provides good example of comprehensive testing of database implementation.
 * [Finding bugs in SQLite, the easy way](http://lcamtuf.blogspot.ru/2015/04/finding-bugs-in-sqlite-easy-way.html) — how fuzzing used in testing SQLite database 
 * [How SQLite Is Tested](https://www.sqlite.org/testing.html)
 
