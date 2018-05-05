@@ -164,7 +164,7 @@ See also [benchmarking](#benchmarking) tools.
 
 
 ### Netflix 
-On automated failure injection:
+Automated failure injection (see also [Lineage-driven Fault Injection](#lineage-driven-fault-injection)):
 * [Monkeys in Lab Coats: Applying Failure Testing Research @Netflix](http://www.infoq.com/presentations/failure-test-research-netflix)
 * [“Monkeys in Labs Coats”: Applied Failure Testing Research at Netflix](http://www.infoq.com/news/2016/03/failure-testing-netflix)
 * [Automated Failure Testing](http://techblog.netflix.com/2016/01/automated-failure-testing.html)
