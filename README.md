@@ -26,7 +26,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [MongoDB](#mongodb)
   - [Cloudera](#cloudera)
   - [FoundationDB](#foundationdb)
-  - [Sendence](#sendence)
+  - [Wallaroo Labs](#wallaroo-labs)
   - [Google](#google)
   - [Microsoft](#microsoft)
   - [Dropbox](#dropbox)
@@ -263,8 +263,14 @@ Additional resources:
 * ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://www.youtube.com/watch?v=4fFDFbi3toc&feature=youtu.be)
 
 
-### Sendence
-There is one talk from Sean T. Allen on testing stream processing system at Sendence
+### Wallaroo Labs
+
+* [Measuring Correctness of State in a Distributed System](https://blog.wallaroolabs.com/2017/10/measuring-correctness-of-state-in-a-distributed-system/) — describes general idea and implementation how to test safety of distributed stream processing system 
+* [Performance testing a low-latency stream processing system](https://blog.wallaroolabs.com/2018/03/performance-testing-a-low-latency-stream-processing-system/) — high level overview of what to look at when testing performance of stream processing system
+* [How We Test the Stateful Autoscaling of Our Stream Processing System](https://blog.wallaroolabs.com/2018/03/how-we-test-the-stateful-autoscaling-of-our-stream-processing-system/) — advanced safety tests for autoscaling stateful stream processing
+* All [posts on testing](https://blog.wallaroolabs.com/categories/testing/) from Walaroo engineering blog
+
+There is also talk from Sean T. Allen on testing stream processing system at Wallaroo Labs (ex. Sendence)
 * [Materials on Sean's blog "CodeMeshIO: How Did I Get Here?"](http://www.monkeysnatchbanana.com/2016/11/22/codemeshio-how-did-i-get-here/)
 * [Video from QCon NY 2016 on InfoQ](https://www.infoq.com/presentations/trust-distributed-systems)
 * [Video from CodeMeshIO on YouTube](https://www.youtube.com/watch?v=6MsPDtpe2tg)
