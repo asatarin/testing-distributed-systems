@@ -160,7 +160,7 @@ See also [benchmarking](#benchmarking) tools.
 
 
 ### Misc
-* ["Simulation Testing" by Michael Nygard](http://www.youtube.com/watch?v=N5HyVUPuU0E&feature=youtu.be)
+* ["Simulation Testing" by Michael Nygard](https://youtu.be/N5HyVUPuU0E)
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
 
 
@@ -362,7 +362,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 
 ### QuickCheck 
-* [PolyConf 14: Testing the Hard Stuff and Staying Sane / John Hughes](http://www.youtube.com/watch?v=F6LzB6SdFKA&feature=youtu.be)
+* [PolyConf 14: Testing the Hard Stuff and Staying Sane / John Hughes](https://youtu.be/F6LzB6SdFKA)
 * [The Joy of Testing](http://www.infoq.com/presentations/The-Joy-of-Testing)
 * [John Hughes on InfoQ](http://www.infoq.com/author/John-Hughes)
 * [Hansei: Property-based Development of Concurrent Systems](https://speakerdeck.com/jtuple/hansei-property-based-development-of-concurrent-systems)
