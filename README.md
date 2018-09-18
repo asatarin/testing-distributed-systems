@@ -40,6 +40,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [Shopify](#shopify)
   - [Confluent (Kafka)](#confluent-kafka)
   - [Elastic (Elastic Search)](#elastic-elastic-search)
+  - [YugaByte DB](#yugabyte-db)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
@@ -342,6 +343,10 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 ### Elastic (Elastic Search)
 * [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elastic Search replication protocol
+
+
+### YugaByte DB
+* [Jepsen Testing on YugaByte DB](https://blog.yugabyte.com/jepsen-testing-on-yugabyte-db-database/) — YugaByteDB describes how they use [Jepsen](#jepsen)
 
 
 ## Tools
