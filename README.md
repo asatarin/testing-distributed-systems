@@ -346,7 +346,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 
 ### YugaByte DB
-* [Jepsen Testing on YugaByte DB](https://blog.yugabyte.com/jepsen-testing-on-yugabyte-db-database/) — YugaByteDB describes how they use [Jepsen](#jepsen)
+* [Jepsen Testing on YugaByte DB](https://blog.yugabyte.com/jepsen-testing-on-yugabyte-db-database/) — YugaByte DB describes how they use [Jepsen](#jepsen)
 
 
 ## Tools
