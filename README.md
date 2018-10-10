@@ -60,7 +60,7 @@ and Flume)
 * [An empirical study on the correctness of formally verified distributed systems](https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/) — study of bugs in formally verified distributed systems
 * [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
 * [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) — why and how to test configuration files of your system
-* [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://people.mpi-sws.org/~fniksic/popl2018/paper.pdf) — just what it says in a title, authors try to explain why random testing ([Jepsen](#jepsen)) is effective and introduce notions of test coverage relating to network partition
+* [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://people.mpi-sws.org/~fniksic/popl2018/paper.pdf) — just what it says in a title, authors try to explain why random testing ([Jepsen](#jepsen)) is effective and introduce notions of test coverage relating to network partition, see also ["The Morning Paper" review](https://blog.acolyer.org/2018/01/23/why-is-random-testing-effective-for-partition-tolerance-bugs/)
 
 #### Technologies for Testing Distributed Systems by Colin Scott
 Colin Scott shares his viewpoint from academia on testing distributed systems,
