@@ -41,6 +41,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [Confluent (Kafka)](#confluent-kafka)
   - [Elastic (Elastic Search)](#elastic-elastic-search)
   - [YugaByte DB](#yugabyte-db)
+  - [FaunaDB](#faunadb)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
@@ -348,6 +349,10 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 ### YugaByte DB
 * [Jepsen Testing on YugaByte DB](https://blog.yugabyte.com/jepsen-testing-on-yugabyte-db-database/) — YugaByte DB describes how they use [Jepsen](#jepsen)
+
+
+### FaunaDB
+* [Verifying Transactional Consistency with Jepsen](https://fauna.com/blog/verifying-transactional-consistency-with-jepsen-and-faunadb) — results of internal [Jepsen](#jepsen) testing at FaunaDB
 
 
 ## Tools
