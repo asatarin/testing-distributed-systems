@@ -1,6 +1,8 @@
 title: Testing Distributed Systems
 description: Curated list of resources on testing distributed systems
-author: Andrey Satarin 
+author: 
+  name: Andrey Satarin
+  twitter: asatarin
 google_analytics: 
 show_downloads: false
 theme: jekyll-theme-cayman
