@@ -5,5 +5,16 @@ google_analytics:
 show_downloads: false
 theme: jekyll-theme-cayman
 
+twitter:
+  username: asatarin
+  card: summary
+
+social:
+  name: Andrey Satarin
+  links:
+    - https://twitter.com/asatarin
+    - https://www.linkedin.com/in/asatarin
+    - https://github.com/asatarin
+
 gems:
   - jekyll-mentions
