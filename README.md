@@ -42,6 +42,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [Elastic (Elastic Search)](#elastic-elastic-search)
   - [YugaByte DB](#yugabyte-db)
   - [FaunaDB](#faunadb)
+  - [Riak (Basho)](#riak-basho)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
@@ -355,6 +356,11 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 * [Verifying Transactional Consistency with Jepsen](https://fauna.com/blog/verifying-transactional-consistency-with-jepsen-and-faunadb) — results of internal [Jepsen](#jepsen) testing at FaunaDB
 
 
+## Riak (Basho)
+* [Testing Eventual Consistency in Riak](http://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/UlfNorell) — how to model eventually consistent database in [QuickCheck](#quickcheck) and find bugs in it's implementation, video available [on youtube](https://youtu.be/x9mW54GJpG0)
+* [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — another talk on testing Riak eventual consistency guarantees with [QuickCheck](#quickcheck)
+
+
 ## Tools
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
 * [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
@@ -382,7 +388,6 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 * [Combining Fault-Injection with Property-Based Testing](http://www2.hh.se/staff/magnusj/papers/2014_DATE_ES4CPS.pdf)
 * [Testing Telecoms Software with Quviq QuickCheck](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6554&rep=rep1&type=pdf)
 * [Fuzz testing distributed systems with QuickCheck](https://making.pusher.com/fuzz-testing-distributed-systems-with-quickcheck/index.html) — using QuickCheck to test Raft protocol implementation in Haskell
-* [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — testing Riak eventual consistency guarantees with QuickCheck
 
 
 ### Benchmarking 
