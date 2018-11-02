@@ -42,7 +42,8 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [Elastic (Elastic Search)](#elastic-elastic-search)
   - [YugaByte DB](#yugabyte-db)
   - [FaunaDB](#faunadb)
-  - [Riak (Basho)](#riak-basho)
+  - [Basho (Riak)](#basho-riak)
+  - [CoreOS (etcd)](#coreos-etcd)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
@@ -356,9 +357,13 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 * [Verifying Transactional Consistency with Jepsen](https://fauna.com/blog/verifying-transactional-consistency-with-jepsen-and-faunadb) — results of internal [Jepsen](#jepsen) testing at FaunaDB
 
 
-## Riak (Basho)
+### Basho (Riak)
 * [Testing Eventual Consistency in Riak](http://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/UlfNorell) — how to model eventually consistent database in [QuickCheck](#quickcheck) and find bugs in it's implementation, video available [on youtube](https://youtu.be/x9mW54GJpG0)
 * [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — another talk on testing Riak eventual consistency guarantees with [QuickCheck](#quickcheck)
+
+
+### CoreOS (etcd)
+* [Testing distributed systems in Go](https://coreos.com/blog/testing-distributed-systems-in-go.html) — overview of failure injection testing for etcd
 
 
 ## Tools
