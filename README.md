@@ -302,6 +302,7 @@ There is also talk from Sean T. Allen on testing stream processing system at Wal
 
 ### Dropbox 
 * [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](http://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) — example of how to use QuickCheck to test synchronisation in Dropbox and similar tools (Google Drive)
+* [Data Checking at Dropbox](https://youtu.be/WUaMN2kywR4) — If you have lots of data, you have to verify that is doesn't bit rot and protect it against rare bugs (e.g. race conditions) to guarantee long term durability. This talks explains intricacies of building data consistency checker(s) at Dropbox scale.
 
 
 ### Atomix Copycat 
