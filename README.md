@@ -346,6 +346,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 ### Confluent (Kafka)
 * [Kafka Fault Injection framework](https://cwiki.apache.org/confluence/display/KAFKA/Fault+Injection)
+* [TLA+ specification of the Kafka replication protocol](https://github.com/hachikuji/kafka-specification) and talk about using TLA+ for [hardening Kafka replication protocol](https://www.confluent.io/kafka-summit-sf18/hardening-kafka-replication)
 
 
 ### Elastic (Elastic Search)
