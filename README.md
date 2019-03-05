@@ -359,6 +359,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 ### FaunaDB
 * [Verifying Transactional Consistency with Jepsen](https://fauna.com/blog/verifying-transactional-consistency-with-jepsen-and-faunadb) — results of internal [Jepsen](#jepsen) testing at FaunaDB
+* [Jepsen: FaunaDB 2.5.4](https://jepsen.io/analyses/faunadb-2.5.4) — official [Jepsen](#jepsen) test for FaunaDB, write-up in Fauna [blog](https://fauna.com/blog/faunadbs-official-jepsen-results)
 
 
 ### Basho (Riak)
@@ -377,7 +378,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 
 ### Network Simulation
-* [Comcast - Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
+* [Comcast — Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
 * [Muxy Simulating real-world distributed system failures](https://github.com/mefellows/muxy)
 * [Namazu — Programmable fuzzy scheduler for testing distributed systems](https://github.com/osrg/namazu) 
 * [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
