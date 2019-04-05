@@ -157,6 +157,7 @@ And input fuzzing, where message contents or user inputs are fuzzed:
 * [Everything You Know About Latency Is Wrong](http://bravenewgeek.com/everything-you-know-about-latency-is-wrong/) — great overview of Gil Tene`s "How NOT to Measure Latency" talk
 * ["How NOT to Measure Latency" by Gil Tene](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 * ["Benchmarking: You're Doing It Wrong" by Aysylu Greenberg](https://www.youtube.com/watch?v=XmImGiVuJno)
+* [Performance Analysis Methodology](http://www.brendangregg.com/methodology.html) — approaches developed by Brendan Gregg for analysing performance in systematic fashion
 
 See also [benchmarking](#benchmarking) tools.
 
