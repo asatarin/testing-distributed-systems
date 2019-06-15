@@ -257,6 +257,7 @@ Additional resources:
 * [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like framework written in Go
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — linearizability testing library used by Chaos framework
 * [Chaos Tools and Techniques for Testing the TiDB Distributed NewSQL Database](https://thenewstack.io/chaos-tools-and-techniques-for-testing-the-tidb-distributed-newsql-database/) and the same post on company [blog](https://pingcap.com/blog/chaos-practice-in-tidb/) 
+* [Official Jepsen report on TiDB 2.1.7](https://jepsen.io/analyses/tidb-2.1.7) and [companion blog post](https://pingcap.com/blog/tidb-passes-jepsen-test-for-snapshot-isolation-and-single-key-linearizability/) in company blog
 
 
 ### MongoDB
