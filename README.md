@@ -362,6 +362,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 * [Jepsen Testing on YugaByte DB](https://blog.yugabyte.com/jepsen-testing-on-yugabyte-db-database/) — YugaByte DB describes how they use [Jepsen](#jepsen)
 * [YugaByte DB 1.1.9 analysis by Kyle Kingsbury](https://jepsen.io/analyses/yugabyte-db-1.1.9) — Kyle explores safety of YugaByte DB. Accompanying post in company blog ["YugaByte DB 1.2 Passes Jepsen Testing"](https://blog.yugabyte.com/yugabyte-db-1-2-passes-jepsen-testing/) 
 and ["Wrapping Up: Jepsen Test Results for YugaByte DB 1.2 Webinar"](https://blog.yugabyte.com/wrapping-up-jepsen-test-results-for-yugabyte-db-1-2-webinar/) post with webinar recording by Kyle and Karthik Ranganathan (YugaByte CTO).
+* [YugaByte DB 1.3.1](https://jepsen.io/analyses/yugabyte-db-1.3.1) — Jepsen analysis of YugaByte support for serializable SQL transactions. Companion [blog post](https://blog.yugabyte.com/yugabyte-db-distributed-sql-api-passes-jepsen-tests/) on company website.
 
 
 ### FaunaDB
