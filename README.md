@@ -266,6 +266,7 @@ Additional resources:
 ### MongoDB
 * [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-creating-chaos/)
 * [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-harnessing-havoc/)
+* [Fixing a MongoDB Replication Protocol Bug with TLA+](https://youtu.be/x9zSynTfLDE) by William Schultz — how MongoDB uses [formal verification](#formal-methods) with TLA+ to check correctness of their replication protocol. Describes how replication bugs could have been found with help of formal model.
 
 
 ### Cloudera
