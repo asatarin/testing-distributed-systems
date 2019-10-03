@@ -184,6 +184,8 @@ See also [benchmarking](#benchmarking) tools.
 * [Experience of software engineers using TLA+, PlusCal and TLC](http://tla2012.loria.fr/contributed/newcombe-slides.pdf)
 * [Debugging Designs by Chris Newcombie](http://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also a  [source bundle](http://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
 
+See also [formal methods](#formal-methods) section.
+
 
 ### Netflix 
 Automated failure injection (see also [Lineage-driven Fault Injection](#lineage-driven-fault-injection)):
@@ -261,6 +263,9 @@ Additional resources:
 * [Chaos Tools and Techniques for Testing the TiDB Distributed NewSQL Database](https://thenewstack.io/chaos-tools-and-techniques-for-testing-the-tidb-distributed-newsql-database/) and the same post on company [blog](https://pingcap.com/blog/chaos-practice-in-tidb/) 
 * [Official Jepsen report on TiDB 2.1.7](https://jepsen.io/analyses/tidb-2.1.7) and [companion blog post](https://pingcap.com/blog/tidb-passes-jepsen-test-for-snapshot-isolation-and-single-key-linearizability/) in company blog
 * [Safety First! Common Safety Pitfalls in Distributed Databases Found by Jepsen Tests](https://pingcap.com/blog/safety-first-common-safety-pitfalls-in-distributed-databases-found-by-jepsen-tests/) — overview of Jepsen approach and tests with quick refresher on results for different databases to date
+* https://github.com/pingcap/tla-plus — formal specification in TLA+ of Raft consensus protocol and implementation of distributed transactions in TiDB
+
+See also [formal methods](#formal-methods) section.
 
 
 ### MongoDB
@@ -306,6 +311,8 @@ There is also talk from Sean T. Allen on testing stream processing system at Wal
 * [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://www.sigops.org/sosp/sosp11/current/2011-Cascais/11-calder-online.pdf) describes "Pressure Point Testing" approach used for Azure Cloud Storage
 * [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/ru-ru/blog/inside-azure-search-chaos-engineering/)
 * [TLA+ at Microsoft: 16 Years in Production](https://youtu.be/azx6cX-BlCs) by David Langworthy — how rejuvenation of TLA+ happened at Microsoft in 2016 and onwards
+
+See also [formal methods](#formal-methods) section.
 
 
 ### Dropbox 
