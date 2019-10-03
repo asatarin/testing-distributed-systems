@@ -117,7 +117,12 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 * [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) — using formal verification to find a bug in TimSort sorting algorithm
 * [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analizying quicksort implementation in Java 
 
-See also section on [Amazon Web Services](#amazon-web-services).
+Companies using TLA+ to verify correctness of algorithms:
+ * [Amazon Web Services](#amazon-web-services)
+ * [PingCap for TiDB](#pingcap-tidb)
+ * [MongoDB](#mongodb)
+ * [Microsoft](#microsoft) for services in Azure cloud
+ * [Confluent](#confluent-kafka) for Apache Kafka
 
 
 ### Lineage-driven Fault Injection
@@ -273,6 +278,8 @@ See also [formal methods](#formal-methods) section.
 * [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-harnessing-havoc/)
 * [Fixing a MongoDB Replication Protocol Bug with TLA+](https://youtu.be/x9zSynTfLDE) by William Schultz — how MongoDB uses [formal verification](#formal-methods) with TLA+ to check correctness of their replication protocol. Describes how replication bugs could have been found with help of formal model.
 
+See also [formal methods](#formal-methods) section.
+
 
 ### Cloudera
 * [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) — Cloudera describes their approach to fault injection testing
@@ -362,6 +369,8 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 ### Confluent (Kafka)
 * [Kafka Fault Injection framework](https://cwiki.apache.org/confluence/display/KAFKA/Fault+Injection)
 * [TLA+ specification of the Kafka replication protocol](https://github.com/hachikuji/kafka-specification) and talk about using TLA+ for [hardening Kafka replication protocol](https://www.confluent.io/kafka-summit-sf18/hardening-kafka-replication)
+
+See also [formal methods](#formal-methods) section.
 
 
 ### Elastic (Elastic Search)
