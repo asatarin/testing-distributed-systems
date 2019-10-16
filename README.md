@@ -42,6 +42,7 @@ List of resources on testing distributed systems curated by Andrey Satarin ([@as
   - [Elastic (Elastic Search)](#elastic-elastic-search)
   - [YugaByte DB](#yugabyte-db)
   - [FaunaDB](#faunadb)
+  - [Hazelcast](#hazelcast)
   - [Basho (Riak)](#basho-riak)
   - [CoreOS (etcd)](#coreos-etcd)
 - [Tools](#tools)
