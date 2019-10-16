@@ -389,6 +389,10 @@ and ["Wrapping Up: Jepsen Test Results for YugaByte DB 1.2 Webinar"](https://blo
 * [Jepsen: FaunaDB 2.5.4](https://jepsen.io/analyses/faunadb-2.5.4) — official [Jepsen](#jepsen) test for FaunaDB, write-up in Fauna [blog](https://fauna.com/blog/faunadbs-official-jepsen-results)
 
 
+### Hazelcast
+* [Testing the CP Subsystem with Jepsen](https://hazelcast.com/blog/testing-the-cp-subsystem-with-jepsen/) — overview of how [Jepsen](#jepsen) is used to test Hazelcast in-memory data grid CP sybsystem
+
+
 ### Basho (Riak)
 * [Testing Eventual Consistency in Riak](http://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/UlfNorell) — how to model eventually consistent database in [QuickCheck](#quickcheck) and find bugs in it's implementation, video available [on youtube](https://youtu.be/x9mW54GJpG0)
 * [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — another talk on testing Riak eventual consistency guarantees with [QuickCheck](#quickcheck)
