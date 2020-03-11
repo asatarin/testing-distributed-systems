@@ -190,6 +190,7 @@ See also [benchmarking](#benchmarking) tools.
 * [CACM Article "How Amazon Web Services Uses Formal Methods"](http://cacm.acm.org/magazines/2015/4/184701-how-amazon-web-services-uses-formal-methods/fulltext)
 * [Experience of software engineers using TLA+, PlusCal and TLC](http://tla2012.loria.fr/contributed/newcombe-slides.pdf)
 * [Debugging Designs by Chris Newcombie](http://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also a  [source bundle](http://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
+* [Millions of tiny databases](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/) — has section on testing which describes several approaches: SimWorld simulation resembling approach used at [Foundation DB](#foundationdb), use of [Jepsen](#jepsen) and [formal methods](#formal-methods) and [game days](#game-days).
 
 See also [formal methods](#formal-methods) section.
 
