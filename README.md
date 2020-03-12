@@ -77,7 +77,7 @@ specifically regression testing for correctness and performance bugs.
 * See also post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/) by Crista Lopes
 
 #### Testing in a Distributed World by Ines Sombra (RICON 2014)
-Great overview of techniques for testing distributed systems from practitioner, [video](https://youtu.be/iZEXIN7-9tM).
+Great overview of techniques for testing distributed systems from practitioner, the [video](https://youtu.be/iZEXIN7-9tM) did age well and still extremely good overview of the landscape.
 Additional materials could be found in [this Github repo](https://github.com/Randommood/RICON2014)
 
 
