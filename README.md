@@ -441,7 +441,7 @@ and ["Wrapping Up: Jepsen Test Results for YugaByte DB 1.2 Webinar"](https://blo
 * [John Hughes on InfoQ](http://www.infoq.com/author/John-Hughes)
 * [Hansei: Property-based Development of Concurrent Systems](https://speakerdeck.com/jtuple/hansei-property-based-development-of-concurrent-systems)
 * [QuickChecking Poolboy for Fun and Profit](http://basho.com/posts/technical/quickchecking-poolboy-for-fun-and-profit/) — from Basho
-* [Combining Fault-Injection with Property-Based Testing](http://www2.hh.se/staff/magnusj/papers/2014_DATE_ES4CPS.pdf)
+* [Combining Fault-Injection with Property-Based Testing](https://dl.acm.org/doi/10.1145/2559627.2559629)
 * [Testing Telecoms Software with Quviq QuickCheck](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6554&rep=rep1&type=pdf)
 * [Fuzz testing distributed systems with QuickCheck](https://making.pusher.com/fuzz-testing-distributed-systems-with-quickcheck/index.html) — using QuickCheck to test Raft protocol implementation in Haskell
 
