@@ -282,6 +282,7 @@ See also [formal methods](#formal-methods) section.
 * [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-creating-chaos/)
 * [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-harnessing-havoc/)
 * [Fixing a MongoDB Replication Protocol Bug with TLA+](https://youtu.be/x9zSynTfLDE) by William Schultz — how MongoDB uses [formal verification](#formal-methods) with TLA+ to check correctness of their replication protocol. Describes how replication bugs could have been found with help of formal model.
+* [Change Point Detection in Software Performance Testing](https://arxiv.org/abs/2003.00584) — paper on how MongoDB team automatically detects performance degradations in the presence of noise in continuous integration runs. The paper was presented at [ICPE 2020](https://youtu.be/rSBgcMFPkHU) 
 
 See also [formal methods](#formal-methods) section.
 
