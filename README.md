@@ -274,6 +274,8 @@ Additional resources:
 * [Official Jepsen report on TiDB 2.1.7](https://jepsen.io/analyses/tidb-2.1.7) and [companion blog post](https://pingcap.com/blog/tidb-passes-jepsen-test-for-snapshot-isolation-and-single-key-linearizability/) in company blog
 * [Safety First! Common Safety Pitfalls in Distributed Databases Found by Jepsen Tests](https://pingcap.com/blog/safety-first-common-safety-pitfalls-in-distributed-databases-found-by-jepsen-tests/) — overview of Jepsen approach and tests with quick refresher on results for different databases to date
 * [https://github.com/pingcap/tla-plus](https://github.com/pingcap/tla-plus) — formal specification in TLA+ of Raft consensus protocol and implementation of distributed transactions in TiDB
+* [Testing Cloud-Native Databases with Chaos Mesh](https://youtu.be/FIB1qvLHYsw) — talk on Chaos Mesh and how it is used for testing TiDB at PingCap. Blog post with [introduction to Chaos Mesh](https://pingcap.com/blog/chaos-mesh-your-chaos-engineering-solution-for-system-resiliency-on-kubernetes) and how it integrates with Kubernetes. 
+See also Chaos Mesh [source code](https://github.com/chaos-mesh/chaos-mesh) and [chaos engineering](#chaos-engineering) section.
 
 See also [formal methods](#formal-methods) section.
 
