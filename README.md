@@ -100,6 +100,11 @@ State of the art approach to testing stateful distributed  systems.
 * [Call me maybe: Jepsen and flaky networks](http://www.slideshare.net/shalinmangar/call-me-maybe-jepsen-and-flaky-networks) — talk on Jepsen, not by Kyle
 * [Jepsen is used by Microsoft CosmosDB](https://twitter.com/dharmashukla/status/869104163510034432) — founder of Azure CosmosDB confirms, that they are using Jepsen
 
+Elle transactional consistency checker for black-box databases:
+* Elle [source code](https://github.com/jepsen-io/elle)
+* [Black-box Isolation Checking with Elle](https://youtu.be/OPJ_IcdSqig) — talk Kyle gave at [CMU DB](https://db.cs.cmu.edu/) database seminar descibing Elle and results obtained with it
+* [Elle: Inferring Isolation Anomalies from Experimental Observations](https://github.com/jepsen-io/elle/raw/master/paper/elle.pdf) — paper on Elle design by Kyle Kingsbury and Peter Alvaro
+
 Some notable Jepsen analyses:
 * [Jepsen: CockroachDB beta-20160829](https://jepsen.io/analyses/cockroachdb-beta-20160829)
 * [Jepsen: VoltDB 6.3](http://jepsen.io/analyses/voltdb-6-3)
