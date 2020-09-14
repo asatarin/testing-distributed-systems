@@ -323,6 +323,7 @@ There is also talk from Sean T. Allen on testing stream processing system at Wal
 * [Paxos Made Live — An Engineering Perspective](http://research.google.com/pubs/pub33002.html) has a section on testing
 * [10 Years of Crashing Google](https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan) describes some war stories from Disaster Recovery Testing (DiRT) team at Google
 * [Testing for Reliability](https://landing.google.com/sre/book/chapters/testing-reliability.html) chapter from Google Site Reliability Engineering book
+* [Randomized Testing of Cloud Spanner](https://medium.com/@jcorbett_26889/randomized-testing-of-cloud-spanner-5286f1eaba75) — overview of randomized testing at Cloud Spanner, including how to scale it to large datasets and high concurrency
 
 
 ### Microsoft 
