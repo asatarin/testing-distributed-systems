@@ -269,6 +269,7 @@ Additional resources:
 ### CockroachLabs (CockroachDB)
 * [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) — great read about using Jepsen at Cockroach Labs
 * [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) — CockroachDB tested by Kyle Kingsbury (Jepsen.io)
+* [Introducing Pebble: A RocksDB Inspired Key-Value Store Written in Go](https://www.cockroachlabs.com/blog/pebble-rocksdb-kv-store/) — introduces new storage engine and includes thorough discussion on what it takes to properly test storage engine
 
 
 ### PingCap (TiDB)
