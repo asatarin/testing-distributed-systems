@@ -2,6 +2,25 @@
 ---
 
 // See variables here https://github.com/pages-themes/cayman/blob/master/_sass/variables.scss
+$header-bg-color: #fff;
 $body-text-color: #000;
+$section-headings-color: #ba3925;
+
+$header-heading-color: #000;
 
 @import "{{ site.theme }}";
+
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-image: none;
+  margin: auto;
+  color: #000;
+  max-width: 64rem;
+  padding: 1rem;
+  padding-bottom: 0rem;
+
+  @include large {
+    padding: 2rem 6rem 1rem;
+  }
+}
