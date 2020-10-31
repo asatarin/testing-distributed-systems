@@ -23,3 +23,22 @@ $header-heading-color: #ba3925;
     padding: 2rem 6rem 1rem;
   }
 }
+
+.project-tagline {
+  color: $header-heading-color;
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
