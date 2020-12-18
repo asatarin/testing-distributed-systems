@@ -446,6 +446,7 @@ and ["Wrapping Up: Jepsen Test Results for YugaByte DB 1.2 Webinar"](https://blo
 * [Slow tool](https://github.com/ModusCreateOrg/slow/)
 * [Blockade is a utility for testing network failures and partitions in distributed applications](https://github.com/dcm-oss/blockade)
 * [DEMi: Distributed Execution Minimizer for Akka](https://github.com/NetSys/demi)
+* [Chaos Mesh](https://chaos-mesh.org/) — [chaos engineering](#chaos-engineering) platform for Kubernetes. See also [PingCap](#pingcap-tidb), company behind Chaos Mesh.
 
 
 ### QuickCheck 
