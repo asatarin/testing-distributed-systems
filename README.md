@@ -197,6 +197,8 @@ See also [benchmarking](#benchmarking) tools.
 ### Misc
 * ["Simulation Testing" by Michael Nygard](https://youtu.be/N5HyVUPuU0E)
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
+* [Metamorphic Testing](https://www.hillelwayne.com/post/metamorphic-testing/) — overview of what metamorphic testing is and where it can help. 
+For more details see paper ["Metamorphic Testing: A Review of Challenges and Opportunities"](https://www.cs.hku.hk/data/techreps/document/TR-2017-04.pdf).
 
 
 ## Specific approaches in different distributed systems
