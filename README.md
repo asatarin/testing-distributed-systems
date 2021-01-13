@@ -11,6 +11,7 @@ If you are interested in my other stuff, checkout [talks](/talks) page.
   - [Lineage-driven Fault Injection](#lineage-driven-fault-injection)
   - [Chaos Engineering](#chaos-engineering)
   - [Fuzzing](#fuzzing)
+  - [Microservices](#microservices)
   - [Game Days](#game-days)
   - [Performance and Benchmarking](#performance-and-benchmarking)
   - [Test Case Reduction](#test-case-reduction)
@@ -161,6 +162,15 @@ And input fuzzing, where message contents or user inputs are fuzzed:
 * [Simple guided fuzzing for libraries using LLVM's new libFuzzer](http://blog.llvm.org/2015/04/fuzz-all-clangs.html)
 * [LibFuzzer – a library for coverage-guided fuzz testing](http://llvm.org/docs/LibFuzzer.html)
 * [How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html) — example of how fuzzing could be used for finding famous HeartBleed vulnerability
+
+
+### Microservices
+Amazing and comprehensive overview of different strategies to test systems built with microservices by Cindy Sridharan. 
+* [Testing Microservices, the sane way](https://copyconstruct.medium.com/testing-microservices-the-sane-way-9bb31d158c16)
+
+Series of blog posts specifically on testing in production — best practices, pitfaults, etc: 
+* [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
+* [Testing in Production: the hard parts](https://copyconstruct.medium.com/testing-in-production-the-hard-parts-3f06cefaf592)
 
 
 ### Game Days
