@@ -314,8 +314,8 @@ See also [formal methods](#formal-methods) section.
 * [Quality Assurance at Cloudera: Highly-Controlled Disk Injection](http://blog.cloudera.com/blog/2016/08/quality-assurance-at-cloudera-highly-controlled-disk-injection/)
 
 
-### FoundationDB 
-* ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://www.youtube.com/watch?v=4fFDFbi3toc&feature=youtu.be)
+### FoundationDB
+* ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://youtu.be/4fFDFbi3toc) — talk on FoundationDB simulation testing. Their architecture was built from the ground up to suppport fully deterministic simulation testing 
 * [Simulation and Testing](https://apple.github.io/foundationdb/testing.html) — public overview of FoundationDB simulation testing framework
 
 
