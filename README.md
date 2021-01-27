@@ -367,6 +367,9 @@ This includes:
   - redundancy across varios axis in software and hardware stacks,
   - continuous data integrity validation on many levels,
   - etc
+* [Testing sync at Dropbox](https://dropbox.tech/infrastructure/-testing-our-new-sync-engine) — comprehensive overview of two test frameworks at Dropbox for new sync engine implementation. 
+CanopyCheck — single threaded and fully deterministic randomized testing framework with minimization for synchronization planner component of the engine. The other framework Trinity focuses on concurrency and larger surface area of componenents. 
+Great discussion on tradeoffs between determinism, strengh of test oracles vs width of coverage and size of the system under test.
 
 
 ### Atomix Copycat 
