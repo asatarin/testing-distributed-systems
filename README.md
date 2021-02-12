@@ -450,7 +450,7 @@ and ["Wrapping Up: Jepsen Test Results for YugaByte DB 1.2 Webinar"](https://blo
 ## Tools
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
 * [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
-* [faketime](http://manpages.ubuntu.com/manpages/natty/man1/faketime.1.html)
+* [faketime](https://manpages.ubuntu.com/manpages/trusty/man1/faketime.1.html)
 
 
 ### Network Simulation
