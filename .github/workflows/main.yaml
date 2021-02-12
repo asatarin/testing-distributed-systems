@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v1
     - uses: docker://dkhamsing/awesome_bot:latest
       with:
-        args: --allow-dupe --allow-ssl --allow-redirect /github/workspace/README.md
+        args: --allow 999 --allow-dupe --allow-ssl --allow-redirect /github/workspace/README.md
