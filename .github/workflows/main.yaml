@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+    branches: [ '*' ]
+  pull_request:
+    branches: [ '*' ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: docker://dkhamsing/awesome_bot:latest
+      with:
+        args: --allow-redirect /github/workspace/README.md
