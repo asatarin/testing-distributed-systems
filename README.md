@@ -49,6 +49,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Hazelcast](#hazelcast)
   - [Basho (Riak)](#basho-riak)
   - [CoreOS (etcd)](#coreos-etcd)
+  - [Red Planet Labs](#red-planet-labs)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
@@ -446,6 +447,10 @@ and ["Wrapping Up: Jepsen Test Results for YugaByte DB 1.2 Webinar"](https://blo
 
 ### CoreOS (etcd)
 * [Testing distributed systems in Go](https://coreos.com/blog/testing-distributed-systems-in-go.html) — overview of failure injection testing for etcd
+
+
+### Red Planet Labs
+* [Where we’re going, we don’t need threads: Simulating Distributed Systems](https://tech.redplanetlabs.com/2021/03/17/where-were-going-we-dont-need-threads-simulating-distributed-systems/) — following [FoundationDB](#foundationdb) steps, Red Planet Labs uses deterministic simulation for testing. Their formula for success is "deterministic simulation = no parallelism + quantized execution + deterministic behavior".
 
 
 ## Tools
