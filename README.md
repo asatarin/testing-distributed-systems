@@ -21,7 +21,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Amazon Web Services](#amazon-web-services)
   - [Netflix](#netflix)
   - [Twitter](#twitter)
-  - [Datastax (Cassandra)](#datastax-cassandra)
+  - [Cassandra](#cassandra)
   - [ScyllaDB](#scylladb)
   - [VoltDB](#voltdb)
   - [MemSQL](#memsql)
@@ -116,7 +116,7 @@ Some notable Jepsen analyses:
 * [Jepsen: RethinkDB 2.2.3 reconfiguration](https://aphyr.com/posts/330-jepsen-rethinkdb-2-2-3-reconfiguration)
 * [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
 
-Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), [Cassandra](#datastax-cassandra), [ScyllaDB](#scylladb) and others.
+Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), [Cassandra](#cassandra), [ScyllaDB](#scylladb) and others.
 
 
 ### Formal Methods
@@ -238,7 +238,7 @@ See also [Chaos Engineering](#chaos-engineering).
 * [How we break things at Twitter: failure testing](https://blog.twitter.com/2015/how-we-break-things-at-twitter-failure-testing)
 
 
-### Datastax (Cassandra) 
+### Cassandra
 * [Testing Apache Cassandra with Jepsen](http://www.datastax.com/dev/blog/testing-apache-cassandra-with-jepsen)
 * [Testing Cassandra Guarantees under Diverse Failure Modes with Jepsen](http://www.slideshare.net/jkni/testing-cassandra-guarantees-under-diverse-failure-modes-with-jepsen-53168992)
 * [Testing Cassandra Guarantees under Diverse Failure Modes with Jepsen](http://cassandrasummit-datastax.com/agenda/testing-cassandra-guarantees-under-diverse-failure-modes-with-jepsen/)
@@ -247,6 +247,7 @@ See also [Chaos Engineering](#chaos-engineering).
 * [Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems](https://youtu.be/OnG1FCr5WTI) by Joel Knighton presented at Devoxx UK 2016
 * [Testing Apache Cassandra 4.0](https://cassandra.apache.org/blog/2018/08/21/testing_apache_cassandra.html) — quick overview of approaches used to test next major version of Cassandra
 * [Fallout](https://github.com/datastax/fallout) — tool to run distributed tests as a service. It is meant to easily orchestrate cluster creation and testing tools like [Jepsen](#jepsen), performance testing tools and others, though extention and combining them in various ways with enviromental conditions. It could run tests either locally or on large scale clusters.
+* [](https://github.com/apache/cassandra-harry) — [Fuzz testing](#fuzzing) tool for Apache Cassandra. Aims to provide reproducible workloads to test correctness of Apache Cassandra.
 
 
 ### ScyllaDB
