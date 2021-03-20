@@ -247,7 +247,7 @@ See also [Chaos Engineering](#chaos-engineering).
 * [Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems](https://youtu.be/OnG1FCr5WTI) by Joel Knighton presented at Devoxx UK 2016
 * [Testing Apache Cassandra 4.0](https://cassandra.apache.org/blog/2018/08/21/testing_apache_cassandra.html) — quick overview of approaches used to test next major version of Cassandra
 * [Fallout](https://github.com/datastax/fallout) — tool to run distributed tests as a service. It is meant to easily orchestrate cluster creation and testing tools like [Jepsen](#jepsen), performance testing tools and others, though extention and combining them in various ways with enviromental conditions. It could run tests either locally or on large scale clusters.
-* [](https://github.com/apache/cassandra-harry) — [Fuzz testing](#fuzzing) tool for Apache Cassandra. Aims to provide reproducible workloads to test correctness of Apache Cassandra.
+* [Cassandra Harry](https://github.com/apache/cassandra-harry) — [Fuzz testing](#fuzzing) tool for Apache Cassandra. Aims to provide reproducible workloads to test correctness of Apache Cassandra.
 
 
 ### ScyllaDB
