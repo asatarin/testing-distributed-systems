@@ -324,6 +324,7 @@ See also [formal methods](#formal-methods) section.
 * ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://youtu.be/4fFDFbi3toc) — talk on FoundationDB simulation testing. Their architecture was built from the ground up to suppport fully deterministic simulation testing 
 * [Simulation and Testing](https://apple.github.io/foundationdb/testing.html) — public overview of FoundationDB simulation testing framework
 * [FoundationDB or: How I Learned to Stop Worrying and Trust the Database](https://youtu.be/OJb8A6h9jQQ) by Markus Pilman from Snowflake — updated talk on testing FoundationDB with determenistic simulation. Markus goes into details of what it takes to build determenistic simulation into a database. He mentions that it took two years to build a simulation framework before FoundationDB team started working on a database.
+* ["Buggify — Testing Distributed Systems with Deterministic Simulation"](https://transactional.blog/simulation/buggify.html) — Alex Miller (https://twitter.com/oytyafln), one of developers at FoundationDB, describes BUGGIFY macros, which helps bias simulation tests towards doing dangerous and bug finding things. This is a good example of cooperation between testing efforts and production code.
 
 
 ### Wallaroo Labs
