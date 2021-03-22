@@ -39,7 +39,6 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [LinkedIn](#linkedin)
   - [Druid.io](#druidio)
   - [Salesforce](#salesforce)
-  
   - [InfluxDB](#influxdb)
   - [Shopify](#shopify)
   - [Confluent (Kafka)](#confluent-kafka)
