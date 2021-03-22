@@ -467,7 +467,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 
 ### Clickhouse
-* [Fuzzing ClickHouse](https://clickhouse.tech/blog/en/2021/fuzzing-clickhouse — high level overview of query [fuzzing](#fuzzing) at Clickhouse
+* [Fuzzing ClickHouse](https://clickhouse.tech/blog/en/2021/fuzzing-clickhouse) — high level overview of query [fuzzing](#fuzzing) at Clickhouse
 
 
 ## Tools
