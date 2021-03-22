@@ -39,7 +39,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [LinkedIn](#linkedin)
   - [Druid.io](#druidio)
   - [Salesforce](#salesforce)
-  - [SQLite](#sqlite)
+  
   - [InfluxDB](#influxdb)
   - [Shopify](#shopify)
   - [Confluent (Kafka)](#confluent-kafka)
@@ -50,6 +50,10 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Basho (Riak)](#basho-riak)
   - [CoreOS (etcd)](#coreos-etcd)
   - [Red Planet Labs](#red-planet-labs)
+- [Single node systems](#single-node-systems)
+  - [SQLite](#sqlite)
+  - [Sled](#sled)
+  - [Clickhouse](#clickhouse)
 - [Tools](#tools)
   - [Network Simulation](#network-simulation)
   - [QuickCheck](#quickcheck)
@@ -398,12 +402,6 @@ Great discussion on tradeoffs between determinism, strengh of test oracles vs wi
 * [Go Fast and Don't Break Things: Ensuring Quality in the Cloud](http://www.hpts.ws/papers/2011/sessions_2011/HansmaHPTS2011.pdf)
 
 
-### SQLite 
-SQLite is not a distributed system by any stretch of the imagination, but provides good example of comprehensive testing of database implementation.
-* [Finding bugs in SQLite, the easy way](http://lcamtuf.blogspot.ru/2015/04/finding-bugs-in-sqlite-easy-way.html) — how fuzzing used in testing SQLite database 
-* [How SQLite Is Tested](https://www.sqlite.org/testing.html)
-
-
 ### InfluxDB 
 * [Jepsen and InfluxDB part 1](http://www.refactorium.com/distributed_systems/Hacking-up-a-testing-environment-for-jepsen-and-influxdb/)
 * [Jepsen and InfluxDB part 2](http://www.refactorium.com/distributed_systems/InfluxDB-and-Jepsen-Chapter-II-Where-is-influxdb-on-the-cap-scale/)
@@ -452,6 +450,24 @@ and ["Wrapping Up: Jepsen Test Results for YugaByte DB 1.2 Webinar"](https://blo
 
 ### Red Planet Labs
 * [Where we’re going, we don’t need threads: Simulating Distributed Systems](https://tech.redplanetlabs.com/2021/03/17/where-were-going-we-dont-need-threads-simulating-distributed-systems/) — following [FoundationDB](#foundationdb) steps, Red Planet Labs uses deterministic simulation for testing. Their formula for success is "deterministic simulation = no parallelism + quantized execution + deterministic behavior".
+
+
+## Single node systems
+These examples are not about distributed systems, but they demostrate testing concurrency and level of sofistication required in distributed systems.
+
+### SQLite 
+SQLite is not a distributed system by any stretch of the imagination, but provides good example of comprehensive testing of a database implementation.
+* [Finding bugs in SQLite, the easy way](http://lcamtuf.blogspot.ru/2015/04/finding-bugs-in-sqlite-easy-way.html) — how fuzzing used in testing SQLite database 
+* [How SQLite Is Tested](https://www.sqlite.org/testing.html)
+
+
+### Sled 
+* [Sled simulation guide (jepsen-proof engineering)](http://sled.rs/simulation) — guide on simulation testing (see [FoundationDB](#foundationdb)) in Sled database
+* [Reliable Systems Series: Model-Based Testing](https://medium.com/@tylerneely/reliable-systems-series-model-based-property-testing-e89a433b360)
+
+
+### Clickhouse
+* [Fuzzing ClickHouse](https://clickhouse.tech/blog/en/2021/fuzzing-clickhouse — high level overview of query [fuzzing](#fuzzing) at Clickhouse
 
 
 ## Tools
