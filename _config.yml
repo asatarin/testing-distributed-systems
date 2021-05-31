@@ -23,7 +23,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: /assets/thumbnails/default-thumbnail.png
+      image: https://asatarin.github.io/assets/thumbnails/default-thumbnail.png
 
 gems:
   - jekyll-mentions
