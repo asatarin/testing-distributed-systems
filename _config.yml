@@ -18,5 +18,12 @@ social:
     - https://www.linkedin.com/in/asatarin
     - https://github.com/asatarin
 
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      image: /assets/thumbnails/default-thumbnail.png
+
 gems:
   - jekyll-mentions
