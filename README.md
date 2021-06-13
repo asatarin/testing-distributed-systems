@@ -76,6 +76,7 @@ and Flume)
 * [FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems](https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf) — novel approach of systematically exploring interleavings in distributed systems augmented with static analysis and prioritization. This approach is faster than previous techniques and found old and new bugs in several systems (Cassandra, Ethereum Blockchain, Hadoop, Kudu, Raft LogCabin, Spark, ZooKeeper).
 * [What bugs cause cloud production incidents?](https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incidents/) — research focused on bugs (and their resolution strategies) that actually cause production incidents in large-scale distributed services at [Microsoft](#microsoft) Azure.
 * [Torturing Databases for Fun and Profit](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-zheng_mai.pdf) — checking ACID guarantees of open source and commercial databases under power loss, [additional material](https://www.usenix.org/node/186197)
+* [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) — overview of netrwork partition failures in various distributed systems (MongoDB, HBase, HDFS, Kafka, RabbitMQ, Elasticsearch, Mesos, etc), common traits among them and strategies to mitigate those failures.
 
 
 #### Technologies for Testing Distributed Systems by Colin Scott
