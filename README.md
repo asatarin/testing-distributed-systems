@@ -181,7 +181,6 @@ Series of blog posts specifically on testing in production — best practices, p
 
 
 ### Game Days
-* [Game Day Exercises at Stripe: Learning from kill -9](https://stripe.com/blog/game-day-exercises-at-stripe)
 * [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
 
 
