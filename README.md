@@ -49,6 +49,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Basho (Riak)](#basho-riak)
   - [CoreOS (etcd)](#coreos-etcd)
   - [Red Planet Labs](#red-planet-labs)
+  - [Coil (TigerBeetle)](#coil-tigerbeetle)
 - [Single node systems](#single-node-systems)
   - [SQLite](#sqlite)
   - [Sled](#sled)
@@ -453,6 +454,10 @@ and ["Wrapping Up: Jepsen Test Results for YugaByte DB 1.2 Webinar"](https://blo
 
 ### Red Planet Labs
 * [Where we’re going, we don’t need threads: Simulating Distributed Systems](https://tech.redplanetlabs.com/2021/03/17/where-were-going-we-dont-need-threads-simulating-distributed-systems/) — following [FoundationDB](#foundationdb) steps, Red Planet Labs uses deterministic simulation for testing. Their formula for success is "deterministic simulation = no parallelism + quantized execution + deterministic behavior".
+
+
+### Coil (TigerBeetle)
+* [Simulation Tests in TigerBeetle](https://github.com/coilhq/tigerbeetle#simulation-tests) — TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
 
 
 ## Single node systems
