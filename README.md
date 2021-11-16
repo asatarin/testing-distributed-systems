@@ -195,8 +195,8 @@ See also [benchmarking](#benchmarking) tools.
 
 
 ### Test Case Reduction
-* [Minimizing Faulty Executions of Distributed Systems](https://people.eecs.berkeley.edu/~rcs/research/nsdi16.pdf) — reducing the size of buggy executions to make them easier to understand. 60 minute talk [here](https://www.microsoft.com/en-us/research/video/minimizing-faulty-executions-distributed-systems/)
-* [Troubleshooting Blackbox SDN Control Software with Minimal Causal Sequences](https://people.eecs.berkeley.edu/~rcs/research/sts.pdf) — similar to above, but requires less instrumentation.
+* [Minimizing Faulty Executions of Distributed Systems](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-scott.pdf) — reducing the size of buggy executions to make them easier to understand. 60 minute talk [here](https://www.microsoft.com/en-us/research/video/minimizing-faulty-executions-distributed-systems/)
+* [Troubleshooting Blackbox SDN Control Software with Minimal Causal Sequences](https://dl.acm.org/doi/pdf/10.1145/2619239.2626304) — similar to above, but requires less instrumentation.
 * [Concurrency Debugging with Differential Schedule Projections](https://brandonlucia.com/pubs/symbiosis_final_pldi.pdf) — find and minimize concurrency bugs using program analysis. Shared memory systems are equivalent to message passing systems, so you can apply the same techniques to distributed systems.
 
 
