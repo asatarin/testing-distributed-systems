@@ -271,8 +271,8 @@ Video from Scylla Summit 2017 on testing
 ### VoltDB 
 Series of post on testing at VoltDB:
 * [How We Test at VoltDB](https://www.voltdb.com/blog/2015/09/30/how-we-test-at-voltdb/)
-* [Testing at VoltDB: SQLCoverage](https://www.voltdb.com/blog/2016/03/30/testing-voltdb-sqlcoverage/) — describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB
-* [Testing VoltDB Against PostgreSQL](https://www.voltdb.com/blog/2016/04/11/testing-voltdb-postgresql/)
+* [Testing at VoltDB: SQLCoverage](https://web.archive.org/web/20210126003050/https://voltdb.com/blog/2016/03/testing-voltdb-sqlcoverage/) — describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB
+* [Testing VoltDB Against PostgreSQL](https://web.archive.org/web/20210830070918/https://www.voltdb.com/blog/2016/04/testing-voltdb-postgresql/)
 * [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) — VoltDB hired Kyle Kingsbury ([Jepsen](#jepsen)) to tests their database, they share results in this post
 
 Additional resources:
