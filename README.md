@@ -426,6 +426,7 @@ See also [formal methods](#formal-methods) section.
 
 ### Elastic (Elastic Search)
 * [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elastic Search replication protocol
+* [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — ElasticSearch uses [TLA+](#formal-methods) to verify correctnes of their replication protocol
 
 
 ### YugaByte DB
