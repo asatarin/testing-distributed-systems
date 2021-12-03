@@ -42,7 +42,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [InfluxDB](#influxdb)
   - [Shopify](#shopify)
   - [Confluent (Kafka)](#confluent-kafka)
-  - [Elastic (Elastic Search)](#elastic-elastic-search)
+  - [Elastic (Elasticsearch)](#elastic-elasticsearch)
   - [YugaByte DB](#yugabyte-db)
   - [FaunaDB](#faunadb)
   - [Hazelcast](#hazelcast)
@@ -424,9 +424,9 @@ Great discussion on tradeoffs between determinism, strengh of test oracles vs wi
 See also [formal methods](#formal-methods) section.
 
 
-### Elastic (Elastic Search)
-* [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elastic Search replication protocol
-* [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — ElasticSearch uses [TLA+](#formal-methods) to verify correctnes of their replication protocol
+### Elastic (Elasticsearch)
+* [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elasticsearch replication protocol
+* [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — Elasticsearch uses [TLA+](#formal-methods) to verify correctnes of their replication protocol
 
 
 ### YugaByte DB
