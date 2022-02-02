@@ -225,13 +225,13 @@ See also [formal methods](#formal-methods) section.
 Automated failure injection (see also [Lineage-driven Fault Injection](#lineage-driven-fault-injection)):
 * [Monkeys in Lab Coats: Applying Failure Testing Research @Netflix](http://www.infoq.com/presentations/failure-test-research-netflix)
 * [“Monkeys in Labs Coats”: Applied Failure Testing Research at Netflix](http://www.infoq.com/news/2016/03/failure-testing-netflix)
-* [Automated Failure Testing](http://techblog.netflix.com/2016/01/automated-failure-testing.html)
+* [Automated Failure Testing](https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f)
 * [Automating Failure Testing Research at Internet Scale](https://scholar.google.ru/scholar?hl=en&q=Automating+Failure+Testing+Research+at+Internet+Scale&btnG=&as_sdt=1%2C5&as_sdtp=) by P. Alvaro et.el
 
 Random/manual failure injection testing: 
-* [Netflix Simian Army](http://techblog.netflix.com/2011/07/netflix-simian-army.html)
-* [Failure Injection Testing](http://techblog.netflix.com/2014/10/fit-failure-injection-testing.html)
-* [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](http://techblog.netflix.com/2015/08/from-chaos-to-control-testing.html)
+* [Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
+* [Failure Injection Testing](https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2)
+* [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4)
 * [Breaking Bad at Netflix: Building Failure as a Service](http://www.infoq.com/presentations/failure-as-a-service-netflix)
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4) — Netflix different testing strategies
 
@@ -515,7 +515,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 * [OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases](http://www.vldb.org/pvldb/vol7/p277-difallah.pdf)
 * [OLTP Benchmark on Github](https://github.com/oltpbenchmark)
 * [Py-TPCC](https://github.com/apavlo/py-tpcc)
-* [Netflix Data Benchmark: Benchmarking Cloud Data Stores](http://techblog.netflix.com/2016/09/netflix-data-benchmark-benchmarking.html)
+* [Netflix Data Benchmark: Benchmarking Cloud Data Stores](https://netflixtechblog.com/netflix-data-benchmark-benchmarking-cloud-data-stores-7266186ded11)
 
 
 ### Linkbench 
