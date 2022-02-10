@@ -217,6 +217,7 @@ For more details see paper ["Metamorphic Testing: A Review of Challenges and Opp
 * [Debugging Designs by Chris Newcombie](http://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also a  [source bundle](http://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
 * [Millions of tiny databases](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/) — has section on testing which describes several approaches: SimWorld simulation resembling approach used at [Foundation DB](#foundationdb), use of [Jepsen](#jepsen) and [formal methods](#formal-methods) and [game days](#game-days).
 * [Using lightweight formal methods to validate a key-value storage node in Amazon S3](https://www.amazon.science/publications/using-lightweight-formal-methods-to-validate-a-key-value-storage-node-in-amazon-s3) — paper on verifying correctness of a new key-value storage node implementation in S3. They are using property-based testing and stateless model checking extensively to balance trade-offs and follow pragmatic approach. 
+I gave a talk ["Formal Methods at Amazon S3"](https://asatarin.github.io/talks/2022-02-formal-methods-at-amazon-s3/) on this paper for a reading group.
 
 See also [formal methods](#formal-methods) section.
 
