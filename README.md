@@ -489,6 +489,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 
 ### Network Simulation
+* [Shadow - Simulate your own custom-defined network environment to test distributed systems in a realistic way](https://github.com/shadow/shadow)
 * [Comcast — Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
 * [Muxy Simulating real-world distributed system failures](https://github.com/mefellows/muxy)
 * [Namazu — Programmable fuzzy scheduler for testing distributed systems](https://github.com/osrg/namazu) 
