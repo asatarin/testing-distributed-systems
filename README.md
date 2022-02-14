@@ -486,6 +486,7 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
 * [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
 * [faketime](https://manpages.ubuntu.com/manpages/trusty/man1/faketime.1.html)
+* [Kurtosis](https://docs.kurtosistech.com/)
 
 
 ### Network Simulation
