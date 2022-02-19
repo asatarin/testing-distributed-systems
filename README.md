@@ -78,6 +78,9 @@ and Flume)
 * [What bugs cause cloud production incidents?](https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incidents/) — research focused on bugs (and their resolution strategies) that actually cause production incidents in large-scale distributed services at [Microsoft](#microsoft) Azure.
 * [Torturing Databases for Fun and Profit](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-zheng_mai.pdf) — checking ACID guarantees of open source and commercial databases under power loss, [additional material](https://www.usenix.org/node/186197)
 * [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) — overview of netrwork partition failures in various distributed systems (MongoDB, HBase, HDFS, Kafka, RabbitMQ, Elasticsearch, Mesos, etc), common traits among them and strategies to mitigate those failures.
+* [NoSQL OLTP Benchmarking: A Survey](https://vsis-www.informatik.uni-hamburg.de/getDoc.php/publications/521/693.pdf) — an overview of NoSQL database benchmark frameworks that quantify non-functional properties such as availability, consistency, and data freshness
+* [Who Watches the Watchmen? On the Lack of Validation in NoSQL Benchmarking](https://dl.gi.de/bitstream/handle/20.500.12116/2416/351.pdf) — a proposal for standardized validation in database benchmarks that (a) shows how corrupted benchmark results can sometimes be published unnoticed without validation and (b) presents the system design SickStore as a validation framework
+* [Coordinated Omission in NoSQL Database Benchmarking](https://dl.gi.de/bitstream/handle/20.500.12116/918/paper28.pdf) — describes the coordinated omission problem, explains why it is not fully addressed by YSCB, and presents NoSQLMark as a benchmarking framework that avoids it altogether 
 
 
 #### Technologies for Testing Distributed Systems by Colin Scott
