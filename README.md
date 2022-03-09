@@ -4,51 +4,40 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
 
 
 **Contents**
-- [Overview of testing approaches](#overview-of-testing-approaches)
-  - [Research Papers](#research-papers)
-  - [Resilience In Complex Adaptive Systems](#resilience-in-complex-adaptive-systems)
-  - [Jepsen](#jepsen)
-  - [Formal Methods](#formal-methods)
-  - [Lineage-driven Fault Injection](#lineage-driven-fault-injection)
-  - [Chaos Engineering](#chaos-engineering)
-  - [Fuzzing](#fuzzing)
-  - [Microservices](#microservices)
-  - [Game Days](#game-days)
-  - [Performance and Benchmarking](#performance-and-benchmarking)
-  - [Test Case Reduction](#test-case-reduction)
-  - [Misc](#misc)
-- [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems) 
+<!-- Use TOC generator to update this https://luciopaiva.com/markdown-toc/ -->
+
+- [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems)
+  - [Google](#google)
   - [Amazon Web Services](#amazon-web-services)
   - [Netflix](#netflix)
-  - [Twitter](#twitter)
+  - [Microsoft](#microsoft)
+  - [FoundationDB](#foundationdb)
   - [Cassandra](#cassandra)
   - [ScyllaDB](#scylladb)
-  - [VoltDB](#voltdb)
-  - [MemSQL](#memsql)
-  - [CockroachLabs (CockroachDB)](#cockroachlabs-cockroachdb)
-  - [PingCap (TiDB)](#pingcap-tidb)
-  - [MongoDB](#mongodb)
-  - [Cloudera](#cloudera)
-  - [FoundationDB](#foundationdb)
-  - [Wallaroo Labs](#wallaroo-labs)
-  - [Google](#google)
-  - [Microsoft](#microsoft)
   - [Dropbox](#dropbox)
-  - [Atomix Copycat](#atomix-copycat)
-  - [Onyx](#onyx)
-  - [LinkedIn](#linkedin)
-  - [Druid.io](#druidio)
-  - [Salesforce](#salesforce)
-  - [InfluxDB](#influxdb)
-  - [Shopify](#shopify)
-  - [Confluent (Kafka)](#confluent-kafka)
   - [Elastic (Elasticsearch)](#elastic-elasticsearch)
+  - [MongoDB](#mongodb)
+  - [Confluent (Kafka)](#confluent-kafka)
+  - [CockroachLabs (CockroachDB)](#cockroachlabs-cockroachdb)
+  - [MemSQL](#memsql)
+  - [Twitter](#twitter)
+  - [LinkedIn](#linkedin)
+  - [Salesforce](#salesforce)
+  - [VoltDB](#voltdb)
+  - [PingCap (TiDB)](#pingcap-tidb)
+  - [Cloudera](#cloudera)
+  - [Wallaroo Labs](#wallaroo-labs)
   - [YugabyteDB](#yugabytedb)
   - [FaunaDB](#faunadb)
+  - [InfluxDB](#influxdb)
+  - [Shopify](#shopify)
   - [Hazelcast](#hazelcast)
   - [Basho (Riak)](#basho-riak)
   - [CoreOS (etcd)](#coreos-etcd)
   - [Red Planet Labs](#red-planet-labs)
+  - [Atomix Copycat](#atomix-copycat)
+  - [Onyx](#onyx)
+  - [Druid.io](#druidio)
   - [Coil (TigerBeetle)](#coil-tigerbeetle)
 - [Single node systems](#single-node-systems)
   - [SQLite](#sqlite)
@@ -60,6 +49,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Benchmarking](#benchmarking)
   - [Linkbench](#linkbench)
   - [YCSB](#ycsb)
+
 
 ## Overview of testing approaches
 
@@ -209,6 +199,15 @@ For more details see paper ["Metamorphic Testing: A Review of Challenges and Opp
 
 ## Specific approaches in different distributed systems
 
+### Google
+* [Efficient Exploratory Testing of Concurrent Systems](http://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf) — They don't mention it but looks like they describe testing of Google Omega
+* [Exploratory Testing Architecture (ETA) ](https://github.com/google/cluster-data/blob/master/ETAExplorationTraces.md)
+* [Paxos Made Live — An Engineering Perspective](http://research.google.com/pubs/pub33002.html) has a section on testing
+* [10 Years of Crashing Google](https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan) describes some war stories from Disaster Recovery Testing (DiRT) team at Google
+* [Testing for Reliability](https://landing.google.com/sre/book/chapters/testing-reliability.html) chapter from Google Site Reliability Engineering book
+* [Randomized Testing of Cloud Spanner](https://medium.com/@jcorbett_26889/randomized-testing-of-cloud-spanner-5286f1eaba75) — overview of randomized testing at Cloud Spanner, including how to scale it to large datasets and high concurrency
+
+
 ### Amazon Web Services
 * [The Evolution of Testing Methodology at AWS: From Status Quo to Formal Methods with TLA+](http://www.infoq.com/presentations/aws-testing-tla)
 * [Use of Formal Methods at Amazon Web Services](http://research.microsoft.com/en-us/um/people/lamport/tla/formal-methods-amazon.pdf)
@@ -238,9 +237,23 @@ Random/manual failure injection testing:
 See also [Chaos Engineering](#chaos-engineering).
 
 
-### Twitter 
-* [Diffy: Testing services without writing tests](https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests)
-* [How we break things at Twitter: failure testing](https://blog.twitter.com/2015/how-we-break-things-at-twitter-failure-testing)
+### Microsoft 
+* [Asynchronous programming, analysis and testing with state machines](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/paper-6.pdf) — Open source language for building distributed systems. Language is designed with tooling in mind, particularly, automatic exploration of message orderings in order to find bugs.
+* [Uncovering Bugs in Distributed Storage Systems during Testing (not in Production!)](http://research.microsoft.com/pubs/260939/paper.pdf)
+* [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://www.sigops.org/sosp/sosp11/current/2011-Cascais/11-calder-online.pdf) describes "Pressure Point Testing" approach used for Azure Cloud Storage
+* [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/ru-ru/blog/inside-azure-search-chaos-engineering/)
+* [TLA+ at Microsoft: 16 Years in Production](https://youtu.be/azx6cX-BlCs) by David Langworthy — how rejuvenation of TLA+ happened at Microsoft in 2016 and onwards
+
+See also [formal methods](#formal-methods) section.
+
+
+### FoundationDB
+* ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://youtu.be/4fFDFbi3toc) — talk on FoundationDB simulation testing. Their architecture was built from the ground up to suppport fully deterministic simulation testing 
+* [Simulation and Testing](https://apple.github.io/foundationdb/testing.html) — public overview of FoundationDB simulation testing framework
+* [FoundationDB or: How I Learned to Stop Worrying and Trust the Database](https://youtu.be/OJb8A6h9jQQ) by Markus Pilman from Snowflake — updated talk on testing FoundationDB with determenistic simulation. Markus goes into details of what it takes to build determenistic simulation into a database. He mentions that it took two years to build a simulation framework before FoundationDB team started working on a database.
+* ["Buggify — Testing Distributed Systems with Deterministic Simulation"](https://transactional.blog/simulation/buggify.html) — Alex 
+Miller ([https://twitter.com/oytyafln](https://twitter.com/oytyafln)), one of developers at FoundationDB, describes BUGGIFY macros, which helps bias simulation tests towards doing dangerous and bug finding things. This is a good example of cooperation between testing efforts and production code.
+* ["FoundationDB: A Distributed Unbundled Transactional Key Value Store"](https://www.foundationdb.org/files/fdb-paper.pdf) — SIGMOD 2021 paper on FoundationDB has a very detailed section on simulation testing at FoundationDB with discussions on determinism, test oracles, fault injection and limitations.
 
 
 ### Cassandra
@@ -270,103 +283,6 @@ Video from Scylla Summit 2017 on testing
 * [Project Gemini: An Open Source Automated Random Testing Suite for Scylla and Cassandra Clusters](https://www.scylladb.com/2019/12/11/project-gemini-an-open-source-automated-random-testing-suite-for-scylla-and-cassandra-clusters/) — random test generator comparing results from cluster with injected faults against single node running without faults. Works on tops of CQL API and suitable for testing any database implementing it. See also talk on [Project Gemini](https://youtu.be/QPnlpglmPcY) and [open source code](https://github.com/scylladb/gemini)
 
 
-### VoltDB 
-Series of post on testing at VoltDB:
-* [How We Test at VoltDB](https://www.voltdb.com/blog/2015/09/30/how-we-test-at-voltdb/)
-* [Testing at VoltDB: SQLCoverage](https://web.archive.org/web/20210126003050/https://voltdb.com/blog/2016/03/testing-voltdb-sqlcoverage/) — describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB
-* [Testing VoltDB Against PostgreSQL](https://web.archive.org/web/20210830070918/https://www.voltdb.com/blog/2016/04/testing-voltdb-postgresql/)
-* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) — VoltDB hired Kyle Kingsbury ([Jepsen](#jepsen)) to tests their database, they share results in this post
-
-Additional resources:
-* ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
-* [SelfCheck workload](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/txnid-selfcheck2)
-* [TPC-C implementation](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/tpcc)
-
-
-### MemSQL 
-* [Running MemSQL’s 107 Node Test Infrastructure on CoreOS](http://blog.memsql.com/running-memsqls-107-node-test-infrastructure-on-coreos/)
-* [Practical Techniques to Achieve Quality in Large Software Projects](http://blog.memsql.com/practical-techniques-to-achieve-quality-in-large-software-projects-3/)
-* [How to Make a Believable Benchmark](http://blog.memsql.com/how-to-make-a-believable-benchmark/)
-* [Building an Infinitely Scalable Testing System](http://blog.memsql.com/building-an-infinitely-scalable-testing-system/) — description of internal test system PsyDuck
-
-
-### CockroachLabs (CockroachDB)
-* [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) — great read about using Jepsen at Cockroach Labs
-* [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) — CockroachDB tested by Kyle Kingsbury (Jepsen.io)
-* [Introducing Pebble: A RocksDB Inspired Key-Value Store Written in Go](https://www.cockroachlabs.com/blog/pebble-rocksdb-kv-store/) — introduces new storage engine and includes thorough discussion on what it takes to properly test storage engine
-
-
-### PingCap (TiDB)
-* [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d) — describes Jepsen-like framework implemented in Go and used at PingCap to test TiDB
-* [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like framework written in Go
-* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — linearizability testing library used by Chaos framework
-* [Chaos Tools and Techniques for Testing the TiDB Distributed NewSQL Database](https://thenewstack.io/chaos-tools-and-techniques-for-testing-the-tidb-distributed-newsql-database/) and the same post on company [blog](https://pingcap.com/blog/chaos-practice-in-tidb/) 
-* [Official Jepsen report on TiDB 2.1.7](https://jepsen.io/analyses/tidb-2.1.7) and [companion blog post](https://pingcap.com/blog/tidb-passes-jepsen-test-for-snapshot-isolation-and-single-key-linearizability/) in company blog
-* [Safety First! Common Safety Pitfalls in Distributed Databases Found by Jepsen Tests](https://pingcap.com/blog/safety-first-common-safety-pitfalls-in-distributed-databases-found-by-jepsen-tests/) — overview of Jepsen approach and tests with quick refresher on results for different databases to date
-* [https://github.com/pingcap/tla-plus](https://github.com/pingcap/tla-plus) — formal specification in TLA+ of Raft consensus protocol and implementation of distributed transactions in TiDB
-* [Testing Cloud-Native Databases with Chaos Mesh](https://youtu.be/FIB1qvLHYsw) — talk on Chaos Mesh and how it is used for testing TiDB at PingCap. Blog post with [introduction to Chaos Mesh](https://pingcap.com/blog/chaos-mesh-your-chaos-engineering-solution-for-system-resiliency-on-kubernetes) and how it integrates with Kubernetes. 
-See also Chaos Mesh [source code](https://github.com/chaos-mesh/chaos-mesh) and [chaos engineering](#chaos-engineering) section.
-
-See also [formal methods](#formal-methods) section.
-
-
-### MongoDB
-* [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-creating-chaos/)
-* [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-harnessing-havoc/)
-* [Fixing a MongoDB Replication Protocol Bug with TLA+](https://youtu.be/x9zSynTfLDE) by William Schultz — how MongoDB uses [formal verification](#formal-methods) with TLA+ to check correctness of their replication protocol. Describes how replication bugs could have been found with help of formal model.
-* [eXtreme Modelling in Practice](https://arxiv.org/abs/2006.00915) - two attempts at MongoDB to check that code conforms to its formal model.
-* [Change Point Detection in Software Performance Testing](https://arxiv.org/abs/2003.00584) — paper on how MongoDB team automatically detects performance degradations in the presence of noise in continuous integration runs. The paper was presented at [ICPE 2020](https://youtu.be/rSBgcMFPkHU) 
-
-See also [formal methods](#formal-methods) section.
-
-
-### Cloudera
-* [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) — Cloudera describes their approach to fault injection testing
-* [Quality Assurance at Cloudera: Highly-Controlled Disk Injection](http://blog.cloudera.com/blog/2016/08/quality-assurance-at-cloudera-highly-controlled-disk-injection/)
-
-
-### FoundationDB
-* ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://youtu.be/4fFDFbi3toc) — talk on FoundationDB simulation testing. Their architecture was built from the ground up to suppport fully deterministic simulation testing 
-* [Simulation and Testing](https://apple.github.io/foundationdb/testing.html) — public overview of FoundationDB simulation testing framework
-* [FoundationDB or: How I Learned to Stop Worrying and Trust the Database](https://youtu.be/OJb8A6h9jQQ) by Markus Pilman from Snowflake — updated talk on testing FoundationDB with determenistic simulation. Markus goes into details of what it takes to build determenistic simulation into a database. He mentions that it took two years to build a simulation framework before FoundationDB team started working on a database.
-* ["Buggify — Testing Distributed Systems with Deterministic Simulation"](https://transactional.blog/simulation/buggify.html) — Alex 
-Miller ([https://twitter.com/oytyafln](https://twitter.com/oytyafln)), one of developers at FoundationDB, describes BUGGIFY macros, which helps bias simulation tests towards doing dangerous and bug finding things. This is a good example of cooperation between testing efforts and production code.
-* ["FoundationDB: A Distributed Unbundled Transactional Key Value Store"](https://www.foundationdb.org/files/fdb-paper.pdf) — SIGMOD 2021 paper on FoundationDB has a very detailed section on simulation testing at FoundationDB with discussions on determinism, test oracles, fault injection and limitations.
-
-
-### Wallaroo Labs
-
-* [Measuring Correctness of State in a Distributed System](https://blog.wallaroolabs.com/2017/10/measuring-correctness-of-state-in-a-distributed-system/) — describes general idea and implementation how to test safety of distributed stream processing system 
-* [Performance testing a low-latency stream processing system](https://blog.wallaroolabs.com/2018/03/performance-testing-a-low-latency-stream-processing-system/) — high level overview of what to look at when testing performance of stream processing system
-* [How We Test the Stateful Autoscaling of Our Stream Processing System](https://blog.wallaroolabs.com/2018/03/how-we-test-the-stateful-autoscaling-of-our-stream-processing-system/) — advanced safety tests for autoscaling stateful stream processing
-* All [posts on testing](https://blog.wallaroolabs.com/categories/testing/) from Walaroo engineering blog
-
-There is also talk from Sean T. Allen on testing stream processing system at Wallaroo Labs (ex. Sendence)
-* [Materials on Sean's blog "CodeMeshIO: How Did I Get Here?"](http://www.monkeysnatchbanana.com/2016/11/22/codemeshio-how-did-i-get-here/)
-* [Video from QCon NY 2016 on InfoQ](https://www.infoq.com/presentations/trust-distributed-systems)
-* [Video from CodeMeshIO on YouTube](https://www.youtube.com/watch?v=6MsPDtpe2tg)
-* [Presentation on Speakerdeck](https://speakerdeck.com/seantallen/how-did-i-get-here-building-confidence-in-a-distributed-stream-processor-1)
-
-
-### Google
-* [Efficient Exploratory Testing of Concurrent Systems](http://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf) — They don't mention it but looks like they describe testing of Google Omega
-* [Exploratory Testing Architecture (ETA) ](https://github.com/google/cluster-data/blob/master/ETAExplorationTraces.md)
-* [Paxos Made Live — An Engineering Perspective](http://research.google.com/pubs/pub33002.html) has a section on testing
-* [10 Years of Crashing Google](https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan) describes some war stories from Disaster Recovery Testing (DiRT) team at Google
-* [Testing for Reliability](https://landing.google.com/sre/book/chapters/testing-reliability.html) chapter from Google Site Reliability Engineering book
-* [Randomized Testing of Cloud Spanner](https://medium.com/@jcorbett_26889/randomized-testing-of-cloud-spanner-5286f1eaba75) — overview of randomized testing at Cloud Spanner, including how to scale it to large datasets and high concurrency
-
-
-### Microsoft 
-* [Asynchronous programming, analysis and testing with state machines](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/paper-6.pdf) — Open source language for building distributed systems. Language is designed with tooling in mind, particularly, automatic exploration of message orderings in order to find bugs.
-* [Uncovering Bugs in Distributed Storage Systems during Testing (not in Production!)](http://research.microsoft.com/pubs/260939/paper.pdf)
-* [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](http://www.sigops.org/sosp/sosp11/current/2011-Cascais/11-calder-online.pdf) describes "Pressure Point Testing" approach used for Azure Cloud Storage
-* [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/ru-ru/blog/inside-azure-search-chaos-engineering/)
-* [TLA+ at Microsoft: 16 Years in Production](https://youtu.be/azx6cX-BlCs) by David Langworthy — how rejuvenation of TLA+ happened at Microsoft in 2016 and onwards
-
-See also [formal methods](#formal-methods) section.
-
-
 ### Dropbox 
 * [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](http://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) — example of how to use QuickCheck to test synchronisation in Dropbox and similar tools (Google Drive). John Hughes gave a [talk on this](https://youtu.be/H18vxq-VsCk). See also [QuickCheck](#quickcheck).
 * [Data Checking at Dropbox](https://youtu.be/WUaMN2kywR4) — If you have lots of data, you have to verify that is doesn't bit rot and protect it against rare bugs (e.g. race conditions) to guarantee long term durability. This talks explains intricacies of building data consistency checker(s) at Dropbox scale.
@@ -386,37 +302,20 @@ CanopyCheck — single threaded and fully deterministic randomized testing frame
 Great discussion on tradeoffs between determinism, strengh of test oracles vs width of coverage and size of the system under test.
 
 
-### Atomix Copycat 
-* [A novel implementation of the Raft consensus algorithm](https://github.com/atomix/copycat)
-* [Jepsen tests for Atomix Copycat](https://github.com/atomix/atomix-jepsen)
+### Elastic (Elasticsearch)
+* [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elasticsearch replication protocol
+* [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — Elasticsearch uses [TLA+](#formal-methods) to verify correctnes of their replication protocol
 
 
-### Onyx
-* [Onyx Straps in For a Jepsening](http://www.onyxplatform.org/jekyll/update/2016/03/15/Onyx-Straps-In-For-A-Jepsening.html)
-* [Jepsen test Onyx](https://github.com/onyx-platform/onyx-jepsen)
 
+### MongoDB
+* [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-creating-chaos/)
+* [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://engineering.mongodb.com/post/mongodbs-javascript-fuzzer-harnessing-havoc/)
+* [Fixing a MongoDB Replication Protocol Bug with TLA+](https://youtu.be/x9zSynTfLDE) by William Schultz — how MongoDB uses [formal verification](#formal-methods) with TLA+ to check correctness of their replication protocol. Describes how replication bugs could have been found with help of formal model.
+* [eXtreme Modelling in Practice](https://arxiv.org/abs/2006.00915) - two attempts at MongoDB to check that code conforms to its formal model.
+* [Change Point Detection in Software Performance Testing](https://arxiv.org/abs/2003.00584) — paper on how MongoDB team automatically detects performance degradations in the presence of noise in continuous integration runs. The paper was presented at [ICPE 2020](https://youtu.be/rSBgcMFPkHU) 
 
-### LinkedIn 
-* [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) — Failure inducer implemented in Python
-* [A Deep Dive into Simoorg](https://engineering.linkedin.com/blog/2016/03/deep-dive-Simoorg-open-source-failure-induction-framework)
-* [Dynamometer: Scale Testing HDFS on Minimal Hardware with Maximum Fidelity](https://engineering.linkedin.com/blog/2018/02/dynamometer--scale-testing-hdfs-on-minimal-hardware-with-maximum) — testing scalability of large Hadoop clusters (namely NameNode) with just fraction of nodes
-
-### Druid.io 
-* [Architecting Distributed Databases for Failure](http://www.infoq.com/presentations/data-integrity-distributed-systems)
-
-
-### Salesforce 
-* [Go Fast and Don't Break Things: Ensuring Quality in the Cloud](http://www.hpts.ws/papers/2011/sessions_2011/HansmaHPTS2011.pdf)
-
-
-### InfluxDB 
-* [Jepsen and InfluxDB part 1](http://www.refactorium.com/distributed_systems/Hacking-up-a-testing-environment-for-jepsen-and-influxdb/)
-* [Jepsen and InfluxDB part 2](http://www.refactorium.com/distributed_systems/InfluxDB-and-Jepsen-Chapter-II-Where-is-influxdb-on-the-cap-scale/)
-
-
-### Shopify
-* [Resiliency Testing with Toxiproxy](https://www.usenix.org/conference/lisa17/conference-program/presentation/pittis) 
-* [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
+See also [formal methods](#formal-methods) section.
 
 
 ### Confluent (Kafka)
@@ -426,9 +325,80 @@ Great discussion on tradeoffs between determinism, strengh of test oracles vs wi
 See also [formal methods](#formal-methods) section.
 
 
-### Elastic (Elasticsearch)
-* [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elasticsearch replication protocol
-* [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — Elasticsearch uses [TLA+](#formal-methods) to verify correctnes of their replication protocol
+### CockroachLabs (CockroachDB)
+* [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) — great read about using Jepsen at Cockroach Labs
+* [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) — CockroachDB tested by Kyle Kingsbury (Jepsen.io)
+* [Introducing Pebble: A RocksDB Inspired Key-Value Store Written in Go](https://www.cockroachlabs.com/blog/pebble-rocksdb-kv-store/) — introduces new storage engine and includes thorough discussion on what it takes to properly test storage engine
+
+
+### MemSQL 
+* [Running MemSQL’s 107 Node Test Infrastructure on CoreOS](http://blog.memsql.com/running-memsqls-107-node-test-infrastructure-on-coreos/)
+* [Practical Techniques to Achieve Quality in Large Software Projects](http://blog.memsql.com/practical-techniques-to-achieve-quality-in-large-software-projects-3/)
+* [How to Make a Believable Benchmark](http://blog.memsql.com/how-to-make-a-believable-benchmark/)
+* [Building an Infinitely Scalable Testing System](http://blog.memsql.com/building-an-infinitely-scalable-testing-system/) — description of internal test system PsyDuck
+
+
+### Twitter 
+* [Diffy: Testing services without writing tests](https://blog.twitter.com/2015/diffy-testing-services-without-writing-tests)
+* [How we break things at Twitter: failure testing](https://blog.twitter.com/2015/how-we-break-things-at-twitter-failure-testing)
+
+
+### LinkedIn 
+* [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) — Failure inducer implemented in Python
+* [A Deep Dive into Simoorg](https://engineering.linkedin.com/blog/2016/03/deep-dive-Simoorg-open-source-failure-induction-framework)
+* [Dynamometer: Scale Testing HDFS on Minimal Hardware with Maximum Fidelity](https://engineering.linkedin.com/blog/2018/02/dynamometer--scale-testing-hdfs-on-minimal-hardware-with-maximum) — testing scalability of large Hadoop clusters (namely NameNode) with just fraction of nodes
+
+
+### Salesforce 
+* [Go Fast and Don't Break Things: Ensuring Quality in the Cloud](http://www.hpts.ws/papers/2011/sessions_2011/HansmaHPTS2011.pdf)
+
+
+
+### VoltDB 
+Series of post on testing at VoltDB:
+* [How We Test at VoltDB](https://www.voltdb.com/blog/2015/09/30/how-we-test-at-voltdb/)
+* [Testing at VoltDB: SQLCoverage](https://web.archive.org/web/20210126003050/https://voltdb.com/blog/2016/03/testing-voltdb-sqlcoverage/) — describes how they test SQL query functionality using 5 millions queries generated from templates and comparing results against HSQLDB
+* [Testing VoltDB Against PostgreSQL](https://web.archive.org/web/20210830070918/https://www.voltdb.com/blog/2016/04/testing-voltdb-postgresql/)
+* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) — VoltDB hired Kyle Kingsbury ([Jepsen](#jepsen)) to tests their database, they share results in this post
+
+Additional resources:
+* ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
+* [SelfCheck workload](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/txnid-selfcheck2)
+* [TPC-C implementation](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/tpcc)
+
+
+
+### PingCap (TiDB)
+* [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d) — describes Jepsen-like framework implemented in Go and used at PingCap to test TiDB
+* [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like framework written in Go
+* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — linearizability testing library used by Chaos framework
+* [Chaos Tools and Techniques for Testing the TiDB Distributed NewSQL Database](https://thenewstack.io/chaos-tools-and-techniques-for-testing-the-tidb-distributed-newsql-database/) and the same post on company [blog](https://pingcap.com/blog/chaos-practice-in-tidb/) 
+* [Official Jepsen report on TiDB 2.1.7](https://jepsen.io/analyses/tidb-2.1.7) and [companion blog post](https://pingcap.com/blog/tidb-passes-jepsen-test-for-snapshot-isolation-and-single-key-linearizability/) in company blog
+* [Safety First! Common Safety Pitfalls in Distributed Databases Found by Jepsen Tests](https://pingcap.com/blog/safety-first-common-safety-pitfalls-in-distributed-databases-found-by-jepsen-tests/) — overview of Jepsen approach and tests with quick refresher on results for different databases to date
+* [https://github.com/pingcap/tla-plus](https://github.com/pingcap/tla-plus) — formal specification in TLA+ of Raft consensus protocol and implementation of distributed transactions in TiDB
+* [Testing Cloud-Native Databases with Chaos Mesh](https://youtu.be/FIB1qvLHYsw) — talk on Chaos Mesh and how it is used for testing TiDB at PingCap. Blog post with [introduction to Chaos Mesh](https://pingcap.com/blog/chaos-mesh-your-chaos-engineering-solution-for-system-resiliency-on-kubernetes) and how it integrates with Kubernetes. 
+See also Chaos Mesh [source code](https://github.com/chaos-mesh/chaos-mesh) and [chaos engineering](#chaos-engineering) section.
+
+See also [formal methods](#formal-methods) section.
+
+
+### Cloudera
+* [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) — Cloudera describes their approach to fault injection testing
+* [Quality Assurance at Cloudera: Highly-Controlled Disk Injection](http://blog.cloudera.com/blog/2016/08/quality-assurance-at-cloudera-highly-controlled-disk-injection/)
+
+
+### Wallaroo Labs
+
+* [Measuring Correctness of State in a Distributed System](https://blog.wallaroolabs.com/2017/10/measuring-correctness-of-state-in-a-distributed-system/) — describes general idea and implementation how to test safety of distributed stream processing system 
+* [Performance testing a low-latency stream processing system](https://blog.wallaroolabs.com/2018/03/performance-testing-a-low-latency-stream-processing-system/) — high level overview of what to look at when testing performance of stream processing system
+* [How We Test the Stateful Autoscaling of Our Stream Processing System](https://blog.wallaroolabs.com/2018/03/how-we-test-the-stateful-autoscaling-of-our-stream-processing-system/) — advanced safety tests for autoscaling stateful stream processing
+* All [posts on testing](https://blog.wallaroolabs.com/categories/testing/) from Walaroo engineering blog
+
+There is also talk from Sean T. Allen on testing stream processing system at Wallaroo Labs (ex. Sendence)
+* [Materials on Sean's blog "CodeMeshIO: How Did I Get Here?"](http://www.monkeysnatchbanana.com/2016/11/22/codemeshio-how-did-i-get-here/)
+* [Video from QCon NY 2016 on InfoQ](https://www.infoq.com/presentations/trust-distributed-systems)
+* [Video from CodeMeshIO on YouTube](https://www.youtube.com/watch?v=6MsPDtpe2tg)
+* [Presentation on Speakerdeck](https://speakerdeck.com/seantallen/how-did-i-get-here-building-confidence-in-a-distributed-stream-processor-1)
 
 
 ### YugabyteDB
@@ -441,6 +411,16 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 ### FaunaDB
 * [Verifying Transactional Consistency with Jepsen](https://fauna.com/blog/verifying-transactional-consistency-with-jepsen-and-faunadb) — results of internal [Jepsen](#jepsen) testing at FaunaDB
 * [Jepsen: FaunaDB 2.5.4](https://jepsen.io/analyses/faunadb-2.5.4) — official [Jepsen](#jepsen) test for FaunaDB, write-up in Fauna [blog](https://fauna.com/blog/faunadbs-official-jepsen-results)
+
+
+### InfluxDB 
+* [Jepsen and InfluxDB part 1](http://www.refactorium.com/distributed_systems/Hacking-up-a-testing-environment-for-jepsen-and-influxdb/)
+* [Jepsen and InfluxDB part 2](http://www.refactorium.com/distributed_systems/InfluxDB-and-Jepsen-Chapter-II-Where-is-influxdb-on-the-cap-scale/)
+
+
+### Shopify
+* [Resiliency Testing with Toxiproxy](https://www.usenix.org/conference/lisa17/conference-program/presentation/pittis) 
+* [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
 
 
 ### Hazelcast
@@ -458,6 +438,20 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 
 ### Red Planet Labs
 * [Where we’re going, we don’t need threads: Simulating Distributed Systems](https://tech.redplanetlabs.com/2021/03/17/where-were-going-we-dont-need-threads-simulating-distributed-systems/) — following [FoundationDB](#foundationdb) steps, Red Planet Labs uses deterministic simulation for testing. Their formula for success is "deterministic simulation = no parallelism + quantized execution + deterministic behavior".
+
+
+### Atomix Copycat 
+* [A novel implementation of the Raft consensus algorithm](https://github.com/atomix/copycat)
+* [Jepsen tests for Atomix Copycat](https://github.com/atomix/atomix-jepsen)
+
+
+### Onyx
+* [Onyx Straps in For a Jepsening](http://www.onyxplatform.org/jekyll/update/2016/03/15/Onyx-Straps-In-For-A-Jepsening.html)
+* [Jepsen test Onyx](https://github.com/onyx-platform/onyx-jepsen)
+
+
+### Druid.io 
+* [Architecting Distributed Databases for Failure](http://www.infoq.com/presentations/data-integrity-distributed-systems)
 
 
 ### Coil (TigerBeetle)
