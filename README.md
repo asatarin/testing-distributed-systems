@@ -6,6 +6,19 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
 **Contents**
 <!-- Use TOC generator to update this https://luciopaiva.com/markdown-toc/ -->
 
+- [Overview of testing approaches](#overview-of-testing-approaches)
+  - [Research Papers](#research-papers)
+  - [Resilience In Complex Adaptive Systems](#resilience-in-complex-adaptive-systems)
+  - [Jepsen](#jepsen)
+  - [Formal Methods](#formal-methods)
+  - [Lineage-driven Fault Injection](#lineage-driven-fault-injection)
+  - [Chaos Engineering](#chaos-engineering)
+  - [Fuzzing](#fuzzing)
+  - [Microservices](#microservices)
+  - [Game Days](#game-days)
+  - [Performance and Benchmarking](#performance-and-benchmarking)
+  - [Test Case Reduction](#test-case-reduction)
+  - [Misc](#misc)
 - [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems)
   - [Google](#google)
   - [Amazon Web Services](#amazon-web-services)
