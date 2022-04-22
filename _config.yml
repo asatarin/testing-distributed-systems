@@ -25,5 +25,5 @@ defaults:
     values:
       image: https://asatarin.github.io/assets/thumbnails/default-thumbnail.png
 
-gems:
-  - jekyll-mentions
+plugins:
+  - jekyll-redirect-from
