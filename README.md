@@ -148,6 +148,7 @@ Companies using TLA+ to verify correctness of algorithms:
 ### Lineage-driven Fault Injection
 * [Lineage-driven Fault Injection](https://dl.acm.org/citation.cfm?id=2723711)
 * [Abstracting the Geniuses Away from Failure Testing](http://queue.acm.org/detail.cfm?id=3155114)
+* [Using Fault Injection Testing to Improve DoorDash Reliability](https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/)
 
 [Netflix](#netflix) adopted lineage-driven fault injection techniques for testing microservices.
 
