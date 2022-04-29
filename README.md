@@ -404,10 +404,10 @@ See also [formal methods](#formal-methods) section.
 
 ### Wallaroo Labs
 
-* [Measuring Correctness of State in a Distributed System](https://blog.wallaroolabs.com/2017/10/measuring-correctness-of-state-in-a-distributed-system/) — describes general idea and implementation how to test safety of distributed stream processing system 
-* [Performance testing a low-latency stream processing system](https://blog.wallaroolabs.com/2018/03/performance-testing-a-low-latency-stream-processing-system/) — high level overview of what to look at when testing performance of stream processing system
-* [How We Test the Stateful Autoscaling of Our Stream Processing System](https://blog.wallaroolabs.com/2018/03/how-we-test-the-stateful-autoscaling-of-our-stream-processing-system/) — advanced safety tests for autoscaling stateful stream processing
-* All [posts on testing](https://blog.wallaroolabs.com/categories/testing/) from Walaroo engineering blog
+* [Measuring Correctness of State in a Distributed System](http://web.archive.org/web/20220309161005/https://blog.wallaroolabs.com/2017/10/measuring-correctness-of-state-in-a-distributed-system/) — describes general idea and implementation how to test safety of distributed stream processing system 
+* [Performance testing a low-latency stream processing system](http://web.archive.org/web/20220309180234/https://blog.wallaroolabs.com/2018/03/performance-testing-a-low-latency-stream-processing-system/) — high level overview of what to look at when testing performance of stream processing system
+* [How We Test the Stateful Autoscaling of Our Stream Processing System](http://web.archive.org/web/20220309173229/https://blog.wallaroolabs.com/2018/03/how-we-test-the-stateful-autoscaling-of-our-stream-processing-system/) — advanced safety tests for autoscaling stateful stream processing
+* All [posts on testing](http://web.archive.org/web/20220309163659/https://blog.wallaroolabs.com/categories/testing/) from Walaroo engineering blog
 
 There is also talk from Sean T. Allen on testing stream processing system at Wallaroo Labs (ex. Sendence)
 * [Materials on Sean's blog "CodeMeshIO: How Did I Get Here?"](http://www.monkeysnatchbanana.com/2016/11/22/codemeshio-how-did-i-get-here/)
