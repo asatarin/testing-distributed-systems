@@ -294,6 +294,7 @@ They published series of blog posts on testing ScyllaDB:
 Video from Scylla Summit 2017 on testing
 * [How We Constantly Try to Bring Scylla to its Knees](https://youtu.be/K38RDEdt070) and [slides](https://www.slideshare.net/ScyllaDB/scylla-summit-2017-cry-in-the-dojo-laugh-in-the-battlefield-how-we-constantly-try-to-bring-scylla-to-its-knees) — overview of different testing types at ScyllaDB
 * [Project Gemini: An Open Source Automated Random Testing Suite for Scylla and Cassandra Clusters](https://www.scylladb.com/2019/12/11/project-gemini-an-open-source-automated-random-testing-suite-for-scylla-and-cassandra-clusters/) — random test generator comparing results from cluster with injected faults against single node running without faults. Works on tops of CQL API and suitable for testing any database implementing it. See also talk on [Project Gemini](https://youtu.be/QPnlpglmPcY) and [open source code](https://github.com/scylladb/gemini)
+* [ScyllaDB NoSQL Database Testing](https://www.scylladb.com/product/technology/scylla-testing/) — highlights of testing approaches at Scylla 
 
 
 ### Dropbox 
