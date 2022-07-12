@@ -42,7 +42,6 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Wallaroo Labs](#wallaroo-labs)
   - [YugabyteDB](#yugabytedb)
   - [FaunaDB](#faunadb)
-  - [InfluxDB](#influxdb)
   - [Shopify](#shopify)
   - [Hazelcast](#hazelcast)
   - [Basho (Riak)](#basho-riak)
@@ -427,11 +426,6 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 ### FaunaDB
 * [Verifying Transactional Consistency with Jepsen](https://fauna.com/blog/verifying-transactional-consistency-with-jepsen-and-faunadb) — results of internal [Jepsen](#jepsen) testing at FaunaDB
 * [Jepsen: FaunaDB 2.5.4](https://jepsen.io/analyses/faunadb-2.5.4) — official [Jepsen](#jepsen) test for FaunaDB, write-up in Fauna [blog](https://fauna.com/blog/faunadbs-official-jepsen-results)
-
-
-### InfluxDB 
-* [Jepsen and InfluxDB part 1](http://www.refactorium.com/distributed_systems/Hacking-up-a-testing-environment-for-jepsen-and-influxdb/)
-* [Jepsen and InfluxDB part 2](http://www.refactorium.com/distributed_systems/InfluxDB-and-Jepsen-Chapter-II-Where-is-influxdb-on-the-cap-scale/)
 
 
 ### Shopify
