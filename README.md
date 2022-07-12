@@ -424,7 +424,7 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 
 
 ### FaunaDB
-* [Verifying Transactional Consistency with Jepsen](https://fauna.com/blog/verifying-transactional-consistency-with-jepsen-and-faunadb) — results of internal [Jepsen](#jepsen) testing at FaunaDB
+* [Verifying Transactional Consistency with Jepsen](https://medium.com/fauna/verifying-transactional-consistency-with-jepsen-and-faunadb-561eddd123c7) — results of internal [Jepsen](#jepsen) testing at FaunaDB
 * [Jepsen: FaunaDB 2.5.4](https://jepsen.io/analyses/faunadb-2.5.4) — official [Jepsen](#jepsen) test for FaunaDB, write-up in Fauna [blog](https://fauna.com/blog/faunadbs-official-jepsen-results)
 
 
