@@ -1,5 +1,5 @@
 List of resources on testing distributed systems curated by Andrey Satarin ([@asatarin](https://twitter.com/asatarin)).
-If you are interested in my other stuff, checkout [talks](/talks) page. 
+If you are interested in my other stuff, checkout [talks](https://asatarin.github.io/talks) page. 
 For any questions or suggestions you can reach out to me on Twitter ([@asatarin](https://twitter.com/asatarin)) or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 
 
