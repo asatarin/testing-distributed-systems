@@ -51,6 +51,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Onyx](#onyx)
   - [Druid.io](#druidio)
   - [Coil (TigerBeetle)](#coil-tigerbeetle)
+  - [Convex](#convex)
 - [Single node systems](#single-node-systems)
   - [SQLite](#sqlite)
   - [Sled](#sled)
@@ -466,6 +467,17 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 
 ### Coil (TigerBeetle)
 * [Simulation Tests in TigerBeetle](https://github.com/coilhq/tigerbeetle#simulation-tests) — TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
+
+
+### Convex
+* [Convex: Life Without a Backend Team](https://youtu.be/iizcidmSwJ4) by [James Cowling](https://twitter.com/jamesacowling) — 
+talks about architecture and features of [Convex](https://www.convex.dev/). 
+At the [end of the talk](https://youtu.be/iizcidmSwJ4?t=2788) James covers testing at Convex. 
+They use approach inspired by [QuickCheck](#quickcheck) and [FoundationDB](#foundationdb) to test end-to-end guarantees with 
+randomized initial state, workload, injected failures and thread interleavings. These tests validate correctness in production 
+similar to [Dropbox](#dropbox) Magic Pocket system on which James worked previously.
+
+See also [QuickCheck](#quickcheck), [FoundationDB](#foundationdb), [Dropbox](#dropbox), [Jepsen](#jepsen).
 
 
 ## Single node systems
