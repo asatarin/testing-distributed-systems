@@ -476,6 +476,8 @@ At the [end of the talk](https://youtu.be/iizcidmSwJ4?t=2788) James covers testi
 They use approach inspired by [QuickCheck](#quickcheck) and [FoundationDB](#foundationdb) to test end-to-end guarantees with 
 randomized initial state, workload, injected failures and thread interleavings. These tests validate correctness in production 
 similar to [Dropbox](#dropbox) Magic Pocket system on which James worked previously.
+* [Better Testing With Less Code Using Randomization](https://blog.convex.dev/randomized-testing/) — blog post describing
+ approach Convex uses to develop randomized tests
 
 See also [QuickCheck](#quickcheck), [FoundationDB](#foundationdb), [Dropbox](#dropbox), [Jepsen](#jepsen).
 
