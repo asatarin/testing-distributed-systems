@@ -134,7 +134,7 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 * [Verdi: Formally Verifying Distributed Systems](http://verdi.uwplse.org/)
 * [Verdi — A framework for formally verifying distributed systems implementations in Coq](https://github.com/uwplse/verdi)
 * [Network Semantics for Verifying Distributed Systems](https://homes.cs.washington.edu/~jrw12/network-semantics.html)
-* [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) — using formal verification to find a bug in TimSort sorting algorithm
+* [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](https://web.archive.org/web/20220329052326/http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) — using formal verification to find a bug in TimSort sorting algorithm
 * [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analizying quicksort implementation in Java 
 
 Companies using TLA+ to verify correctness of algorithms:
