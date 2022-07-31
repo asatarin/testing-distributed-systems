@@ -260,6 +260,16 @@ See also [Chaos Engineering](#chaos-engineering).
 See also [formal methods](#formal-methods) section.
 
 
+### Meta
+* [BellJar: A new framework for testing system recoverability at scale](https://engineering.fb.com/2022/05/05/developer-tools/belljar/) — BellJar 
+is a testing framework focused on answering question "What service dependencies are required for the service to recover after large scale disaster?". 
+BellJar puts service in a vacuum environment with only handful of direct dependencies allowlisted to verify that 
+recovery procedures succeed under those constraints. It checks those recovery procedures in CI/CD pipeline preventing 
+unconstrained growth of dependency graph and circular dependencies. 
+Based on BellJar tests one can construct the entire dependency graph of the services allowing to boostrap them in the correct order from bottom 
+to top.
+
+
 ### FoundationDB
 * ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://youtu.be/4fFDFbi3toc) — talk on FoundationDB simulation testing. Their architecture was built from the ground up to suppport fully deterministic simulation testing 
 * [Simulation and Testing](https://apple.github.io/foundationdb/testing.html) — public overview of FoundationDB simulation testing framework
