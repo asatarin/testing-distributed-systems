@@ -26,7 +26,7 @@
     </section>
 
     <section class="main-content">
-      {{ content }}
+      {% include anchor_headings.html html=content beforeHeading=true anchorBody="<span class='anchor'>#</span>" %}
 
       <footer class="site-footer">
 {% include footer.html %}
