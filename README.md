@@ -24,6 +24,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Amazon Web Services](#amazon-web-services)
   - [Netflix](#netflix)
   - [Microsoft](#microsoft)
+  - [Meta](#meta)
   - [FoundationDB](#foundationdb)
   - [Cassandra](#cassandra)
   - [ScyllaDB](#scylladb)
