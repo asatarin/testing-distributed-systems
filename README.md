@@ -33,7 +33,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [MongoDB](#mongodb)
   - [Confluent (Kafka)](#confluent-kafka)
   - [CockroachLabs (CockroachDB)](#cockroachlabs-cockroachdb)
-  - [MemSQL](#memsql)
+  - [SingleStore](#singlestore)
   - [Twitter](#twitter)
   - [LinkedIn](#linkedin)
   - [Salesforce](#salesforce)
@@ -358,11 +358,12 @@ See also [formal methods](#formal-methods) section.
 
 
 
-### MemSQL 
-* [Running MemSQL’s 107 Node Test Infrastructure on CoreOS](http://blog.memsql.com/running-memsqls-107-node-test-infrastructure-on-coreos/)
+### SingleStore
+Formerly known as MemSQL.
+* [Running SingleStore’s 107 Node Test Infrastructure on CoreOS](https://www.singlestore.com/blog/running-memsqls-107-node-test-infrastructure-on-coreos/)
 * [Practical Techniques to Achieve Quality in Large Software Projects](https://www.singlestore.com/blog/test-coverage-manage-long-tail-surfaced-bugs-using-force-multipliers/)
-* [How to Make a Believable Benchmark](http://blog.memsql.com/how-to-make-a-believable-benchmark/)
-* [Building an Infinitely Scalable Testing System](http://blog.memsql.com/building-an-infinitely-scalable-testing-system/) — description of internal test system PsyDuck
+* [How to Make a Believable Benchmark](https://www.singlestore.com/blog/how-to-make-a-believable-benchmark/)
+* [Building an Infinitely Scalable Testing System](https://www.singlestore.com/blog/building-an-infinitely-scalable-testing-system/) — description of internal test system PsyDuck
 
 
 ### Twitter 
