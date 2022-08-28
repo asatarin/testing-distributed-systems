@@ -360,7 +360,7 @@ See also [formal methods](#formal-methods) section.
 
 ### MemSQL 
 * [Running MemSQL’s 107 Node Test Infrastructure on CoreOS](http://blog.memsql.com/running-memsqls-107-node-test-infrastructure-on-coreos/)
-* [Practical Techniques to Achieve Quality in Large Software Projects](http://blog.memsql.com/practical-techniques-to-achieve-quality-in-large-software-projects-3/)
+* [Practical Techniques to Achieve Quality in Large Software Projects](https://www.singlestore.com/blog/test-coverage-manage-long-tail-surfaced-bugs-using-force-multipliers/)
 * [How to Make a Believable Benchmark](http://blog.memsql.com/how-to-make-a-believable-benchmark/)
 * [Building an Infinitely Scalable Testing System](http://blog.memsql.com/building-an-infinitely-scalable-testing-system/) — description of internal test system PsyDuck
 
