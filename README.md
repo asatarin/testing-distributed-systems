@@ -510,6 +510,8 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 
 ### Clickhouse
 * [Fuzzing ClickHouse](https://clickhouse.com/blog/fuzzing-click-house) — high level overview of query [fuzzing](#fuzzing) at Clickhouse
+* [ClickHouse Testing](https://clickhouse.com/docs/en/development/tests/) — documentation on various tests for ClickHouse database 
+and how to contribute more tests
 
 
 ## Tools
