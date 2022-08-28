@@ -456,7 +456,7 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 
 
 ### CoreOS (etcd)
-* [Testing distributed systems in Go](https://coreos.com/blog/testing-distributed-systems-in-go.html) — overview of failure injection testing for etcd
+* [Testing distributed systems in Go](https://web.archive.org/web/20170224103337/https://coreos.com/blog/testing-distributed-systems-in-go.html) — overview of failure injection testing for etcd. Or alternative url for [the same post](https://blog.gopheracademy.com/advent-2016/testing-distributed-systems-in-go/).
 
 
 ### Red Planet Labs
