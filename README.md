@@ -360,7 +360,7 @@ See also [formal methods](#formal-methods) section.
 
 ### SingleStore
 Formerly known as MemSQL.
-* [Running SingleStore’s 107 Node Test Infrastructure on CoreOS](https://www.singlestore.com/blog/running-memsqls-107-node-test-infrastructure-on-coreos/)
+* [Running SingleStore’s 107 Node Test Infrastructure on CoreOS](https://www.singlestore.com/blog/running-memsqls-107-node-test-infrastructure-on-coreos/). See also accompanying [talk](https://youtu.be/uJirOCUg67o).
 * [Practical Techniques to Achieve Quality in Large Software Projects](https://www.singlestore.com/blog/test-coverage-manage-long-tail-surfaced-bugs-using-force-multipliers/)
 * [How to Make a Believable Benchmark](https://www.singlestore.com/blog/how-to-make-a-believable-benchmark/)
 * [Building an Infinitely Scalable Testing System](https://www.singlestore.com/blog/building-an-infinitely-scalable-testing-system/) — description of internal test system PsyDuck
