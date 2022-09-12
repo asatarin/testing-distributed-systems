@@ -478,7 +478,7 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 
 
 ### TigerBeetle
-* [Simulation Tests in TigerBeetle]([https://github.com/coilhq/tigerbeetle#simulation-tests](https://github.com/tigerbeetledb/tigerbeetle/blob/main/docs/HACKING.md#simulation-tests)) — TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
+* [Simulation Tests in TigerBeetle](https://github.com/tigerbeetledb/tigerbeetle/blob/main/docs/HACKING.md#simulation-tests) — TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
 
 
 ### Convex
