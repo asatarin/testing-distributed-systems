@@ -51,7 +51,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Atomix Copycat](#atomix-copycat)
   - [Onyx](#onyx)
   - [Druid.io](#druidio)
-  - [Coil (TigerBeetle)](#coil-tigerbeetle)
+  - [TigerBeetle](#tigerbeetle)
   - [Convex](#convex)
 - [Single node systems](#single-node-systems)
   - [SQLite](#sqlite)
@@ -477,8 +477,8 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 * [Architecting Distributed Databases for Failure](http://www.infoq.com/presentations/data-integrity-distributed-systems)
 
 
-### Coil (TigerBeetle)
-* [Simulation Tests in TigerBeetle](https://github.com/coilhq/tigerbeetle#simulation-tests) — TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
+### TigerBeetle
+* [Simulation Tests in TigerBeetle](https://github.com/tigerbeetledb/tigerbeetle/blob/main/docs/HACKING.md#simulation-tests) — TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
 
 
 ### Convex
