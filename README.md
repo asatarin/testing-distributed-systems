@@ -51,7 +51,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Atomix Copycat](#atomix-copycat)
   - [Onyx](#onyx)
   - [Druid.io](#druidio)
-  - [Coil (TigerBeetle)](#coil-tigerbeetle)
+  - [TigerBeetle](#tigerbeetle)
   - [Convex](#convex)
 - [Single node systems](#single-node-systems)
   - [SQLite](#sqlite)
