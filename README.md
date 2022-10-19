@@ -8,6 +8,9 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
 
 - [Overview of testing approaches](#overview-of-testing-approaches)
   - [Research Papers](#research-papers)
+   - [Bugs](#bugs)
+   - [Testing](#testing)
+   - [Fault Tolerance](#fault-tolerance)
   - [Resilience In Complex Adaptive Systems](#resilience-in-complex-adaptive-systems)
   - [Jepsen](#jepsen)
   - [Formal Methods](#formal-methods)
@@ -68,25 +71,33 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
 ## Overview of testing approaches
 
 ### Research Papers
-* [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need right focus
+
+#### Bugs
 * [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf) — study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
 and Flume)
 * [TaxDC: A Taxonomy of Non-Deterministic Concurrency Bugs in Datacenter Distributed Systems](http://ucare.cs.uchicago.edu/pdf/asplos16-TaxDC.pdf) — comprehensive taxonomy of bugs in distributed systems (Cassandra, Hadoop MapReduce, HBase, ZooKeeper)
 * [An Empirical Study on Crash Recovery Bugs in Large-Scale Distributed Systems](https://dl.acm.org/doi/10.1145/3236024.3236030) — based on bug database from "What Bugs Live in the Cloud?" paper reseachers focus specifically on crash recovery bugs in Hadoop MapReduce, HBase, Cassandra, ZooKeeper. There is review of this paper by [Murat Demirbas](https://twitter.com/muratdemirbas) in [his blog](http://muratbuffalo.blogspot.com/2019/01/paper-review-empirical-study-on-crash.html).
-* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/) — study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault tolerant they are to data corruption and read/write errors
 * [An empirical study on the correctness of formally verified distributed systems](https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/) — study of bugs in formally verified distributed systems. Analysis includes Microsoft's [IronFleet distributed key-value store](https://www.microsoft.com/en-us/research/publication/ironfleet-proving-practical-distributed-systems-correct/) built from formal model.
-* [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
+* [What bugs cause cloud production incidents?](https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incidents/) — research focused on bugs (and their resolution strategies) that actually cause production incidents in large-scale distributed services at [Microsoft](#microsoft) Azure.
+
+
+#### Testing
+* [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need right focus
 * [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) — why and how to test configuration files of your system
 * [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://dl.acm.org/doi/abs/10.1145/3158134) — just what it says in a title, authors try to explain why random testing ([Jepsen](#jepsen)) is effective and introduce notions of test coverage relating to network partition, see also ["The Morning Paper" review](https://blog.acolyer.org/2018/01/23/why-is-random-testing-effective-for-partition-tolerance-bugs/) or a [video](https://youtu.be/g5cehS7ZSJ8) from POPL 2018.
 * [FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems](https://ucare.cs.uchicago.edu/pdf/eurosys19-flyMC.pdf) — novel approach of systematically exploring interleavings in distributed systems augmented with static analysis and prioritization. This approach is faster than previous techniques and found old and new bugs in several systems (Cassandra, Ethereum Blockchain, Hadoop, Kudu, Raft LogCabin, Spark, ZooKeeper).
-* [What bugs cause cloud production incidents?](https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incidents/) — research focused on bugs (and their resolution strategies) that actually cause production incidents in large-scale distributed services at [Microsoft](#microsoft) Azure.
 * [Torturing Databases for Fun and Profit](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-zheng_mai.pdf) — checking ACID guarantees of open source and commercial databases under power loss, [additional material](https://www.usenix.org/node/186197)
-* [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) — overview of netrwork partition failures in various distributed systems (MongoDB, HBase, HDFS, Kafka, RabbitMQ, Elasticsearch, Mesos, etc), common traits among them and strategies to mitigate those failures.
 * [Understanding and Detecting Software Upgrade Failures in Distributed Systems](https://dl.acm.org/doi/10.1145/3477132.3483577) — paper presents first study of upgrade failures in distributed systems (Cassandra, HBase, Kafka, Mesos, YARN, ZooKeeper, etc). 
 Authors look at severity, symptoms, causes and triggers of these failures and summarize results in a number of findings. 
 They propose two new tools to improve testing targeting upgrade failures specifically and apply those tools 
 to a few systems with good results (new bugs and potential bugs found). 
 I gave an [overview talk](https://asatarin.github.io/talks/2022-09-upgrade-failures-in-distributed-systems/) of the paper in September 2022.
+
+
+#### Fault Tolerance
+* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/) — study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault tolerant they are to data corruption and read/write errors
+* [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
+* [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) — overview of netrwork partition failures in various distributed systems (MongoDB, HBase, HDFS, Kafka, RabbitMQ, Elasticsearch, Mesos, etc), common traits among them and strategies to mitigate those failures.
 
 
 #### Technologies for Testing Distributed Systems by Colin Scott
