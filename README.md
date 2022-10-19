@@ -8,9 +8,9 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
 
 - [Overview of testing approaches](#overview-of-testing-approaches)
   - [Research Papers](#research-papers)
-   - [Bugs](#bugs)
-   - [Testing](#testing)
-   - [Fault Tolerance](#fault-tolerance)
+    - [Bugs](#bugs)
+    - [Testing](#testing)
+    - [Fault Tolerance](#fault-tolerance)
   - [Resilience In Complex Adaptive Systems](#resilience-in-complex-adaptive-systems)
   - [Jepsen](#jepsen)
   - [Formal Methods](#formal-methods)
