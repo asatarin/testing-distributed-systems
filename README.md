@@ -98,6 +98,11 @@ I gave an [overview talk](https://asatarin.github.io/talks/2022-09-upgrade-failu
 * [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/) — study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault tolerant they are to data corruption and read/write errors
 * [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
 * [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) — overview of netrwork partition failures in various distributed systems (MongoDB, HBase, HDFS, Kafka, RabbitMQ, Elasticsearch, Mesos, etc), common traits among them and strategies to mitigate those failures.
+* [Understanding, Detecting and Localizing Partial Failures in Large System Software](https://www.usenix.org/conference/nsdi20/presentation/lou) — what happens if your system loses some functionality due to failure as opposed to full fail-stop? 
+Authors study how these partial failures manifest in distributed systems (ZooKeeper, Cassandra, HDFS, Mesos) and what triggers them. 
+They propose runtime approach to detect those failure with mimic-style intrinsic watchdogs and show how these watchdogs could be generated automatically.
+They managed to reproduce 20 out of 22 real world partial failures and detect them using intrinsic watchdogs with great code localization and reaction time within a few seconds. 
+See also [overview talk](https://asatarin.github.io/talks/2022-05-understanding-partial-failures/) for this paper.
 
 
 #### Technologies for Testing Distributed Systems by Colin Scott
