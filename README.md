@@ -102,7 +102,7 @@ I gave an [overview talk](https://asatarin.github.io/talks/2022-09-upgrade-failu
 Authors study how these partial failures manifest in distributed systems (ZooKeeper, Cassandra, HDFS, Mesos) and what triggers them. 
 They propose runtime approach to detect those failure with mimic-style intrinsic watchdogs and show how these watchdogs could be generated automatically.
 They managed to reproduce 20 out of 22 real world partial failures and detect them using intrinsic watchdogs with great code localization and reaction time within a few seconds. 
-See also [overview talk](https://asatarin.github.io/talks/2022-05-understanding-partial-failures/) for this paper.
+See also [overview talk](https://asatarin.github.io/talks/2022-05-understanding-partial-failures/) on the paper.
 
 
 #### Technologies for Testing Distributed Systems by Colin Scott
