@@ -82,6 +82,11 @@ and Flume)
 * [What bugs cause cloud production incidents?](https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incidents/) — research focused on bugs (and their resolution strategies) that actually cause production incidents in large-scale distributed services at [Microsoft](#microsoft) Azure.
 * [Torturing Databases for Fun and Profit](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-zheng_mai.pdf) — checking ACID guarantees of open source and commercial databases under power loss, [additional material](https://www.usenix.org/node/186197)
 * [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) — overview of netrwork partition failures in various distributed systems (MongoDB, HBase, HDFS, Kafka, RabbitMQ, Elasticsearch, Mesos, etc), common traits among them and strategies to mitigate those failures.
+* [Understanding and Detecting Software Upgrade Failures in Distributed Systems](https://dl.acm.org/doi/10.1145/3477132.3483577) — paper presents first study of upgrade failures in distributed systems (Cassandra, HBase, Kafka, Mesos, YARN, ZooKeeper, etc). 
+Authors look at severity, symptoms, causes and triggers of these failures and summarize results in a number of findings. 
+They propose two new tools to improve testing targeting upgrade failures specifically and apply those tools 
+to a few systems with good results (new bugs and potential bugs found). 
+I gave an [overview talk](https://asatarin.github.io/talks/2022-09-upgrade-failures-in-distributed-systems/) of the paper in September 2022.
 
 
 #### Technologies for Testing Distributed Systems by Colin Scott
