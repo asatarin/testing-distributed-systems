@@ -21,6 +21,7 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
   - [Game Days](#game-days)
   - [Performance and Benchmarking](#performance-and-benchmarking)
   - [Test Case Reduction](#test-case-reduction)
+  - [Trace-Based Testing](#trace-based-testing)
   - [Misc](#misc)
 - [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems)
   - [Google](#google)
@@ -224,6 +225,10 @@ See also [benchmarking](#benchmarking) tools.
 * [Troubleshooting Blackbox SDN Control Software with Minimal Causal Sequences](https://dl.acm.org/doi/pdf/10.1145/2619239.2626304) — similar to above, but requires less instrumentation.
 * [Concurrency Debugging with Differential Schedule Projections](https://brandonlucia.com/pubs/symbiosis_final_pldi.pdf) — find and minimize concurrency bugs using program analysis. Shared memory systems are equivalent to message passing systems, so you can apply the same techniques to distributed systems.
 
+### Trace-Based Testing
+* [Trace Driven Development: Unifying Testing and Observability](https://www.youtube.com/watch?v=NU-fTr-udZg) - Ted Young of Lightstep discusses how the data in distributed traces can be leveraged to create integration or end-to-end tests.
+
+* [Trace-Based Testing: The Next Step in Observability](https://thenewstack.io/trace-based-testing-the-next-step-in-observability/) - how trace-based testing lets you validate dependent relationships between components that you’d only usually see when you push code to production. Discusses using [Tracetest](https://github.com/kubeshop/tracetest) to build these tests using data from your existing distributed tracing solution.
 
 ### Misc
 * ["Simulation Testing" by Michael Nygard](https://youtu.be/N5HyVUPuU0E)
