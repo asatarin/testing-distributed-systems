@@ -26,7 +26,7 @@
     </section>
 
     <section class="main-content">
-      {% include anchor_headings.html html=content beforeHeading=true anchorBody="<span class='anchor'>#</span>" %}
+      {% include anchor_headings.html html=content beforeHeading=true anchorBody="<span class='anchor'>#</span>" anchorAttrs="tabindex='-1'" %}
 
       <footer class="site-footer">
 {% include footer.html %}
