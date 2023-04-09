@@ -27,3 +27,6 @@ defaults:
 
 plugins:
   - jekyll-redirect-from
+
+kramdown:
+  strict_mode: true
