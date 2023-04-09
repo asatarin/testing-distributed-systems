@@ -6,68 +6,9 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 
 
 **Table of Contents**
-<!-- Use TOC generator to update this https://luciopaiva.com/markdown-toc/ -->
 
-- [Overview of testing approaches](#overview-of-testing-approaches)
-  - [Research Papers](#research-papers)
-    - [Bugs](#bugs)
-    - [Testing](#testing)
-    - [Fault Tolerance](#fault-tolerance)
-  - [Resilience In Complex Adaptive Systems](#resilience-in-complex-adaptive-systems)
-  - [Jepsen](#jepsen)
-  - [Formal Methods](#formal-methods)
-  - [Lineage-driven Fault Injection](#lineage-driven-fault-injection)
-  - [Chaos Engineering](#chaos-engineering)
-  - [Fuzzing](#fuzzing)
-  - [Microservices](#microservices)
-  - [Game Days](#game-days)
-  - [Performance and Benchmarking](#performance-and-benchmarking)
-  - [Test Case Reduction](#test-case-reduction)
-  - [Misc](#misc)
-- [Specific approaches in different distributed systems](#specific-approaches-in-different-distributed-systems)
-  - [Google](#google)
-  - [Amazon Web Services](#amazon-web-services)
-  - [Netflix](#netflix)
-  - [Microsoft](#microsoft)
-  - [Meta](#meta)
-  - [FoundationDB](#foundationdb)
-  - [Cassandra](#cassandra)
-  - [ScyllaDB](#scylladb)
-  - [Dropbox](#dropbox)
-  - [Elastic (Elasticsearch)](#elastic-elasticsearch)
-  - [MongoDB](#mongodb)
-  - [Confluent (Kafka)](#confluent-kafka)
-  - [CockroachLabs (CockroachDB)](#cockroachlabs-cockroachdb)
-  - [SingleStore](#singlestore)
-  - [Twitter](#twitter)
-  - [LinkedIn](#linkedin)
-  - [Salesforce](#salesforce)
-  - [VoltDB](#voltdb)
-  - [PingCap (TiDB)](#pingcap-tidb)
-  - [Cloudera](#cloudera)
-  - [Wallaroo Labs](#wallaroo-labs)
-  - [YugabyteDB](#yugabytedb)
-  - [FaunaDB](#faunadb)
-  - [Shopify](#shopify)
-  - [Hazelcast](#hazelcast)
-  - [Basho (Riak)](#basho-riak)
-  - [CoreOS (etcd)](#coreos-etcd)
-  - [Red Planet Labs](#red-planet-labs)
-  - [Atomix Copycat](#atomix-copycat)
-  - [Onyx](#onyx)
-  - [Druid.io](#druidio)
-  - [TigerBeetle](#tigerbeetle)
-  - [Convex](#convex)
-- [Single node systems](#single-node-systems)
-  - [SQLite](#sqlite)
-  - [Sled](#sled)
-  - [Clickhouse](#clickhouse)
-- [Tools](#tools)
-  - [Network Simulation](#network-simulation)
-  - [QuickCheck](#quickcheck)
-  - [Benchmarking](#benchmarking)
-  - [Linkbench](#linkbench)
-  - [YCSB](#ycsb)
+* A markdown unordered list which will be replaced with the ToC
+{:toc}
 
 
 ## Overview of testing approaches
@@ -108,12 +49,16 @@ See also [overview talk](https://asatarin.github.io/talks/2022-05-understanding-
 
 
 #### Technologies for Testing Distributed Systems by Colin Scott
+{:.no_toc}
+
 Colin Scott shares his viewpoint from academia on testing distributed systems,
 specifically regression testing for correctness and performance bugs.
 * [Technologies for Testing Distributed Systems, Part I](http://colin-scott.github.io/blog/2016/03/04/technologies-for-testing-and-debugging-distributed-systems/)
 * See also post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/) by Crista Lopes
 
 #### Testing in a Distributed World by Ines Sombra (RICON 2014)
+{:.no_toc}
+
 Great overview of techniques for testing distributed systems from practitioner, the [video](https://youtu.be/iZEXIN7-9tM) did age well and still extremely good overview of the landscape.
 Additional materials could be found in [this Github repo](https://github.com/Randommood/RICON2014)
 
