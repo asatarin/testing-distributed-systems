@@ -30,4 +30,4 @@ plugins:
 
 kramdown:
   strict_mode: true
-  toc_levels: "1,2,3"
+  toc_levels: "1..4"
