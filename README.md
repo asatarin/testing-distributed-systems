@@ -109,7 +109,9 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 Companies using TLA+ to verify correctness of algorithms:
  * [Amazon Web Services](#amazon-web-services)
  * [PingCap for TiDB](#pingcap-tidb)
+ * [Elastic](#elastic-elasticsearch)
  * [MongoDB](#mongodb)
+ * [CockroachLabs](#cockroachlabs-cockroachdb)
  * [Microsoft](#microsoft) for services in Azure cloud
  * [Confluent](#confluent-kafka) for Apache Kafka
 
@@ -314,6 +316,8 @@ Great discussion on tradeoffs between determinism, strengh of test oracles vs wi
 ### Elastic (Elasticsearch)
 * [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elasticsearch replication protocol
 * [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — Elasticsearch uses [TLA+](#formal-methods) to verify correctnes of their replication protocol
+
+See also [formal methods](#formal-methods) section.
 
 
 ### MongoDB
