@@ -86,12 +86,15 @@ Elle transactional consistency checker for black-box databases:
 * Elle [source code](https://github.com/jepsen-io/elle)
 * [Black-box Isolation Checking with Elle](https://youtu.be/OPJ_IcdSqig) — talk Kyle gave at [CMU DB](https://db.cs.cmu.edu/) database seminar descibing Elle and results obtained with it
 * [Elle: Inferring Isolation Anomalies from Experimental Observations](https://github.com/jepsen-io/elle/raw/master/paper/elle.pdf) — paper on Elle design by Kyle Kingsbury and Peter Alvaro
+* [Elle: Opaque-box Serializability Verification](https://aphyr.com/media/talks/2021/vldb.mp4) — talk by Kyle Kingsbury and Peter Alvaro on Elle at VLDB 2021 
 
 Some notable Jepsen analyses:
-* [Jepsen: CockroachDB beta-20160829](https://jepsen.io/analyses/cockroachdb-beta-20160829)
-* [Jepsen: VoltDB 6.3](http://jepsen.io/analyses/voltdb-6-3)
+* [CockroachDB beta-20160829](https://jepsen.io/analyses/cockroachdb-beta-20160829)
+* [VoltDB 6.3](http://jepsen.io/analyses/voltdb-6-3)
 * [Jepsen: RethinkDB 2.2.3 reconfiguration](https://aphyr.com/posts/330-jepsen-rethinkdb-2-2-3-reconfiguration)
 * [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
+* [Radix DLT 1.0-beta.35.1](https://jepsen.io/analyses/radix-dlt-1.0-beta.35.1)
+* [Dgraph 1.1.1](https://jepsen.io/analyses/dgraph-1.1.1)
 
 Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), [Cassandra](#cassandra), [ScyllaDB](#scylladb) and others.
 
