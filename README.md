@@ -81,6 +81,8 @@ State of the art approach to testing stateful distributed  systems.
 * [Kyle Kingsbury on InfoQ](http://www.infoq.com/author/Kyle-Kingsbury)
 * [Call me maybe: Jepsen and flaky networks](http://www.slideshare.net/shalinmangar/call-me-maybe-jepsen-and-flaky-networks) — talk on Jepsen, not by Kyle
 * [Jepsen is used by Microsoft CosmosDB](https://twitter.com/dharmashukla/status/869104163510034432) — founder of Azure CosmosDB confirms, that they are using Jepsen
+* [Consistency Models](https://jepsen.io/consistency) — overview of various consistency models for distributed systems with transactional 
+and non-transactional semantics. This page gives bird's-eye view on guarantees distributed systems might provide with references to do a deep dive.
 
 Elle transactional consistency checker for black-box databases:
 * Elle [source code](https://github.com/jepsen-io/elle)
