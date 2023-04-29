@@ -463,6 +463,17 @@ similar to [Dropbox](#dropbox) Magic Pocket system on which James worked previou
 See also [QuickCheck](#quickcheck), [FoundationDB](#foundationdb), [Dropbox](#dropbox), [Jepsen](#jepsen).
 
 
+### RisingWave
+In a series of two blog posts, RisingWave team talks about their experience using deterministic simulation for testing
+distributed SQL-based stream processing platform:
+* [Deterministic Simulation: A New Era of Distributed System Testing](https://www.risingwave.com/blog/deterministic-simulation/)
+* [Applying Deterministic Simulation: The RisingWave Story](https://www.risingwave.com/blog/applying-deterministic-simulation/)
+They talk about few kinds of tests they built with the simulator (unit, end-to-end, recovery, scaling), pros, cons and challenges of this approach. 
+
+As a result of this work, they open sourced [MadSim](https://github.com/madsim-rs/madsim) — Magical Deterministic Simulator
+for the Rust language ecosystem.
+
+
 ## Single node systems
 These examples are not about distributed systems, but they demostrate testing concurrency and level of sofistication required in distributed systems.
 
