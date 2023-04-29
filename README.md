@@ -114,6 +114,21 @@ Companies using TLA+ to verify correctness of algorithms:
  * [Confluent](#confluent-kafka) for Apache Kafka
 
 
+### Deterministic Simulation
+Pioneered by [FoundationDB](#foundationdb), deterministic simulation approach to testing distributed systems gained 
+more popularity in the recent years.
+More companies and systems adopt it as a primary testing strategy:
+ * [FoundationDB](#foundationdb)
+ * [TigerBeetle](#tigerbeetle)
+ * [Convex](#convex)
+ * [RisingWave](#risingwave)
+ * [Amazon Web Services](#amazon-web-services) uses SimWorld to test Elastic Block Storage control plane
+ * [Red Planet Labs](#red-planet-labs)
+ * [Sled](#sled)
+
+See also talk ["Simulation Testing"](https://youtu.be/N5HyVUPuU0E) by Michael Nygard
+
+
 ### Lineage-driven Fault Injection
 * [Lineage-driven Fault Injection](https://dl.acm.org/citation.cfm?id=2723711)
 * [Abstracting the Geniuses Away from Failure Testing](http://queue.acm.org/detail.cfm?id=3155114)
@@ -173,7 +188,6 @@ See also [benchmarking](#benchmarking) tools.
 
 
 ### Misc
-* ["Simulation Testing" by Michael Nygard](https://youtu.be/N5HyVUPuU0E)
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
 * [Metamorphic Testing](https://www.hillelwayne.com/post/metamorphic-testing/) — overview of what metamorphic testing is and where it can help. 
 For more details see paper ["Metamorphic Testing: A Review of Challenges and Opportunities"](https://www.cs.hku.hk/data/techreps/document/TR-2017-04.pdf).
@@ -199,7 +213,7 @@ For more details see paper ["Metamorphic Testing: A Review of Challenges and Opp
 * [Using lightweight formal methods to validate a key-value storage node in Amazon S3](https://www.amazon.science/publications/using-lightweight-formal-methods-to-validate-a-key-value-storage-node-in-amazon-s3) — paper on verifying correctness of a new key-value storage node implementation in S3. They are using property-based testing and stateless model checking extensively to balance trade-offs and follow pragmatic approach. 
 I gave a talk ["Formal Methods at Amazon S3"](https://asatarin.github.io/talks/2022-02-formal-methods-at-amazon-s3/) on this paper for a reading group.
 
-See also [formal methods](#formal-methods) section.
+See also [formal methods](#formal-methods) and [deterministic simulation](#deterministic-simulation) sections.
 
 
 ### Netflix 
@@ -246,6 +260,8 @@ to top.
 * ["Buggify — Testing Distributed Systems with Deterministic Simulation"](https://transactional.blog/simulation/buggify.html) — Alex 
 Miller ([https://twitter.com/oytyafln](https://twitter.com/oytyafln)), one of developers at FoundationDB, describes BUGGIFY macros, which helps bias simulation tests towards doing dangerous and bug finding things. This is a good example of cooperation between testing efforts and production code.
 * ["FoundationDB: A Distributed Unbundled Transactional Key Value Store"](https://sigmodrecord.org/publications/sigmodRecord/2203/pdfs/08_fdb-zhou.pdf) — SIGMOD 2021 paper on FoundationDB has a very detailed section on simulation testing at FoundationDB with discussions on determinism, test oracles, fault injection and limitations.
+
+See also [deterministic simulation](#deterministic-simulation) section.
 
 
 ### Cassandra
@@ -300,7 +316,6 @@ Great discussion on tradeoffs between determinism, strengh of test oracles vs wi
 * [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — Elasticsearch uses [TLA+](#formal-methods) to verify correctnes of their replication protocol
 
 
-
 ### MongoDB
 * [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://www.mongodb.com/blog/post/mongodbs-java-script-fuzzer-creating-chaos)
 * [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://www.mongodb.com/blog/post/mongodb-java-script-fuzzer-harnessing-havoc-2)
@@ -326,7 +341,6 @@ See also [formal methods](#formal-methods) section.
 * [ParallelCommits.tla](https://github.com/cockroachdb/cockroach/blob/master/docs/tla-plus/ParallelCommits/ParallelCommits.tla) — Formal specification in TLA+ of the [parallel commit](https://www.cockroachlabs.com/blog/parallel-commits/) transaction protocol. See also [formal methods](#formal-methods).
 
 
-
 ### SingleStore
 Formerly known as MemSQL.
 * [Running SingleStore’s 107 Node Test Infrastructure on CoreOS](https://www.singlestore.com/blog/running-memsqls-107-node-test-infrastructure-on-coreos/). See also accompanying [talk](https://youtu.be/uJirOCUg67o).
@@ -350,7 +364,6 @@ Formerly known as MemSQL.
 * [Go Fast and Don't Break Things: Ensuring Quality in the Cloud](http://www.hpts.ws/papers/2011/sessions_2011/HansmaHPTS2011.pdf)
 
 
-
 ### VoltDB 
 Series of post on testing at VoltDB:
 * [How We Test at VoltDB](https://www.voltdb.com/blog/2015/09/30/how-we-test-at-voltdb/)
@@ -362,7 +375,6 @@ Additional resources:
 * ["All In With Determinism for Performance and Testing in Distributed Systems" by John Hugg](https://www.youtube.com/watch?v=gJRj3vJL4wE) and a slide deck [Hugg-DeterministicDistributedSystems.pdf](https://github.com/strangeloop/StrangeLoop2015/blob/master/slides/talks/Hugg-DeterministicDistributedSystems.pdf)
 * [SelfCheck workload](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/txnid-selfcheck2)
 * [TPC-C implementation](https://github.com/VoltDB/voltdb/tree/master/tests/test_apps/tpcc)
-
 
 
 ### PingCap (TiDB)
@@ -385,7 +397,6 @@ See also [formal methods](#formal-methods) section.
 
 
 ### Wallaroo Labs
-
 * [Measuring Correctness of State in a Distributed System](http://web.archive.org/web/20220309161005/https://blog.wallaroolabs.com/2017/10/measuring-correctness-of-state-in-a-distributed-system/) — describes general idea and implementation how to test safety of distributed stream processing system 
 * [Performance testing a low-latency stream processing system](http://web.archive.org/web/20220309180234/https://blog.wallaroolabs.com/2018/03/performance-testing-a-low-latency-stream-processing-system/) — high level overview of what to look at when testing performance of stream processing system
 * [How We Test the Stateful Autoscaling of Our Stream Processing System](http://web.archive.org/web/20220309173229/https://blog.wallaroolabs.com/2018/03/how-we-test-the-stateful-autoscaling-of-our-stream-processing-system/) — advanced safety tests for autoscaling stateful stream processing
@@ -431,6 +442,8 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 ### Red Planet Labs
 * [Where we’re going, we don’t need threads: Simulating Distributed Systems](https://tech.redplanetlabs.com/2021/03/17/where-were-going-we-dont-need-threads-simulating-distributed-systems/) — following [FoundationDB](#foundationdb) steps, Red Planet Labs uses deterministic simulation for testing. Their formula for success is "deterministic simulation = no parallelism + quantized execution + deterministic behavior".
 
+See also [deterministic simulation](#deterministic-simulation) section.
+
 
 ### Atomix Copycat 
 * [A novel implementation of the Raft consensus algorithm](https://github.com/atomix/copycat)
@@ -449,6 +462,8 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 ### TigerBeetle
 * [Simulation Tests in TigerBeetle](https://github.com/tigerbeetledb/tigerbeetle/blob/main/docs/HACKING.md#simulation-tests) — TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
 
+See also [deterministic simulation](#deterministic-simulation) section.
+
 
 ### Convex
 * [Convex: Life Without a Backend Team](https://youtu.be/iizcidmSwJ4) by [James Cowling](https://twitter.com/jamesacowling) — 
@@ -460,7 +475,8 @@ similar to [Dropbox](#dropbox) Magic Pocket system on which James worked previou
 * [Better Testing With Less Code Using Randomization](https://blog.convex.dev/randomized-testing/) — blog post describing
  approach Convex uses to develop randomized tests
 
-See also [QuickCheck](#quickcheck), [FoundationDB](#foundationdb), [Dropbox](#dropbox), [Jepsen](#jepsen).
+See also [QuickCheck](#quickcheck), [FoundationDB](#foundationdb), [Dropbox](#dropbox), [Jepsen](#jepsen), 
+[deterministic simulation](#deterministic-simulation).
 
 
 ### RisingWave
@@ -472,6 +488,8 @@ They talk about few kinds of tests they built with the simulator (unit, end-to-e
 
 As a result of this work, they open sourced [MadSim](https://github.com/madsim-rs/madsim) — Magical Deterministic Simulator
 for the Rust language ecosystem.
+
+See also [deterministic simulation](#deterministic-simulation) section.
 
 
 ## Single node systems
@@ -486,6 +504,8 @@ SQLite is not a distributed system by any stretch of the imagination, but provid
 ### Sled 
 * [Sled simulation guide (jepsen-proof engineering)](http://sled.rs/simulation) — guide on simulation testing (see [FoundationDB](#foundationdb)) in Sled database
 * [Reliable Systems Series: Model-Based Testing](https://medium.com/@tylerneely/reliable-systems-series-model-based-property-testing-e89a433b360)
+
+See also [deterministic simulation](#deterministic-simulation) section.
 
 
 ### Clickhouse
