@@ -85,9 +85,10 @@ State of the art approach to testing stateful distributed  systems.
 and non-transactional semantics. This page gives bird's-eye view on guarantees distributed systems might provide with references to do a deep dive.
 
 Elle transactional consistency checker for black-box databases:
+* [Elle: Inferring Isolation Anomalies from Experimental Observations](https://github.com/jepsen-io/elle/raw/master/paper/elle.pdf) — paper on Elle design by Kyle Kingsbury and Peter Alvaro. You might also check out overview of the paper from [Murat Demirbas](https://muratbuffalo.blogspot.com/2020/04/elle-inferring-isolation-anomalies-from.html) or [The Morning Paper](https://blog.acolyer.org/2020/11/23/elle/) blog 
 * Elle [source code](https://github.com/jepsen-io/elle)
 * [Black-box Isolation Checking with Elle](https://youtu.be/OPJ_IcdSqig) — talk Kyle gave at [CMU DB](https://db.cs.cmu.edu/) database seminar descibing Elle and results obtained with it
-* [Elle: Inferring Isolation Anomalies from Experimental Observations](https://github.com/jepsen-io/elle/raw/master/paper/elle.pdf) — paper on Elle design by Kyle Kingsbury and Peter Alvaro
+* [Elle: Finding Isolation Violations in Real-World Databases](https://youtu.be/EjNf_kbx36E) — keynotey by Kyle Kingsbury on Elle at PODC 2021
 * [Elle: Opaque-box Serializability Verification](https://aphyr.com/media/talks/2021/vldb.mp4) — talk by Kyle Kingsbury and Peter Alvaro on Elle at VLDB 2021 
 
 Some notable Jepsen analyses:
