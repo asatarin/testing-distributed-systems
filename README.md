@@ -104,13 +104,22 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 
 ### Formal Methods
 * [The verification of a distributed system By Caitie McCaffrey](http://queue.acm.org/detail.cfm?id=2889274) also [podcast](https://www.infoq.com/articles/podcast-caitie-mccaffrey) and [talk](https://www.infoq.com/presentations/distributed-systems-verification) on InfoQ.com and [accompanying materials](https://github.com/CaitieM20/Talks/tree/master/TheVerificationOfADistributedSystem) on GitHub and a [slidedeck](https://speakerdeck.com/caitiem20/qcon-newyork-2016-the-verification-of-a-distributed-system)
-* [Designing Distributed Systems in TLA+](https://www.hillelwayne.com/talks/distributed-systems-tlaplus/) by Hillel Wayne, and talk [Everything about distributed systems is terrible](https://youtu.be/tfnldxWlOhM)
 * [Comparisons of Alloy and Spin](http://www.pamelazave.com/compare.html)
 * [Verdi: Formally Verifying Distributed Systems](http://verdi.uwplse.org/)
 * [Verdi — A framework for formally verifying distributed systems implementations in Coq](https://github.com/uwplse/verdi)
 * [Network Semantics for Verifying Distributed Systems](https://homes.cs.washington.edu/~jrw12/network-semantics.html)
 * [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](https://web.archive.org/web/20220329052326/http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) — using formal verification to find a bug in TimSort sorting algorithm
 * [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analizying quicksort implementation in Java 
+
+#### TLA+
+* [Designing Distributed Systems in TLA+](https://www.hillelwayne.com/talks/distributed-systems-tlaplus/) by Hillel Wayne, and talk [Everything about distributed systems is terrible](https://youtu.be/tfnldxWlOhM)
+* [Designing distributed systems with TLA+](https://youtu.be/2PIgZ6hd-6I) by Hillel Wayne at Hydra Conference 2020
+* [Distributed systems showdown — TLA + vs real code](https://youtu.be/sPSPEgz3o9U) by [Jack Vanlightly](https://twitter.com/vanlightly) at Hydra Conference 2021. Jack compares two approaches to testing distributed systems — formal verification of the design with TLA+ 
+and testing with Maelstrom/Jepsen, comparing pros and cons.
+* "Workshop: TLA+ in action" by [Markus Kuppe](https://twitter.com/lemmster) in four parts 
+[1](https://youtu.be/rBVhDKfg9fQ), [2](https://youtu.be/N0WOXFWBnhc), 
+[3](https://youtu.be/Im63Kl3tB2g), [4](https://youtu.be/FBEviGMuOK8) at Hydra Conference 2021
+* [TLA+ Conference](https://conf.tlapl.us/home/) is a forum to present case studies tools and techniques using TLA+
 
 Companies using TLA+ to verify correctness of algorithms:
  * [Amazon Web Services](#amazon-web-services)
