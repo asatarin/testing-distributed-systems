@@ -25,7 +25,7 @@ and Flume)
 
 
 #### Testing
-* [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need right focus
+* [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) — Great overview of how even simple testing can help a lot, you just need the right focus
 * [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) — why and how to test configuration files of your system
 * [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://dl.acm.org/doi/abs/10.1145/3158134) — just what it says in a title, authors try to explain why random testing ([Jepsen](#jepsen)) is effective and introduce notions of test coverage relating to network partition, see also ["The Morning Paper" review](https://blog.acolyer.org/2018/01/23/why-is-random-testing-effective-for-partition-tolerance-bugs/) or a [video](https://youtu.be/g5cehS7ZSJ8) from POPL 2018.
 * [FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems](https://dl.acm.org/doi/pdf/10.1145/3302424.3303986) — novel approach of systematically exploring interleavings in distributed systems augmented with static analysis and prioritization. This approach is faster than previous techniques and found old and new bugs in several systems (Cassandra, Ethereum Blockchain, Hadoop, Kudu, Raft LogCabin, Spark, ZooKeeper).
@@ -45,7 +45,7 @@ I gave an [overview talk](https://asatarin.github.io/talks/2022-09-upgrade-failu
 Authors study how these partial failures manifest in distributed systems (ZooKeeper, Cassandra, HDFS, Mesos) and what triggers them. 
 They propose runtime approach to detect those failure with mimic-style intrinsic watchdogs and show how these watchdogs could be generated automatically.
 They managed to reproduce 20 out of 22 real world partial failures and detect them using intrinsic watchdogs with great code localization and reaction time within a few seconds. 
-See also [overview talk](https://asatarin.github.io/talks/2022-05-understanding-partial-failures/) on the paper.
+See also [overview talk](https://asatarin.github.io/talks/2022-05-understanding-partial-failures/) of the paper.
 
 
 #### Technologies for Testing Distributed Systems by Colin Scott
@@ -274,8 +274,8 @@ to top.
 * ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://youtu.be/4fFDFbi3toc) — talk on FoundationDB simulation testing. Their architecture was built from the ground up to suppport fully deterministic simulation testing 
 * [Simulation and Testing](https://apple.github.io/foundationdb/testing.html) — public overview of FoundationDB simulation testing framework
 * [FoundationDB or: How I Learned to Stop Worrying and Trust the Database](https://youtu.be/OJb8A6h9jQQ) by Markus Pilman from Snowflake — updated talk on testing FoundationDB with determenistic simulation. Markus goes into details of what it takes to build determenistic simulation into a database. He mentions that it took two years to build a simulation framework before FoundationDB team started working on a database.
-* ["Buggify — Testing Distributed Systems with Deterministic Simulation"](https://transactional.blog/simulation/buggify.html) — Alex 
-Miller ([https://twitter.com/oytyafln](https://twitter.com/oytyafln)), one of developers at FoundationDB, describes BUGGIFY macros, which helps bias simulation tests towards doing dangerous and bug finding things. This is a good example of cooperation between testing efforts and production code.
+* ["Buggify — Testing Distributed Systems with Deterministic Simulation"](https://transactional.blog/simulation/buggify.html) — [Alex 
+Miller](https://www.linkedin.com/in/alexmillerdb/), one of developers at FoundationDB, describes BUGGIFY macros, which helps bias simulation tests towards doing dangerous and bug finding things. This is a good example of cooperation between testing efforts and production code.
 * ["FoundationDB: A Distributed Unbundled Transactional Key Value Store"](https://sigmodrecord.org/publications/sigmodRecord/2203/pdfs/08_fdb-zhou.pdf) — SIGMOD 2021 paper on FoundationDB has a very detailed section on simulation testing at FoundationDB with discussions on determinism, test oracles, fault injection and limitations.
 
 See also [deterministic simulation](#deterministic-simulation) section.
