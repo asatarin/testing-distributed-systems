@@ -205,9 +205,10 @@ See also [benchmarking](#benchmarking) tools.
 
 
 ### Misc
-* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/)
 * [Metamorphic Testing](https://www.hillelwayne.com/post/metamorphic-testing/) — overview of what metamorphic testing is and where it can help. 
 For more details see paper ["Metamorphic Testing: A Review of Challenges and Opportunities"](https://www.cs.hku.hk/data/techreps/document/TR-2017-04.pdf).
+* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — describes 
+linearizability testing tool [Porcupine](https://github.com/anishathalye/porcupine), written in Go.
 
 
 ## Specific approaches in different distributed systems
@@ -398,8 +399,8 @@ Additional resources:
 
 ### PingCap (TiDB)
 * [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d) — describes Jepsen-like framework implemented in Go and used at PingCap to test TiDB
-* [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like framework written in Go
-* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — linearizability testing library used by Chaos framework
+* [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like 
+framework written in Go, uses [Porcupine](#misc) linearizability checker
 * [Chaos Tools and Techniques for Testing the TiDB Distributed NewSQL Database](https://thenewstack.io/chaos-tools-and-techniques-for-testing-the-tidb-distributed-newsql-database/) and the same post on company [blog](https://pingcap.com/blog/chaos-practice-in-tidb/) 
 * [Official Jepsen report on TiDB 2.1.7](https://jepsen.io/analyses/tidb-2.1.7) and [companion blog post](https://pingcap.com/blog/tidb-passes-jepsen-test-for-snapshot-isolation-and-single-key-linearizability/) in company blog
 * [Safety First! Common Safety Pitfalls in Distributed Databases Found by Jepsen Tests](https://pingcap.com/blog/safety-first-common-safety-pitfalls-in-distributed-databases-found-by-jepsen-tests/) — overview of Jepsen approach and tests with quick refresher on results for different databases to date
@@ -454,8 +455,11 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 * [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — another talk on testing Riak eventual consistency guarantees with [QuickCheck](#quickcheck)
 
 
-### CoreOS (etcd)
+### Etcd
 * [Testing distributed systems in Go](https://web.archive.org/web/20170224103337/https://coreos.com/blog/testing-distributed-systems-in-go.html) — overview of failure injection testing for etcd. Or alternative url for [the same post](https://blog.gopheracademy.com/advent-2016/testing-distributed-systems-in-go/).
+* [On the Hunt for Etcd Data Inconsistencies](https://youtu.be/IIMs0EjQZHg) — talk on how Etcd reimplemented 
+Jepsen in Go using their existing test framework as a cluster runner and 
+[Porcupine](#misc) as a linearizability checker
 
 
 ### Red Planet Labs
