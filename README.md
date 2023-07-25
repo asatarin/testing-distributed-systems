@@ -203,9 +203,15 @@ See also [benchmarking](#benchmarking) tools.
 * [Concurrency Debugging with Differential Schedule Projections](https://brandonlucia.com/pubs/symbiosis_final_pldi.pdf) — find and minimize concurrency bugs using program analysis. Shared memory systems are equivalent to message passing systems, so you can apply the same techniques to distributed systems.
 
 
-### Misc
+### Metamorphic Testing
 * [Metamorphic Testing](https://www.hillelwayne.com/post/metamorphic-testing/) — overview of what metamorphic testing is and where it can help. 
 For more details see paper ["Metamorphic Testing: A Review of Challenges and Opportunities"](https://www.cs.hku.hk/data/techreps/document/TR-2017-04.pdf).
+
+Companies using Metamorphic Testing
+ * [CockroachLabs](#cockroachlabs-cockroachdb)
+
+
+### Misc
 * [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) — describes 
 linearizability testing tool [Porcupine](https://github.com/anishathalye/porcupine), written in Go.
 
@@ -359,6 +365,7 @@ See also [formal methods](#formal-methods) section.
 * [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) — CockroachDB tested by Kyle Kingsbury (Jepsen.io)
 * [Introducing Pebble: A RocksDB Inspired Key-Value Store Written in Go](https://www.cockroachlabs.com/blog/pebble-rocksdb-kv-store/) — introduces new storage engine and includes thorough discussion on what it takes to properly test storage engine
 * [ParallelCommits.tla](https://github.com/cockroachdb/cockroach/blob/master/docs/tla-plus/ParallelCommits/ParallelCommits.tla) — Formal specification in TLA+ of the [parallel commit](https://www.cockroachlabs.com/blog/parallel-commits/) transaction protocol. See also [formal methods](#formal-methods).
+* [Metamorphic Testing in CockroachDB](https://www.cockroachlabs.com/blog/metamorphic-testing-the-database/)
 
 
 ### SingleStore
