@@ -277,6 +277,7 @@ to top.
 * ["Buggify — Testing Distributed Systems with Deterministic Simulation"](https://transactional.blog/simulation/buggify.html) — [Alex 
 Miller](https://www.linkedin.com/in/alexmillerdb/), one of developers at FoundationDB, describes BUGGIFY macros, which helps bias simulation tests towards doing dangerous and bug finding things. This is a good example of cooperation between testing efforts and production code.
 * ["FoundationDB: A Distributed Unbundled Transactional Key Value Store"](https://sigmodrecord.org/publications/sigmodRecord/2203/pdfs/08_fdb-zhou.pdf) — SIGMOD 2021 paper on FoundationDB has a very detailed section on simulation testing at FoundationDB with discussions on determinism, test oracles, fault injection and limitations.
+* ["Unlucky Simulation"](https://youtu.be/0h9l6Ug_l5E) — talk on using various scheduling strategies (LibFuzzer, random, etc) with simulation testing in FoundationDB 
 
 See also [deterministic simulation](#deterministic-simulation) section.
 
