@@ -7,7 +7,7 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 
 **Table of Contents**
 
-* A markdown unordered list which will be replaced with the ToC
+* A Markdown unordered list which will be replaced with the ToC
 {:toc}
 
 
@@ -19,7 +19,7 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 * [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](http://ucare.cs.uchicago.edu/pdf/socc14-cbs.pdf) — study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
 and Flume)
 * [TaxDC: A Taxonomy of Non-Deterministic Concurrency Bugs in Datacenter Distributed Systems](http://ucare.cs.uchicago.edu/pdf/asplos16-TaxDC.pdf) — comprehensive taxonomy of bugs in distributed systems (Cassandra, Hadoop MapReduce, HBase, ZooKeeper)
-* [An Empirical Study on Crash Recovery Bugs in Large-Scale Distributed Systems](https://dl.acm.org/doi/10.1145/3236024.3236030) — based on bug database from "What Bugs Live in the Cloud?" paper reseachers focus specifically on crash recovery bugs in Hadoop MapReduce, HBase, Cassandra, ZooKeeper. There is review of this paper by [Murat Demirbas](https://twitter.com/muratdemirbas) in [his blog](http://muratbuffalo.blogspot.com/2019/01/paper-review-empirical-study-on-crash.html).
+* [An Empirical Study on Crash Recovery Bugs in Large-Scale Distributed Systems](https://dl.acm.org/doi/10.1145/3236024.3236030) — based on bug database from "What Bugs Live in the Cloud?" paper researchers focus specifically on crash recovery bugs in Hadoop MapReduce, HBase, Cassandra, ZooKeeper. There is review of this paper by [Murat Demirbas](https://twitter.com/muratdemirbas) in [his blog](http://muratbuffalo.blogspot.com/2019/01/paper-review-empirical-study-on-crash.html).
 * [An empirical study on the correctness of formally verified distributed systems](https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/) — study of bugs in formally verified distributed systems. Analysis includes Microsoft's [IronFleet distributed key-value store](https://www.microsoft.com/en-us/research/publication/ironfleet-proving-practical-distributed-systems-correct/) built from formal model.
 * [What bugs cause cloud production incidents?](https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incidents/) — research focused on bugs (and their resolution strategies) that actually cause production incidents in large-scale distributed services at [Microsoft](#microsoft) Azure.
 
@@ -38,9 +38,9 @@ I gave an [overview talk](https://asatarin.github.io/talks/2022-09-upgrade-failu
 
 
 #### Fault Tolerance
-* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/) — study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault tolerant they are to data corruption and read/write errors
-* [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similiar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
-* [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) — overview of netrwork partition failures in various distributed systems (MongoDB, HBase, HDFS, Kafka, RabbitMQ, Elasticsearch, Mesos, etc), common traits among them and strategies to mitigate those failures.
+* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/) — study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault-tolerant they are to data corruption and read/write errors
+* [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similar topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
+* [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) — overview of network partition failures in various distributed systems (MongoDB, HBase, HDFS, Kafka, RabbitMQ, Elasticsearch, Mesos, etc), common traits among them and strategies to mitigate those failures.
 * [Understanding, Detecting and Localizing Partial Failures in Large System Software](https://www.usenix.org/conference/nsdi20/presentation/lou) — what happens if your system loses some functionality due to failure as opposed to full fail-stop? 
 Authors study how these partial failures manifest in distributed systems (ZooKeeper, Cassandra, HDFS, Mesos) and what triggers them. 
 They propose runtime approach to detect those failure with mimic-style intrinsic watchdogs and show how these watchdogs could be generated automatically.
@@ -59,8 +59,8 @@ specifically regression testing for correctness and performance bugs.
 #### Testing in a Distributed World by Ines Sombra (RICON 2014)
 {:.no_toc}
 
-Great overview of techniques for testing distributed systems from practitioner, the [video](https://youtu.be/iZEXIN7-9tM) did age well and still extremely good overview of the landscape.
-Additional materials could be found in [this Github repo](https://github.com/Randommood/RICON2014)
+Great overview of techniques for testing distributed systems from practitioner, the [video](https://youtu.be/iZEXIN7-9tM) did age well and still an excellent overview of the landscape.
+Additional materials could be found in [this GitHub repo](https://github.com/Randommood/RICON2014)
 
 
 ### Resilience In Complex Adaptive Systems
@@ -72,12 +72,12 @@ These materials are not directly related to testing distributed systems, but the
 
 
 ### Jepsen
-State of the art approach to testing stateful distributed  systems.
+State-of-the-art approach to testing stateful distributed  systems.
 
 * [Jepsen Analyses](http://jepsen.io/analyses) — most recent Jepsen analyses of different distributed systems
-* [Jepsen Talks](http://jepsen.io/talks) — talks by Kyle Kingsbury on various conferences
-* [Aphyr's Jepsen posts](https://aphyr.com/tags/Jepsen) — older Jepsen analyses on Kyle Kingsbury's (Aphyr) personal site
-* [Jepsen Talks on Github](https://github.com/aphyr/jepsen-talks) — Jepsen talks slides before 2015 on Github
+* [Jepsen Talks](http://jepsen.io/talks) — talks by Kyle Kingsbury at various conferences
+* [Aphyr`s Jepsen posts](https://aphyr.com/tags/Jepsen) — older Jepsen analyses on Kyle Kingsbury`s (Aphyr) personal site
+* [Jepsen Talks on GitHub](https://github.com/aphyr/jepsen-talks) — Jepsen talks slides before 2015 on GitHub
 * [Kyle Kingsbury on InfoQ](http://www.infoq.com/author/Kyle-Kingsbury)
 * [Call me maybe: Jepsen and flaky networks](http://www.slideshare.net/shalinmangar/call-me-maybe-jepsen-and-flaky-networks) — talk on Jepsen, not by Kyle
 * [Jepsen is used by Microsoft CosmosDB](https://twitter.com/dharmashukla/status/869104163510034432) — founder of Azure CosmosDB confirms, that they are using Jepsen
@@ -87,8 +87,8 @@ and non-transactional semantics. This page gives bird's-eye view on guarantees d
 Elle transactional consistency checker for black-box databases:
 * [Elle: Inferring Isolation Anomalies from Experimental Observations](https://github.com/jepsen-io/elle/raw/master/paper/elle.pdf) — paper on Elle design by Kyle Kingsbury and Peter Alvaro. You might also check out overview of the paper from [Murat Demirbas](https://muratbuffalo.blogspot.com/2020/04/elle-inferring-isolation-anomalies-from.html) or [The Morning Paper](https://blog.acolyer.org/2020/11/23/elle/) blog 
 * Elle [source code](https://github.com/jepsen-io/elle)
-* [Black-box Isolation Checking with Elle](https://youtu.be/OPJ_IcdSqig) — talk Kyle gave at [CMU DB](https://db.cs.cmu.edu/) database seminar descibing Elle and results obtained with it
-* [Elle: Finding Isolation Violations in Real-World Databases](https://youtu.be/EjNf_kbx36E) — keynotey by Kyle Kingsbury on Elle at PODC 2021
+* [Black-box Isolation Checking with Elle](https://youtu.be/OPJ_IcdSqig) — talk Kyle gave at [CMU DB](https://db.cs.cmu.edu/) database seminar describing Elle and results obtained with it
+* [Elle: Finding Isolation Violations in Real-World Databases](https://youtu.be/EjNf_kbx36E) — keynote by Kyle Kingsbury on Elle at PODC 2021
 * [Elle: Opaque-box Serializability Verification](https://aphyr.com/media/talks/2021/vldb.mp4) — talk by Kyle Kingsbury and Peter Alvaro on Elle at VLDB 2021 
 
 Some notable Jepsen analyses:
@@ -108,7 +108,7 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 * [Verdi — A framework for formally verifying distributed systems implementations in Coq](https://github.com/uwplse/verdi)
 * [Network Semantics for Verifying Distributed Systems](https://homes.cs.washington.edu/~jrw12/network-semantics.html)
 * [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](https://web.archive.org/web/20220329052326/http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) — using formal verification to find a bug in TimSort sorting algorithm
-* [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analizying quicksort implementation in Java 
+* [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analyzing quicksort implementation in Java 
 
 #### TLA+
 * [Designing Distributed Systems in TLA+](https://www.hillelwayne.com/talks/distributed-systems-tlaplus/) by Hillel Wayne, and talk [Everything about distributed systems is terrible](https://youtu.be/tfnldxWlOhM)
@@ -132,7 +132,7 @@ Companies using TLA+ to verify correctness of algorithms:
 
 ### Deterministic Simulation
 Pioneered by [FoundationDB](#foundationdb), deterministic simulation approach to testing distributed systems gained 
-more popularity in the recent years.
+more popularity in recent years.
 More companies and systems adopt it as a primary testing strategy:
  * [FoundationDB](#foundationdb)
  * [TigerBeetle](#tigerbeetle)
@@ -169,7 +169,7 @@ And input fuzzing, where message contents or user inputs are fuzzed:
 * [DNS parser, meet Go fuzzer](https://blog.cloudflare.com/dns-parser-meet-go-fuzzer/)
 * [Fuzz Testing with afl-fuzz (American Fuzzy Loop)](http://spin.atomicobject.com/2015/08/23/fuzz-testing-american-fuzzy-lop/)
 * [Randomized testing for Go](https://github.com/dvyukov/go-fuzz) and talk on this tool [GopherCon 2015: Dmitry Vyukov — Go Dynamic Tools](https://www.youtube.com/watch?v=a9xrxRsIbSU)
-* [Simple guided fuzzing for libraries using LLVM's new libFuzzer](http://blog.llvm.org/2015/04/fuzz-all-clangs.html)
+* [Simple guided fuzzing for libraries using LLVM`s new libFuzzer](http://blog.llvm.org/2015/04/fuzz-all-clangs.html)
 * [LibFuzzer – a library for coverage-guided fuzz testing](http://llvm.org/docs/LibFuzzer.html)
 * [How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html) — example of how fuzzing could be used for finding famous HeartBleed vulnerability
 
@@ -178,7 +178,7 @@ And input fuzzing, where message contents or user inputs are fuzzed:
 Amazing and comprehensive overview of different strategies to test systems built with microservices by Cindy Sridharan. 
 * [Testing Microservices, the sane way](https://copyconstruct.medium.com/testing-microservices-the-sane-way-9bb31d158c16)
 
-Series of blog posts specifically on testing in production — best practices, pitfaults, etc: 
+Series of blog posts specifically on testing in production — best practices, pitfalls, etc: 
 * [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 * [Testing in Production: the hard parts](https://copyconstruct.medium.com/testing-in-production-the-hard-parts-3f06cefaf592)
 
@@ -238,7 +238,7 @@ Automated failure injection (see also [Lineage-driven Fault Injection](#lineage-
 * [Monkeys in Lab Coats: Applying Failure Testing Research @Netflix](http://www.infoq.com/presentations/failure-test-research-netflix)
 * [“Monkeys in Labs Coats”: Applied Failure Testing Research at Netflix](http://www.infoq.com/news/2016/03/failure-testing-netflix)
 * [Automated Failure Testing](https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f)
-* [Automating Failure Testing Research at Internet Scale](https://scholar.google.ru/scholar?hl=en&q=Automating+Failure+Testing+Research+at+Internet+Scale&btnG=&as_sdt=1%2C5&as_sdtp=) by P. Alvaro et.el
+* [Automating Failure Testing Research at Internet Scale](https://scholar.google.ru/scholar?hl=en&q=Automating+Failure+Testing+Research+at+Internet+Scale&btnG=&as_sdt=1%2C5&as_sdtp=) by P. Alvaro et. el.
 
 Random/manual failure injection testing: 
 * [Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
@@ -263,7 +263,7 @@ See also [formal methods](#formal-methods) section.
 ### Meta
 * [BellJar: A new framework for testing system recoverability at scale](https://engineering.fb.com/2022/05/05/developer-tools/belljar/) — BellJar 
 is a testing framework focused on answering question "What service dependencies are required for the service to recover after large scale disaster?". 
-BellJar puts service in a vacuum environment with only handful of direct dependencies allowlisted to verify that 
+BellJar puts service in a vacuum environment with only handful of direct dependencies allow-listed to verify that 
 recovery procedures succeed under those constraints. It checks those recovery procedures in CI/CD pipeline preventing 
 unconstrained growth of dependency graph and circular dependencies. 
 Based on BellJar tests one can construct the entire dependency graph of the services allowing to boostrap them in the correct order from bottom 
@@ -271,9 +271,9 @@ to top.
 
 
 ### FoundationDB
-* ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://youtu.be/4fFDFbi3toc) — talk on FoundationDB simulation testing. Their architecture was built from the ground up to suppport fully deterministic simulation testing 
+* ["Testing Distributed Systems w/ Deterministic Simulation" by Will Wilson](https://youtu.be/4fFDFbi3toc) — talk on FoundationDB simulation testing. Their architecture was built from the ground up to support fully deterministic simulation testing 
 * [Simulation and Testing](https://apple.github.io/foundationdb/testing.html) — public overview of FoundationDB simulation testing framework
-* [FoundationDB or: How I Learned to Stop Worrying and Trust the Database](https://youtu.be/OJb8A6h9jQQ) by Markus Pilman from Snowflake — updated talk on testing FoundationDB with determenistic simulation. Markus goes into details of what it takes to build determenistic simulation into a database. He mentions that it took two years to build a simulation framework before FoundationDB team started working on a database.
+* [FoundationDB or: How I Learned to Stop Worrying and Trust the Database](https://youtu.be/OJb8A6h9jQQ) by Markus Pilman from Snowflake — updated talk on testing FoundationDB with deterministic simulation. Markus goes into details of what it takes to build deterministic simulation into a database. He mentions that it took two years to build a simulation framework before FoundationDB team started working on a database.
 * ["Buggify — Testing Distributed Systems with Deterministic Simulation"](https://transactional.blog/simulation/buggify.html) — [Alex 
 Miller](https://www.linkedin.com/in/alexmillerdb/), one of developers at FoundationDB, describes BUGGIFY macros, which helps bias simulation tests towards doing dangerous and bug finding things. This is a good example of cooperation between testing efforts and production code.
 * ["FoundationDB: A Distributed Unbundled Transactional Key Value Store"](https://sigmodrecord.org/publications/sigmodRecord/2203/pdfs/08_fdb-zhou.pdf) — SIGMOD 2021 paper on FoundationDB has a very detailed section on simulation testing at FoundationDB with discussions on determinism, test oracles, fault injection and limitations.
@@ -290,7 +290,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [Netflix A STATE OF XEN — CHAOS MONKEY & CASSANDRA](https://vimeopro.com/user35188327/cassandra-summit-2015/video/140949186) from Cassandra Summit 2015
 * [Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems](https://youtu.be/OnG1FCr5WTI) by Joel Knighton presented at Devoxx UK 2016
 * [Testing Apache Cassandra 4.0](https://cassandra.apache.org/blog/2018/08/21/testing_apache_cassandra.html) — quick overview of approaches used to test next major version of Cassandra
-* [Fallout](https://github.com/datastax/fallout) — tool to run distributed tests as a service. It is meant to easily orchestrate cluster creation and testing tools like [Jepsen](#jepsen), performance testing tools and others, though extention and combining them in various ways with enviromental conditions. It could run tests either locally or on large scale clusters.
+* [Fallout](https://github.com/datastax/fallout) — tool to run distributed tests as a service. It is meant to easily orchestrate cluster creation and testing tools like [Jepsen](#jepsen), performance testing tools and others, though extension and combining them in various ways with environmental conditions. It could run tests either locally or on large scale clusters.
 * [Cassandra Harry](https://github.com/apache/cassandra-harry) — [Fuzz testing](#fuzzing) tool for Apache Cassandra. Aims to provide reproducible workloads to test correctness of Apache Cassandra.
 * [Fuzz Testing and Verification of Apache Cassandra with "Harry"](https://youtu.be/x885ck3mrZo) — talk on Harry fuzz testing tool by [Alex Petrov](https://twitter.com/ifesdjeen) at ApacheCon 2021
 * [Harry, an Open Source Fuzz Testing and Verification Tool for Apache Cassandra](https://cassandra.apache.org/_/blog/Harry-an-Open-Source-Fuzz-Testing-and-Verification-Tool-for-Apache-Cassandra.html) by Alex Petrov — blog post about Harry fuzz testing tool for Apache Cassandra and how it helps to find bugs
@@ -311,9 +311,9 @@ Video from Scylla Summit 2017 on testing
 
 
 ### Dropbox 
-* [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](http://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) — example of how to use QuickCheck to test synchronisation in Dropbox and similar tools (Google Drive). John Hughes gave a [talk on this](https://youtu.be/H18vxq-VsCk). See also [QuickCheck](#quickcheck).
-* [Data Checking at Dropbox](https://youtu.be/WUaMN2kywR4) — If you have lots of data, you have to verify that is doesn't bit rot and protect it against rare bugs (e.g. race conditions) to guarantee long term durability. This talks explains intricacies of building data consistency checker(s) at Dropbox scale.
-* [Dropbox's Exabyte Storage System](https://www.facebook.com/atscaleevents/videos/1741691622770601/) (aka Magic Pocket) talk by James Cowling — describes number of strategies to achieve exteremely high durability. 
+* [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](http://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) — example of how to use QuickCheck to test synchronization in Dropbox and similar tools (Google Drive). John Hughes gave a [talk on this](https://youtu.be/H18vxq-VsCk). See also [QuickCheck](#quickcheck).
+* [Data Checking at Dropbox](https://youtu.be/WUaMN2kywR4) — If you have lots of data, you have to verify that it did not suffer from bit rot and protect it against rare bugs (e.g. race conditions) to guarantee long term durability. This talks explains intricacies of building data consistency checker(s) at Dropbox scale.
+* [Dropbox's Exabyte Storage System](https://www.facebook.com/atscaleevents/videos/1741691622770601/) (aka Magic Pocket) talk by James Cowling — describes number of strategies to achieve extremely high durability. 
 This includes:
   - guard against faulty disks,
   - guard against software defects,
@@ -321,17 +321,17 @@ This includes:
   - operational safeguards to reduce blast radius,
   - safeguards against deletes with multi stage soft-delete,
   - comprehensive testing strategy in-depth with increased scale,
-  - redundancy across varios axis in software and hardware stacks,
+  - redundancy across various axis in software and hardware stacks,
   - continuous data integrity validation on many levels,
   - etc
 * [Testing sync at Dropbox](https://dropbox.tech/infrastructure/-testing-our-new-sync-engine) — comprehensive overview of two test frameworks at Dropbox for new sync engine implementation. 
-CanopyCheck — single threaded and fully deterministic randomized testing framework with minimization for synchronization planner component of the engine. The other framework Trinity focuses on concurrency and larger surface area of componenents. 
-Great discussion on tradeoffs between determinism, strengh of test oracles vs width of coverage and size of the system under test.
+CanopyCheck — single threaded and fully deterministic randomized testing framework with minimization for synchronization planner component of the engine. The other framework Trinity focuses on concurrency and larger surface area of components. 
+Great discussion on tradeoffs between determinism, strength of test oracles vs width of coverage and size of the system under test.
 
 
 ### Elastic (Elasticsearch)
 * [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) — applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elasticsearch replication protocol
-* [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — Elasticsearch uses [TLA+](#formal-methods) to verify correctnes of their replication protocol
+* [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch — Elasticsearch uses [TLA+](#formal-methods) to verify correctness of their replication protocol
 
 See also [formal methods](#formal-methods) section.
 
@@ -448,11 +448,11 @@ and ["Wrapping Up: Jepsen Test Results for YugabyteDB 1.2 Webinar"](https://blog
 
 
 ### Hazelcast
-* [Testing the CP Subsystem with Jepsen](https://hazelcast.com/blog/testing-the-cp-subsystem-with-jepsen/) — overview of how [Jepsen](#jepsen) is used to test Hazelcast in-memory data grid CP sybsystem
+* [Testing the CP Subsystem with Jepsen](https://hazelcast.com/blog/testing-the-cp-subsystem-with-jepsen/) — overview of how [Jepsen](#jepsen) is used to test Hazelcast in-memory data grid CP subsystem
 
 
 ### Basho (Riak)
-* [Testing Eventual Consistency in Riak](http://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/UlfNorell) — how to model eventually consistent database in [QuickCheck](#quickcheck) and find bugs in it's implementation, video available [on youtube](https://youtu.be/x9mW54GJpG0)
+* [Testing Eventual Consistency in Riak](http://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/UlfNorell) — how to model eventually consistent database in [QuickCheck](#quickcheck) and find bugs in it`s implementation, video available [on YouTube](https://youtu.be/x9mW54GJpG0)
 * [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — another talk on testing Riak eventual consistency guarantees with [QuickCheck](#quickcheck)
 
 
@@ -494,7 +494,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 talks about architecture and features of [Convex](https://www.convex.dev/). 
 At the [end of the talk](https://youtu.be/iizcidmSwJ4?t=2788) James covers testing at Convex. 
 They use approach inspired by [QuickCheck](#quickcheck) and [FoundationDB](#foundationdb) to test end-to-end guarantees with 
-randomized initial state, workload, injected failures and thread interleavings. These tests validate correctness in production 
+randomized initial state, workload, injected failures and thread interleaving. These tests validate correctness in production 
 similar to [Dropbox](#dropbox) Magic Pocket system on which James worked previously.
 * [Better Testing With Less Code Using Randomization](https://blog.convex.dev/randomized-testing/) — blog post describing
  approach Convex uses to develop randomized tests
@@ -517,7 +517,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 
 
 ## Single node systems
-These examples are not about distributed systems, but they demostrate testing concurrency and level of sofistication required in distributed systems.
+These examples are not about distributed systems, but they demonstrate testing concurrency and level of sophistication required in distributed systems.
 
 ### SQLite 
 SQLite is not a distributed system by any stretch of the imagination, but provides good example of comprehensive testing of a database implementation.
@@ -545,7 +545,7 @@ and how to contribute more tests
 
 
 ### Network Simulation
-* [Comcast — Simulating shitty network connections so you can build better systems](https://github.com/tylertreat/comcast)
+* [Comcast — Simulating shitty network connections, so you can build better systems](https://github.com/tylertreat/comcast)
 * [Muxy Simulating real-world distributed system failures](https://github.com/mefellows/muxy)
 * [Namazu — Programmable fuzzy scheduler for testing distributed systems](https://github.com/osrg/namazu) 
 * [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
@@ -570,7 +570,7 @@ and how to contribute more tests
 
 ### Benchmarking 
 * [OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases](http://www.vldb.org/pvldb/vol7/p277-difallah.pdf)
-* [OLTP Benchmark on Github](https://github.com/oltpbenchmark)
+* [OLTP Benchmark on GitHub](https://github.com/oltpbenchmark)
 * [Py-TPCC](https://github.com/apavlo/py-tpcc)
 * [Netflix Data Benchmark: Benchmarking Cloud Data Stores](https://netflixtechblog.com/netflix-data-benchmark-benchmarking-cloud-data-stores-7266186ded11)
 
