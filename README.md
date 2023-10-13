@@ -133,6 +133,12 @@ Companies using TLA+ to verify correctness of algorithms:
 ### Deterministic Simulation
 Pioneered by [FoundationDB](#foundationdb), deterministic simulation approach to testing distributed systems gained 
 more popularity in recent years.
+
+* [Designing Dope Distributed Systems for Outer Space with High-Fidelity 
+Simulation](https://www.youtube.com/watch?v=prM-0i58XBM) — talk about using deterministic simulation to test 
+distributed space telescope. With recommendations on how to move file IO, network, scheduling out of your program 
+o make it more amenable to simulation.
+
 More companies and systems adopt it as a primary testing strategy:
  * [FoundationDB](#foundationdb)
  * [TigerBeetle](#tigerbeetle)
