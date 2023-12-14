@@ -76,7 +76,7 @@ State-of-the-art approach to testing stateful distributed  systems.
 
 * [Jepsen Analyses](http://jepsen.io/analyses) — most recent Jepsen analyses of different distributed systems
 * [Jepsen Talks](http://jepsen.io/talks) — talks by Kyle Kingsbury at various conferences
-* [Aphyr`s Jepsen posts](https://aphyr.com/tags/Jepsen) — older Jepsen analyses on Kyle Kingsbury`s (Aphyr) personal site
+* [Aphyr's Jepsen posts](https://aphyr.com/tags/Jepsen) — older Jepsen analyses on Kyle Kingsbury's (Aphyr) personal site
 * [Jepsen Talks on GitHub](https://github.com/aphyr/jepsen-talks) — Jepsen talks slides before 2015 on GitHub
 * [Kyle Kingsbury on InfoQ](http://www.infoq.com/author/Kyle-Kingsbury)
 * [Call me maybe: Jepsen and flaky networks](http://www.slideshare.net/shalinmangar/call-me-maybe-jepsen-and-flaky-networks) — talk on Jepsen, not by Kyle
