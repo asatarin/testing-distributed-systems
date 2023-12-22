@@ -16,7 +16,7 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 ### Research Papers
 
 #### Bugs
-* [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](https://dl.acm.org/doi/pdf/10.1145/2670979.2670986) — study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
+* [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](https://dl.acm.org/doi/abs/10.1145/2670979.2670986) — study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
 and Flume)
 * [TaxDC: A Taxonomy of Non-Deterministic Concurrency Bugs in Datacenter Distributed Systems](http://ucare.cs.uchicago.edu/pdf/asplos16-TaxDC.pdf) — comprehensive taxonomy of bugs in distributed systems (Cassandra, Hadoop MapReduce, HBase, ZooKeeper)
 * [An Empirical Study on Crash Recovery Bugs in Large-Scale Distributed Systems](https://dl.acm.org/doi/10.1145/3236024.3236030) — based on bug database from "What Bugs Live in the Cloud?" paper researchers focus specifically on crash recovery bugs in Hadoop MapReduce, HBase, Cassandra, ZooKeeper. There is review of this paper by [Murat Demirbas](https://twitter.com/muratdemirbas) in [his blog](http://muratbuffalo.blogspot.com/2019/01/paper-review-empirical-study-on-crash.html).
