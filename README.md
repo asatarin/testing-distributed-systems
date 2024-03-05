@@ -147,6 +147,7 @@ More companies and systems adopt it as a primary testing strategy:
  * [Amazon Web Services](#amazon-web-services) uses SimWorld to test Elastic Block Storage control plane
  * [Red Planet Labs](#red-planet-labs)
  * [Sled](#sled)
+ * [ResonateHQ](#resonatehq)
 
 See also talk ["Simulation Testing"](https://youtu.be/N5HyVUPuU0E) by Michael Nygard
 
@@ -520,6 +521,9 @@ As a result of this work, they open sourced [MadSim](https://github.com/madsim-r
 for the Rust language ecosystem.
 
 See also [deterministic simulation](#deterministic-simulation) section.
+
+### ResonateHQ
+A dead simple programming model for [Distributed Async Await](https://www.resonatehq.io/). They use deterministic simulation testing to test their [server](https://github.com/resonatehq/resonate/tree/main/test/dst). Their testing strategy is inspired by [FoundationDB](#foundationdb) and [TigerBettle](#tigerbeetle)
 
 
 ## Single node systems
