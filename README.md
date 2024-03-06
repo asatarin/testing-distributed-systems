@@ -523,7 +523,7 @@ for the Rust language ecosystem.
 See also [deterministic simulation](#deterministic-simulation) section.
 
 ### ResonateHQ
-A dead simple programming model for [Distributed Async Await](https://www.resonatehq.io/). They use deterministic simulation testing to test their [server](https://github.com/resonatehq/resonate/tree/main/test/dst). Their testing strategy is inspired by [FoundationDB](#foundationdb) and [TigerBeetle](#tigerbeetle)
+A dead simple programming model for [Distributed Async Await](https://www.resonatehq.io/). They use deterministic simulation testing to test their server [blog](https://blog.resonatehq.io/deterministic-simulation-testing) and [code](https://github.com/resonatehq/resonate/tree/main/test/dst). Their testing strategy is inspired by [FoundationDB](#foundationdb) and [TigerBeetle](#tigerbeetle)
 
 
 ## Single node systems
