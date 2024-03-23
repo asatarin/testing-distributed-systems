@@ -129,3 +129,10 @@ a {
     visibility: visible;
   }
 }
+
+.print-content {
+  display: none;
+  @media print {
+    display: block;
+  }
+}
