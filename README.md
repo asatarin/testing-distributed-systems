@@ -1,5 +1,8 @@
+---
+---
+
 List of resources on testing distributed systems curated by Andrey Satarin ([@asatarin](https://twitter.com/asatarin)).
-If you are interested in my other stuff, check out [talks](https://asatarin.github.io/talks) page. 
+If you are interested in my other stuff, [check out talks page](https://asatarin.github.io/talks). 
 For any questions or suggestions you can reach out to me on Twitter ([@asatarin](https://twitter.com/asatarin)), 
 Mastodon (<a rel="me" href="https://discuss.systems/@asatarin">https://discuss.systems/@asatarin</a>) 
 or [LinkedIn](https://www.linkedin.com/in/asatarin/).
@@ -10,8 +13,7 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 * A Markdown unordered list which will be replaced with the ToC
 {:toc}
 
-
-## Overview of testing approaches
+## Overview of Testing Approaches
 
 ### Research Papers
 
@@ -216,7 +218,7 @@ For more details see paper ["Metamorphic Testing: A Review of Challenges and Opp
 linearizability testing tool [Porcupine](https://github.com/anishathalye/porcupine), written in Go.
 
 
-## Specific approaches in different distributed systems
+## Specific Approaches in Different Distributed Systems
 
 ### Google
 * [Efficient Exploratory Testing of Concurrent Systems](http://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf) — They don't mention it but looks like they describe testing of Google Omega
@@ -522,7 +524,7 @@ for the Rust language ecosystem.
 See also [deterministic simulation](#deterministic-simulation) section.
 
 
-## Single node systems
+## Single Node Systems
 These examples are not about distributed systems, but they demonstrate testing concurrency and level of sophistication required in distributed systems.
 
 ### SQLite 
