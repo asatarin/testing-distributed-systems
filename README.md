@@ -133,12 +133,14 @@ Companies using TLA+ to verify correctness of algorithms:
 Pioneered by [FoundationDB](#foundationdb), deterministic simulation approach to testing distributed systems gained 
 more popularity in recent years.
 
+* ["Simulation Testing"](https://youtu.be/N5HyVUPuU0E) by Michael Nygard gives a good introduction into simulation 
+testing
 * [Designing Dope Distributed Systems for Outer Space with High-Fidelity 
 Simulation](https://www.youtube.com/watch?v=prM-0i58XBM) — talk about using deterministic simulation to test 
 distributed space telescope. With recommendations on how to move file IO, network, scheduling out of your program 
 o make it more amenable to simulation.
 
-More companies and systems adopt it as a primary testing strategy:
+More companies and systems adopt deterministic simulation as a primary testing strategy:
  * [FoundationDB](#foundationdb)
  * [TigerBeetle](#tigerbeetle)
  * [Convex](#convex)
@@ -146,8 +148,6 @@ More companies and systems adopt it as a primary testing strategy:
  * [Amazon Web Services](#amazon-web-services) uses SimWorld to test Elastic Block Storage control plane
  * [Red Planet Labs](#red-planet-labs)
  * [Sled](#sled)
-
-See also talk ["Simulation Testing"](https://youtu.be/N5HyVUPuU0E) by Michael Nygard
 
 
 ### Lineage-driven Fault Injection
