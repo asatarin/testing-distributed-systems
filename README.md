@@ -149,6 +149,33 @@ More companies and systems adopt deterministic simulation as a primary testing s
  * [Red Planet Labs](#red-planet-labs)
  * [Sled](#sled)
 
+See also [autonomous testing](#autonomous-testing), [FoundationDB](#foundationdb).
+
+
+### Autonomous Testing
+
+This approach is currently represented by [Antithesis](https://antithesis.com/) — pioneers in autonomous testing,
+defining the space and the state of the art. Will Wilson~(of~[FoundationDB](#foundationdb) fame) if one of the founders.
+
+* [Testing a Single-Node, Single Threaded, Distributed System Written in 1985](https://youtu.be/m3HwXlQPCEU) By Will Wilson. 
+  This is a comprehensive introduction into autonomous testing by using Super Mario Bros. (game) as a testing target. 
+  The autonomous testing platform plays the game and achieves remarkable results leveraging simple interface and a straightforward goal.
+  Will does a great job of delivering the talk and it's fascinating to watch.
+  Copy of the talk video on Vimeo [Why Antithesis Works](https://vimeo.com/929637128).
+* Accompanying blog post to the talk above (or vice versa) [How Antithesis finds bugs](https://antithesis.com/blog/sdtalk/) with reasoning behind Antithesis and value proposition and history on [FoundationDB](#foundationdb).
+  The post introduces Antithesis platform to deliver [FoundationDB](#foundationdb) style deterministic testing with autonomous capabilities to everybody.
+  See [comprehensive discussion](https://news.ycombinator.com/item?id=39356920) on Hacker News.
+* [Accelerating developers at MongoDB](https://antithesis.com/case_studies/mongodb_productivity/) — case study of using Antithesis as [MongoDB](#mongodb)
+* [Testing the Ethereum merge](https://antithesis.com/case_studies/ethereum_merge/) — case study of using Antithesis for testing Ethereum
+* [Autonomous Testing and the Future of Software Development](https://youtu.be/fFSPwJFXVlw) — Will Wilson
+  talks about why testing sucks and how to fix it with the new autonomous
+  testing approach by making testing less human involved. This talk is a precursor to above talks and posts on autonomous testing.
+* [Torturing Postgres: extreme autonomous testing for distributed architectures](https://medium.com/@thinkx_/torturing-postgres-extreme-autonomous-testing-for-distributed-architectures-e1c4139ed72e)—
+  how OrioleDB uses Antithesis to test the database
+* [Chaos Testing Stardog Cluster for Fun and Profit](https://www.stardog.com/labs/blog/chaos-testing-stardog-cluster-for-fun-and-profit/)
+
+See also [Deterministic Simulation](#deterministic-simulation), [FoundationDB](#foundationdb) and [Fuzzing](#fuzzing).
+
 
 ### Lineage-driven Fault Injection
 * [Lineage-driven Fault Injection](https://dl.acm.org/citation.cfm?id=2723711)
@@ -284,7 +311,7 @@ Miller](https://www.linkedin.com/in/alexmillerdb/), one of developers at Foundat
 * ["FoundationDB: A Distributed Unbundled Transactional Key Value Store"](https://sigmodrecord.org/publications/sigmodRecord/2203/pdfs/08_fdb-zhou.pdf) — SIGMOD 2021 paper on FoundationDB has a very detailed section on simulation testing at FoundationDB with discussions on determinism, test oracles, fault injection and limitations.
 * ["Unlucky Simulation"](https://youtu.be/0h9l6Ug_l5E) — talk on using various scheduling strategies (LibFuzzer, random, etc) with simulation testing in FoundationDB 
 
-See also [deterministic simulation](#deterministic-simulation) section.
+See also [deterministic simulation](#deterministic-simulation) and [autonomous testing](#autonomous-testing).
 
 
 ### Cassandra
