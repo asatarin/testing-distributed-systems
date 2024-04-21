@@ -300,7 +300,7 @@ Great overview of techniques for testing distributed systems from practitioner,
 the [video](https://youtu.be/iZEXIN7-9tM) did age well and still an excellent overview of the landscape.
 Additional materials could be found in [this GitHub repo](https://github.com/Randommood/RICON2014)
 
-### Game Days
+#### Game Days
 
 * [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
 
