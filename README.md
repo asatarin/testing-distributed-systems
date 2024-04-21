@@ -6,8 +6,7 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 
 **Table of Contents**
 
-* A Markdown unordered list which will be replaced with the ToC
-  {:toc}
+* A Markdown unordered list which will be replaced with the ToC {:toc}
 
 ## Overview of Testing Approaches
 
@@ -217,7 +216,7 @@ See also [autonomous testing](#autonomous-testing), [FoundationDB](#foundationdb
 ### Autonomous Testing
 
 This approach is currently represented by [Antithesis](https://antithesis.com/) — pioneers in autonomous testing,
-defining the space and the state of the art. Will Wilson~(of~[FoundationDB](#foundationdb) fame) if one of the founders.
+defining the space and the state of the art. Will Wilson (of [FoundationDB](#foundationdb) fame) is one of the founders.
 
 * [Testing a Single-Node, Single Threaded, Distributed System Written in 1985](https://youtu.be/m3HwXlQPCEU) by Will
   Wilson. This is a comprehensive introduction into autonomous testing by using Super Mario Bros. (game) as a testing
