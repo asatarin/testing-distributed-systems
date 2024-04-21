@@ -85,26 +85,6 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
   great code localization and reaction time within a few seconds.
   See also [overview talk](https://asatarin.github.io/talks/2022-05-understanding-partial-failures/) of the paper.
 
-#### Technologies for Testing Distributed Systems by Colin Scott
-
-{:.no_toc}
-
-Colin Scott shares his viewpoint from academia on testing distributed systems,
-specifically regression testing for correctness and performance bugs.
-
-* [Technologies for Testing Distributed Systems, Part I](http://colin-scott.github.io/blog/2016/03/04/technologies-for-testing-and-debugging-distributed-systems/)
-* See also
-  post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/)
-  by Crista Lopes
-
-#### Testing in a Distributed World by Ines Sombra (RICON 2014)
-
-{:.no_toc}
-
-Great overview of techniques for testing distributed systems from practitioner,
-the [video](https://youtu.be/iZEXIN7-9tM) did age well and still an excellent overview of the landscape.
-Additional materials could be found in [this GitHub repo](https://github.com/Randommood/RICON2014)
-
 ### Resilience In Complex Adaptive Systems
 
 These materials are not directly related to testing distributed systems, but they greatly contribute to general
@@ -294,10 +274,6 @@ Series of blog posts specifically on testing in production — best practices, p
 * [Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
 * [Testing in Production: the hard parts](https://copyconstruct.medium.com/testing-in-production-the-hard-parts-3f06cefaf592)
 
-### Game Days
-
-* [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
-
 ### Performance and Benchmarking
 
 * [Your Load Generator Is Probably Lying To You](http://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)
@@ -310,7 +286,35 @@ Series of blog posts specifically on testing in production — best practices, p
 
 See also [benchmarking](#benchmarking) tools.
 
-### Test Case Reduction
+### Misc
+
+* [Metamorphic Testing](https://www.hillelwayne.com/post/metamorphic-testing/) — overview of what metamorphic testing is
+  and where it can help. For more details see
+  paper ["Metamorphic Testing: A Review of Challenges and Opportunities"](https://www.cs.hku.hk/data/techreps/document/TR-2017-04.pdf).
+* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) —
+  describes linearizability testing tool [Porcupine](https://github.com/anishathalye/porcupine), written in Go.
+
+#### Testing in a Distributed World
+
+Great overview of techniques for testing distributed systems from practitioner,
+the [video](https://youtu.be/iZEXIN7-9tM) did age well and still an excellent overview of the landscape.
+Additional materials could be found in [this GitHub repo](https://github.com/Randommood/RICON2014)
+
+### Game Days
+
+* [Sometimes Kill -9 Isn’t Enough](http://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
+
+#### Technologies for Testing Distributed Systems
+
+Colin Scott shares his viewpoint from academia on testing distributed systems,
+specifically regression testing for correctness and performance bugs.
+
+* [Technologies for Testing Distributed Systems, Part I](http://colin-scott.github.io/blog/2016/03/04/technologies-for-testing-and-debugging-distributed-systems/)
+* See also
+  post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/)
+  by Crista Lopes
+
+#### Test Case Reduction
 
 * [Minimizing Faulty Executions of Distributed Systems](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-scott.pdf) —
   reducing the size of buggy executions to make them easier to understand. 60 minute
@@ -320,16 +324,6 @@ See also [benchmarking](#benchmarking) tools.
 * [Concurrency Debugging with Differential Schedule Projections](https://brandonlucia.com/pubs/symbiosis_final_pldi.pdf) —
   find and minimize concurrency bugs using program analysis. Shared memory systems are equivalent to message passing
   systems, so you can apply the same techniques to distributed systems.
-
-### Misc
-
-* [Metamorphic Testing](https://www.hillelwayne.com/post/metamorphic-testing/) — overview of what metamorphic testing is
-  and where it can help.
-  For more details see
-  paper ["Metamorphic Testing: A Review of Challenges and Opportunities"](https://www.cs.hku.hk/data/techreps/document/TR-2017-04.pdf).
-* [Testing Distributed Systems for Linearizability](http://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/) —
-  describes
-  linearizability testing tool [Porcupine](https://github.com/anishathalye/porcupine), written in Go.
 
 ## Specific Approaches in Different Distributed Systems
 
