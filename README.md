@@ -364,7 +364,7 @@ Automated failure injection (see also [Lineage-driven Fault Injection](#lineage-
 * [Monkeys in Lab Coats: Applying Failure Testing Research @Netflix](http://www.infoq.com/presentations/failure-test-research-netflix)
 * [“Monkeys in Labs Coats”: Applied Failure Testing Research at Netflix](http://www.infoq.com/news/2016/03/failure-testing-netflix)
 * [Automated Failure Testing](https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f)
-* [Automating Failure Testing Research at Internet Scale](https://scholar.google.ru/scholar?hl=en&q=Automating+Failure+Testing+Research+at+Internet+Scale&btnG=&as_sdt=1%2C5&as_sdtp=)
+* [Automating Failure Testing Research at Internet Scale](https://dl.acm.org/doi/abs/10.1145/2987550.2987555)
   by P. Alvaro et. el.
 
 Random/manual failure injection testing:
