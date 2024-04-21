@@ -85,7 +85,9 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
   great code localization and reaction time within a few seconds.
   See also [overview talk](https://asatarin.github.io/talks/2022-05-understanding-partial-failures/) of the paper.
 
-#### Technologies for Testing Distributed Systems by Colin Scott {:.no_toc}
+#### Technologies for Testing Distributed Systems by Colin Scott
+
+{:.no_toc}
 
 Colin Scott shares his viewpoint from academia on testing distributed systems,
 specifically regression testing for correctness and performance bugs.
@@ -95,7 +97,9 @@ specifically regression testing for correctness and performance bugs.
   post [Distributed Systems Testing: The Lost World](http://tagide.com/blog/research/distributed-systems-testing-the-lost-world/)
   by Crista Lopes
 
-#### Testing in a Distributed World by Ines Sombra (RICON 2014) {:.no_toc}
+#### Testing in a Distributed World by Ines Sombra (RICON 2014)
+
+{:.no_toc}
 
 Great overview of techniques for testing distributed systems from practitioner,
 the [video](https://youtu.be/iZEXIN7-9tM) did age well and still an excellent overview of the landscape.
