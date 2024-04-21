@@ -6,10 +6,11 @@ or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 
 **Table of Contents**
 
-# @formatter:off
+[//]: # (@formatter:off)
 * A Markdown unordered list which will be replaced with the ToC
 {:toc}
-# @formatter:on
+
+[//]: # (@formatter:on)
 
 ## Overview of Testing Approaches
 
