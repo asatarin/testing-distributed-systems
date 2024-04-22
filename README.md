@@ -227,7 +227,7 @@ defining the space and the state of the art. Will Wilson (of [FoundationDB](#fou
   how OrioleDB uses Antithesis to test the database
 * [Chaos Testing Stardog Cluster for Fun and Profit](https://www.stardog.com/labs/blog/chaos-testing-stardog-cluster-for-fun-and-profit/)
 
-See also [Deterministic Simulation](#deterministic-simulation), [FoundationDB](#foundationdb) and [Fuzzing](#fuzzing).
+See also [deterministic simulation](#deterministic-simulation), [FoundationDB](#foundationdb) and [Fuzzing](#fuzzing).
 
 ### Lineage-driven Fault Injection
 
@@ -262,6 +262,8 @@ And input fuzzing, where message contents or user inputs are fuzzed:
 * [LibFuzzer – a library for coverage-guided fuzz testing](http://llvm.org/docs/LibFuzzer.html)
 * [How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html) —
   example of how fuzzing could be used for finding famous HeartBleed vulnerability
+
+See also [autonomous testing](#autonomous-testing).
 
 ### Microservices
 
