@@ -227,7 +227,7 @@ defining the space and the state of the art. Will Wilson (of [FoundationDB](#fou
   how OrioleDB uses Antithesis to test the database
 * [Chaos Testing Stardog Cluster for Fun and Profit](https://www.stardog.com/labs/blog/chaos-testing-stardog-cluster-for-fun-and-profit/)
 
-See also [deterministic simulation](#deterministic-simulation), [FoundationDB](#foundationdb) and [Fuzzing](#fuzzing).
+See also [deterministic simulation](#deterministic-simulation), [FoundationDB](#foundationdb) and [fuzzing](#fuzzing).
 
 ### Lineage-driven Fault Injection
 
@@ -379,7 +379,7 @@ Random/manual failure injection testing:
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4)—
   Netflix different testing strategies
 
-See also [Chaos Engineering](#chaos-engineering) and [Lineage-driven Fault Injection](#lineage-driven-fault-injection).
+See also [chaos engineering](#chaos-engineering) and [lineage-driven fault injection](#lineage-driven-fault-injection).
 
 ### Microsoft
 
