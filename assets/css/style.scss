@@ -142,5 +142,7 @@ a {
   display: none;
   @media print {
     display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 }
