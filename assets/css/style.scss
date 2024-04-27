@@ -128,6 +128,14 @@ a {
   h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
     visibility: visible;
   }
+
+  hr {
+    height: 1px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: $hr-border-color;
+    border: 0;
+  }
 }
 
 .print-content {
