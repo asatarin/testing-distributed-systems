@@ -212,9 +212,9 @@ defining the space and the state of the art. Will Wilson (of [FoundationDB](#fou
   a straightforward goal. Will does a great job of delivering the talk and it's fascinating to watch. Copy of the talk
   video on Vimeo [Why Antithesis Works](https://vimeo.com/929637128).
 * Accompanying blog post to the talk above (or vice
-  versa) [How Antithesis finds bugs](https://antithesis.com/blog/sdtalk/) with reasoning behind Antithesis and value
-  proposition and history on [FoundationDB](#foundationdb). The post introduces Antithesis platform to
-  deliver [FoundationDB](#foundationdb) style deterministic testing with autonomous capabilities to everybody.
+  versa) [Is something bugging you?](https://antithesis.com/blog/is_something_bugging_you/) with reasoning behind
+  Antithesis and value proposition and history on [FoundationDB](#foundationdb). The post introduces Antithesis platform
+  to deliver [FoundationDB](#foundationdb) style deterministic testing with autonomous capabilities to everybody.
   See [comprehensive discussion](https://news.ycombinator.com/item?id=39356920) on Hacker News.
 * [Accelerating developers at MongoDB](https://antithesis.com/case_studies/mongodb_productivity/) — case study of using
   Antithesis as [MongoDB](#mongodb)
