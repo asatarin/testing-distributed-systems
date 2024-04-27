@@ -187,7 +187,7 @@ more popularity in recent years.
 * [Designing Dope Distributed Systems for Outer Space with High-Fidelity
   Simulation](https://www.youtube.com/watch?v=prM-0i58XBM)— talk about using deterministic simulation to test
   distributed space telescope. With recommendations on how to move file IO, network, scheduling out of your program
-  o make it more amenable to simulation.
+  to make it more amenable to simulation.
 
 More companies and systems adopt deterministic simulation as a primary testing strategy:
 
