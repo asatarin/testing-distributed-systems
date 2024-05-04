@@ -548,6 +548,8 @@ See also [formal methods](#formal-methods) section.
 * [ParallelCommits.tla](https://github.com/cockroachdb/cockroach/blob/master/docs/tla-plus/ParallelCommits/ParallelCommits.tla) —
   Formal specification in TLA+ of the [parallel commit](https://www.cockroachlabs.com/blog/parallel-commits/)
   transaction protocol. See also [formal methods](#formal-methods).
+* [The importance of being earnestly random: Metamorphic Testing in CockroachDB](https://www.cockroachlabs.com/blog/metamorphic-testing-the-database/) —
+  blog post talking about metamorphic testing at CockroachLabs to test Pebble storage engine
 
 ### SingleStore
 
