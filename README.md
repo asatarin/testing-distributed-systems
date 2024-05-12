@@ -341,6 +341,8 @@ specifically regression testing for correctness and performance bugs.
   Site Reliability Engineering book
 * [Randomized Testing of Cloud Spanner](https://medium.com/@jcorbett_26889/randomized-testing-of-cloud-spanner-5286f1eaba75) —
   overview of randomized testing at Cloud Spanner, including how to scale it to large datasets and high concurrency
+* [How chaos testing adds extra reliability to Spanner’s fault-tolerant design](https://cloud.google.com/blog/products/databases/chaos-testing-spanner-improves-reiliability) —
+  high level overview of fault injection (chaos) testing in Google Spanner discussing various types of injected faults
 
 ### Amazon Web Services
 
