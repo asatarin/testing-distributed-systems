@@ -411,6 +411,8 @@ See also [formal methods](#formal-methods) section.
   procedures in CI/CD pipeline preventing unconstrained growth of dependency graph and circular dependencies. Based on
   BellJar tests one can construct the entire dependency graph of the services allowing to boostrap them in the
   correct order from bottom to top.
+* [Vacuum Testing for Resiliency: Verifying Disaster Recovery in Complex](https://youtu.be/Qdn2MDMOmOo) — talk on how
+  BellJar is used at Meta to test recovery of distributed systems
 
 ### FoundationDB
 
