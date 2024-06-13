@@ -4,6 +4,10 @@ For any questions or suggestions you can reach out to me on Twitter ([@asatarin]
 Mastodon (<a rel="me" href="https://discuss.systems/@asatarin">https://discuss.systems/@asatarin</a>)
 or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 
+{% comment %}
+Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-BF9IZeTOXtIOg/edit
+{% endcomment %}
+
 **Table of Contents**
 
 [//]: # (@formatter:off)
