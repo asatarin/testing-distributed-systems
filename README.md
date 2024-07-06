@@ -714,11 +714,6 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [A novel implementation of the Raft consensus algorithm](https://github.com/atomix/copycat)
 * [Jepsen tests for Atomix Copycat](https://github.com/atomix/atomix-jepsen)
 
-### Onyx
-
-* [Onyx Straps in For a Jepsening](https://www.onyxplatform.org/jekyll/update/2016/03/15/Onyx-Straps-In-For-A-Jepsening.html)
-* [Jepsen test Onyx](https://github.com/onyx-platform/onyx-jepsen)
-
 ### Druid.io
 
 * [Architecting Distributed Databases for Failure](https://www.infoq.com/presentations/data-integrity-distributed-systems)
