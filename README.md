@@ -817,10 +817,10 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [The Joy of Testing](https://www.infoq.com/presentations/The-Joy-of-Testing)
 * [John Hughes on InfoQ](https://www.infoq.com/author/John-Hughes)
 * [Hansei: Property-based Development of Concurrent Systems](https://speakerdeck.com/jtuple/hansei-property-based-development-of-concurrent-systems)
-* [QuickChecking Poolboy for Fun and Profit](https://basho.com/posts/technical/quickchecking-poolboy-for-fun-and-profit/)—
+* [QuickChecking Poolboy for Fun and Profit](https://web.archive.org/web/20230325231321/https://riak.com/posts/technical/quickchecking-poolboy-for-fun-and-profit/)—
   from Basho
 * [Combining Fault-Injection with Property-Based Testing](https://dl.acm.org/doi/10.1145/2559627.2559629)
-* [Testing Telecoms Software with Quviq QuickCheck](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.148.6554&rep=rep1&type=pdf)
+* [Testing Telecoms Software with Quviq QuickCheck](https://web.archive.org/web/20120325030155id_/http://www.quviq.com/documents/erlang001-arts.pdf)
 * [Fuzz testing distributed systems with QuickCheck](https://making.pusher.com/fuzz-testing-distributed-systems-with-quickcheck/index.html) —
   using QuickCheck to test Raft protocol implementation in Haskell
 
