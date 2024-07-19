@@ -773,7 +773,7 @@ test both lock based and lock-free concurrent code on various platforms.
   support in the JVM, class libraries, and hardware.
 * [Workshop: Java Concurrency Stress (JCStress). Part 1](https://youtu.be/koU38cczBy8)
   and [Part 2](https://youtu.be/iTZNhknTGrg) by Aleksey Shipilëv
-* [JCstress samples](https://github.com/openjdk/jcstress/tree/master/jcstress-samples/src/main/java/org/openjdk/jcstress/samples)
+* [JCStress samples](https://github.com/openjdk/jcstress/tree/master/jcstress-samples/src/main/java/org/openjdk/jcstress/samples)
   showcasing what could be verified with the harness
 * [Java Concurrency Stress Tests](https://shipilev.net/#jcstress) presentations by Aleksey Shipilëv on JCStress
 
