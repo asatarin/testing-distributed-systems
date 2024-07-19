@@ -338,7 +338,8 @@ specifically regression testing for correctness and performance bugs.
 * [Efficient Exploratory Testing of Concurrent Systems](https://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf)—
   They don't mention it but looks like they describe testing of Google Omega
 * [Exploratory Testing Architecture (ETA) ](https://github.com/google/cluster-data/blob/master/ETAExplorationTraces.md)
-* [Paxos Made Live — An Engineering Perspective](https://research.google.com/pubs/pub33002.html) has a section on testing
+* [Paxos Made Live — An Engineering Perspective](https://research.google.com/pubs/pub33002.html) has a section on
+  testing
 * [10 Years of Crashing Google](https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan)
   describes some war stories from Disaster Recovery Testing (DiRT) team at Google
 * [Testing for Reliability](https://landing.google.com/sre/book/chapters/testing-reliability.html) chapter from Google
@@ -760,6 +761,35 @@ See also [deterministic simulation](#deterministic-simulation) section.
 
 These examples are not about distributed systems, but they demonstrate testing concurrency and level of sophistication
 required in distributed systems.
+
+### Concurrency
+
+Testing concurrent code is one of the challenges in single node as well as distributed systems. These tools help to
+test both lock based and lock-free concurrent code on various platforms.
+
+#### JCStress
+
+* https://openjdk.org/projects/code-tools/jcstress/ — test harness to verify correctness of concurrency support in
+  the JVM, class libraries, and hardware.
+* [Workshop: Java Concurrency Stress (JCStress). Part 1](https://youtu.be/koU38cczBy8)
+  and [Part 2](https://youtu.be/iTZNhknTGrg) by Aleksey Shipilëv
+* [JCstress samples](https://github.com/openjdk/jcstress/tree/master/jcstress-samples/src/main/java/org/openjdk/jcstress/samples)
+  showcasing what could be verified with the harness
+* [Java Concurrency Stress Tests](https://shipilev.net/#jcstress) presentations by Aleksey Shipilëv on JCStress
+
+#### LinCheck
+
+* https://github.com/JetBrains/lincheck — framework for testing concurrent data structures on JVM
+* [How We Test Concurrent Primitives in Kotlin Coroutines](https://blog.jetbrains.com/kotlin/2021/02/how-we-test-concurrent-primitives-in-kotlin-coroutines/)
+  from JetBrains blog
+* [Lin-Check: Testing concurrent data structures in Java](https://youtu.be/hwbpUEGHvvY) talk by Nikita Koval
+* [Workshop. Lincheck: Testing concurrency on the JVM (Part 1](https://youtu.be/YNtUK9GK4pA)
+  and [Part 2](https://youtu.be/EW7mkAOErWw) by Maria Sokolova
+
+#### Other
+
+* [ThreadSanitizer](https://clang.llvm.org/docs/ThreadSanitizer.html) — data race detection tool for C++
+* ThreadSanitizer is used under the hood of the [Go language race detector](https://go.dev/doc/articles/race_detector)
 
 ### SQLite
 
