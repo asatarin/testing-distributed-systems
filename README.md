@@ -769,8 +769,8 @@ test both lock based and lock-free concurrent code on various platforms.
 
 #### JCStress
 
-* https://openjdk.org/projects/code-tools/jcstress/ — test harness to verify correctness of concurrency support in
-  the JVM, class libraries, and hardware.
+* [JCStress](https://openjdk.org/projects/code-tools/jcstress/) — test harness to verify correctness of concurrency
+  support in the JVM, class libraries, and hardware.
 * [Workshop: Java Concurrency Stress (JCStress). Part 1](https://youtu.be/koU38cczBy8)
   and [Part 2](https://youtu.be/iTZNhknTGrg) by Aleksey Shipilëv
 * [JCstress samples](https://github.com/openjdk/jcstress/tree/master/jcstress-samples/src/main/java/org/openjdk/jcstress/samples)
@@ -779,7 +779,7 @@ test both lock based and lock-free concurrent code on various platforms.
 
 #### LinCheck
 
-* https://github.com/JetBrains/lincheck — framework for testing concurrent data structures on JVM
+* [LinCheck](https://github.com/JetBrains/lincheck) — framework for testing concurrent data structures on JVM
 * [How We Test Concurrent Primitives in Kotlin Coroutines](https://blog.jetbrains.com/kotlin/2021/02/how-we-test-concurrent-primitives-in-kotlin-coroutines/)
   from JetBrains blog
 * [Lin-Check: Testing concurrent data structures in Java](https://youtu.be/hwbpUEGHvvY) talk by Nikita Koval
