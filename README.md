@@ -757,6 +757,14 @@ Simulator for the Rust language ecosystem.
 
 See also [deterministic simulation](#deterministic-simulation) section.
 
+### YDB
+
+* [Hardening YDB with Jepsen: Lessons Learned](https://blog.ydb.tech/hardening-ydb-with-jepsen-lessons-learned-e3238a7ef4f2) —
+  how [Jepsen](#jepsen) tests for YDB helped find consistency and other bugs in YDB
+* [jepsen.ydb](https://github.com/ydb-platform/jepsen.ydb) — code of Jepsen tests for YDB
+
+See also [Jepsen](#jepsen).
+
 ## Single Node Systems
 
 These examples are not about distributed systems, but they demonstrate testing concurrency and level of sophistication
