@@ -140,7 +140,7 @@ Some notable Jepsen analyses:
 * [Dgraph 1.1.1](https://jepsen.io/analyses/dgraph-1.1.1)
 
 Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), [Cassandra](#cassandra),
-[ScyllaDB](#scylladb) and others.
+[ScyllaDB](#scylladb), [YDB](#ydb) and others.
 
 ### Formal Methods
 
