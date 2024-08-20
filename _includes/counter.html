@@ -1,5 +1,5 @@
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
+<script async="async" type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    var z = null;m[i].l=1*new Date();
    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
@@ -12,12 +12,12 @@
         accurateTrackBounce:true
    });
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/37858025" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/37858025" style="position:absolute; left:-9999px;" alt="" loading="lazy" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
 {% if site.google_analytics %}
 <!-- Google Analytics counter -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script defer="defer" src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
