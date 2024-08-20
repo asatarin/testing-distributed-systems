@@ -192,6 +192,8 @@ more popularity in recent years.
   Simulation](https://www.youtube.com/watch?v=prM-0i58XBM)— talk about using deterministic simulation to test
   distributed space telescope. With recommendations on how to move file IO, network, scheduling out of your program
   to make it more amenable to simulation.
+* [What's the big deal about Deterministic Simulation Testing?](https://notes.eatonphil.com/2024-08-20-deterministic-simulation-testing.html) —
+  Phil Eaton gives an introduction to deterministic simulation testing, discussing basics and challenges.
 
 More companies and systems adopt deterministic simulation as a primary testing strategy:
 
