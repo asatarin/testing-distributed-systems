@@ -455,12 +455,14 @@ See also [deterministic simulation](#deterministic-simulation) and [autonomous t
   orchestrate cluster creation and testing tools like [Jepsen](#jepsen), performance testing tools and others, though
   extension and combining them in various ways with environmental conditions. It could run tests either locally or on
   large scale clusters.
-* [Cassandra Harry](https://github.com/apache/cassandra-harry) — [Fuzz testing](#fuzzing) tool for Apache Cassandra.
-  Aims to provide reproducible workloads to test correctness of Apache Cassandra.
+* [Cassandra Harry](https://github.com/apache/cassandra-harry) — [Fuzz testing](#fuzzing) / property-based testing tool
+  for Apache Cassandra. Aims to provide reproducible workloads to test correctness of Apache Cassandra.
 * [Fuzz Testing and Verification of Apache Cassandra with "Harry"](https://youtu.be/x885ck3mrZo) — talk on Harry fuzz
   testing tool by [Alex Petrov](https://twitter.com/ifesdjeen) at ApacheCon 2021
 * [Harry, an Open Source Fuzz Testing and Verification Tool for Apache Cassandra](https://cassandra.apache.org/_/blog/Harry-an-Open-Source-Fuzz-Testing-and-Verification-Tool-for-Apache-Cassandra.html)
   by Alex Petrov — blog post about Harry fuzz testing tool for Apache Cassandra and how it helps to find bugs
+* [Garden of Forking Paths](https://youtu.be/q5T5LDooS2w) — talk by Alex Petrov on property-based testing philosophy and
+  core ideas based on his experience building Cassandra Harry.
 
 ### ScyllaDB
 
