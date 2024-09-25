@@ -188,10 +188,9 @@ more popularity in recent years.
 
 * ["Simulation Testing"](https://youtu.be/N5HyVUPuU0E) by Michael Nygard gives a good introduction into simulation
   testing
-* [Designing Dope Distributed Systems for Outer Space with High-Fidelity
-  Simulation](https://www.youtube.com/watch?v=prM-0i58XBM)— talk about using deterministic simulation to test
-  distributed space telescope. With recommendations on how to move file IO, network, scheduling out of your program
-  to make it more amenable to simulation.
+* [Designing Dope Distributed Systems for Outer Space with High-Fidelity Simulation](https://www.youtube.com/watch?v=prM-0i58XBM)—
+  talk about using deterministic simulation to test a distributed space telescope. With recommendations on how to move
+  file IO, network, scheduling out of your program to make it more amenable to simulation.
 * [What's the big deal about Deterministic Simulation Testing?](https://notes.eatonphil.com/2024-08-20-deterministic-simulation-testing.html) —
   Phil Eaton gives an introduction to deterministic simulation testing, discussing basics and challenges.
 
@@ -358,9 +357,10 @@ specifically regression testing for correctness and performance bugs.
 * [CACM Article "How Amazon Web Services Uses Formal Methods"](https://cacm.acm.org/magazines/2015/4/184701-how-amazon-web-services-uses-formal-methods/fulltext)
 * [Debugging Designs by Chris Newcombie](https://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also
   a  [source bundle](https://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
-* [Millions of tiny databases](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/) — has section on testing
-  which describes several approaches: SimWorld simulation resembling approach used at [Foundation DB](#foundationdb),
-  use of [Jepsen](#jepsen) and [formal methods](#formal-methods) and [game days](#game-days).
+* [Millions of tiny databases](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/) — has a section on
+  testing which describes several approaches: SimWorld simulation resembling the approach used
+  at [Foundation DB](#foundationdb), use of [Jepsen](#jepsen) and [formal methods](#formal-methods)
+  and [game days](#game-days).
 * [Using lightweight formal methods to validate a key-value storage node in Amazon S3](https://www.amazon.science/publications/using-lightweight-formal-methods-to-validate-a-key-value-storage-node-in-amazon-s3) —
   paper on verifying correctness of a new key-value storage node implementation in S3. They are using property-based
   testing and stateless model checking extensively to balance trade-offs and follow pragmatic approach.
@@ -753,8 +753,8 @@ distributed SQL-based stream processing platform:
 
 * [Deterministic Simulation: A New Era of Distributed System Testing](https://www.risingwave.com/blog/deterministic-simulation-a-new-era-of-distributed-system-testing)
 * [Applying Deterministic Simulation: The RisingWave Story](https://www.risingwave.com/blog/applying-deterministic-simulation-the-risingwave-story-part-2-of-2)
-  They talk about few kinds of tests they built with the simulator (unit, end-to-end, recovery, scaling), pros, cons and
-  challenges of this approach.
+  They talk about a few kinds of tests they built with the simulator (unit, end-to-end, recovery, scaling), pros, cons
+  and challenges of this approach.
 
 As a result of this work, they open sourced [MadSim](https://github.com/madsim-rs/madsim) — Magical Deterministic
 Simulator for the Rust language ecosystem.
