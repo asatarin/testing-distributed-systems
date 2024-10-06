@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 <link rel="alternate" type="application/rss+xml" href="/feed.xml">
 <link rel="license" href=" {{ '/LICENSE.txt' | relative_url }} " />
-<link rel="me" href="https://www.linkedin.com/in/asatarin/">
-<link rel="me" href="https://twitter.com/asatarin">
-<link rel="me" href="https://discuss.systems/@asatarin">
-<link rel="me" href="https://github.com/asatarin/">
+{% for me_link in site.social.links -%}
+<link rel="me" href="{{ me_link }}">
+{% endfor %}
