@@ -878,7 +878,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 ### YCSB
 
 * [Yahoo! Cloud System Benchmark (YCSB)](https://github.com/brianfrankcooper/YCSB)
-* [YCSB+T: Benchmarking Web-scale Transactional Databases](https://www.researchgate.net/publication/269306582_YCSBT_Benchmarking_web-scale_transactional_databases)
+* [YCSB+T: Benchmarking Web-scale Transactional Databases](https://scholar.google.com/scholar?cluster=5163098490260369747)
 * [YCSB++](https://www.pdl.cmu.edu/ycsb++/)
 * [Correcting YCSB's Coordinated Omission problem](https://psy-lob-saw.blogspot.ru/2015/03/fixing-ycsb-coordinated-omission.html)
 
