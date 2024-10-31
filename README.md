@@ -1,8 +1,7 @@
-List of resources on testing distributed systems curated by Andrey Satarin ([@asatarin](https://twitter.com/asatarin)).
-If you are interested in my other stuff, [check out talks page](https://asatarin.github.io/talks/).
-For any questions or suggestions you can reach out to me on Twitter ([@asatarin](https://twitter.com/asatarin)),
-Mastodon (<a rel="me" href="https://discuss.systems/@asatarin">https://discuss.systems/@asatarin</a>)
-or [LinkedIn](https://www.linkedin.com/in/asatarin/).
+List of resources on testing distributed systems curated by [Andrey Satarin](https://asatarin.github.io/).
+If you are interested in my other stuff, [check out public talks](https://asatarin.github.io/talks/).
+For any questions or suggestions you can reach out to me on [Twitter](https://twitter.com/asatarin)),
+[Mastodon](https://discuss.systems/@asatarin)) or [LinkedIn](https://www.linkedin.com/in/asatarin/).
 
 {% comment %}
 Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-BF9IZeTOXtIOg/edit
