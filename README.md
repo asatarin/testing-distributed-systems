@@ -138,9 +138,11 @@ Some notable Jepsen analyses:
 * [Jepsen: RethinkDB 2.1.5](https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5)
 * [Radix DLT 1.0-beta.35.1](https://jepsen.io/analyses/radix-dlt-1.0-beta.35.1)
 * [Dgraph 1.1.1](https://jepsen.io/analyses/dgraph-1.1.1)
+* [MySQL 8.0.34](https://jepsen.io/analyses/mysql-8.0.34)
+* [Redpanda 21.10.1](https://jepsen.io/analyses/redpanda-21.10.1)
 
 Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), [Cassandra](#cassandra),
-[ScyllaDB](#scylladb), [YDB](#ydb) and others.
+[ScyllaDB](#scylladb), [YDB](#ydb), [MariaDB](#mariadb) and others.
 
 ### Formal Methods
 
@@ -828,6 +830,10 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [ClickHouse Testing](https://clickhouse.com/docs/en/development/tests/) — documentation on various tests for
   ClickHouse database
   and how to contribute more tests
+
+### MariaDB
+
+* [Isolation level violation testing and debugging in MariaDB](https://mariadb.com/resources/blog/isolation-level-violation-testing-and-debugging-in-mariadb/)
 
 ## Tools
 
