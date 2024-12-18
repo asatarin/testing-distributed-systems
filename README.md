@@ -115,6 +115,9 @@ State-of-the-art approach to testing stateful distributed systems.
 * [Consistency Models](https://jepsen.io/consistency) — overview of various consistency models for distributed systems
   with transactional and non-transactional semantics. This page gives bird's-eye view on guarantees distributed systems
   might provide with references to do a deep dive.
+* [Maelstrom](https://github.com/jepsen-io/maelstrom) — A workbench for writing toy implementations of distributed
+  systems. Provides tests and simple I/O protocol to test simple implementation of distributed systems written in any
+  language. All testing happens on one node, network is fully simulated.
 
 Elle transactional consistency checker for black-box databases:
 
@@ -166,8 +169,8 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 * [Designing distributed systems with TLA+](https://youtu.be/2PIgZ6hd-6I) by Hillel Wayne at Hydra Conference 2020
 * [Distributed systems showdown — TLA + vs real code](https://youtu.be/sPSPEgz3o9U)
   by [Jack Vanlightly](https://twitter.com/vanlightly) at Hydra Conference 2021. Jack compares two approaches to testing
-  distributed systems — formal verification of the design with TLA+ and testing with Maelstrom/Jepsen, comparing pros
-  and cons.
+  distributed systems — formal verification of the design with TLA+ and testing with Maelstrom / [Jepsen](#jepsen),
+  comparing pros and cons.
 * "Workshop: TLA+ in action" by [Markus Kuppe](https://twitter.com/lemmster) in four parts
   [1](https://youtu.be/rBVhDKfg9fQ), [2](https://youtu.be/N0WOXFWBnhc),
   [3](https://youtu.be/Im63Kl3tB2g), [4](https://youtu.be/FBEviGMuOK8) at Hydra Conference 2021
@@ -554,7 +557,7 @@ See also [formal methods](#formal-methods) section.
 ### CockroachLabs (CockroachDB)
 
 * [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/)— great read about
-  using Jepsen at Cockroach Labs
+  using [Jepsen](#jepsen) at Cockroach Labs
 * [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/)—
   CockroachDB tested by Kyle Kingsbury (Jepsen.io)
 * [Introducing Pebble: A RocksDB Inspired Key-Value Store Written in Go](https://www.cockroachlabs.com/blog/pebble-rocksdb-kv-store/) —
@@ -564,6 +567,11 @@ See also [formal methods](#formal-methods) section.
   transaction protocol. See also [formal methods](#formal-methods).
 * [The importance of being earnestly random: Metamorphic Testing in CockroachDB](https://www.cockroachlabs.com/blog/metamorphic-testing-the-database/) —
   blog post talking about metamorphic testing at CockroachLabs to test Pebble storage engine
+
+See also:
+
+* [Jepsen](#jepsen)
+* [Formal methods](#formal-methods)
 
 ### SingleStore
 
@@ -632,7 +640,10 @@ Additional resources:
   See also Chaos Mesh [source code](https://github.com/chaos-mesh/chaos-mesh)
   and [chaos engineering](#chaos-engineering) section.
 
-See also [formal methods](#formal-methods) section.
+See also:
+
+* [Formal methods](#formal-methods)
+* [Chaos Engineering](#chaos-engineering)
 
 ### Cloudera
 
@@ -703,7 +714,7 @@ There is also talk from Sean T. Allen on testing stream processing system at Wal
   overview of failure injection testing for etcd. Or alternative url
   for [the same post](https://blog.gopheracademy.com/advent-2016/testing-distributed-systems-in-go/).
 * [On the Hunt for Etcd Data Inconsistencies](https://youtu.be/IIMs0EjQZHg) — talk on how Etcd reimplemented
-  Jepsen in Go using their existing test framework as a cluster runner and
+  [Jepsen](#jepsen) in Go using their existing test framework as a cluster runner and
   [Porcupine](#misc) as a linearizability checker
 
 ### Red Planet Labs
@@ -717,7 +728,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 ### Atomix Copycat
 
 * [A novel implementation of the Raft consensus algorithm](https://github.com/atomix/copycat)
-* [Jepsen tests for Atomix Copycat](https://github.com/atomix/atomix-jepsen)
+* [Jepsen tests for Atomix Copycat](https://github.com/atomix/atomix-jepsen) — Using [Jepsen](#jepsen)at Atomix
 
 ### Druid.io
 
