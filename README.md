@@ -235,7 +235,7 @@ defining the space and the state of the art. Will Wilson (of [FoundationDB](#fou
   involved. This talk is a precursor to above talks and posts on autonomous testing.
 * [Torturing Postgres: extreme autonomous testing for distributed architectures](https://medium.com/@thinkx_/torturing-postgres-extreme-autonomous-testing-for-distributed-architectures-e1c4139ed72e)—
   how OrioleDB uses Antithesis to test the database
-* [Chaos Testing Stardog Cluster for Fun and Profit](https://www.stardog.com/labs/blog/chaos-testing-stardog-cluster-for-fun-and-profit/)
+* [Chaos Testing Stardog Cluster for Fun and Profit](https://labs.stardog.ai/chaos-testing-fun-and-profit)
 
 See also [deterministic simulation](#deterministic-simulation), [FoundationDB](#foundationdb) and [fuzzing](#fuzzing).
 
