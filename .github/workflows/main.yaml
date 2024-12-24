@@ -16,3 +16,15 @@ jobs:
     - uses: docker://dkhamsing/awesome_bot:latest
       with:
         args: --white-list "dl.acm.org,medium.com,docs.google.com" --allow 429,999 --allow-dupe --allow-redirect --set-timeout 120 /github/workspace/README.md
+
+  linkChecker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          jobSummary: true
+          args: --base . --verbose --no-progress './**/*.md'
