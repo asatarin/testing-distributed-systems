@@ -50,7 +50,7 @@ Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-
   what it says in a title, authors try to explain why random testing ([Jepsen](#jepsen)) is effective and introduce
   notions of test coverage relating to network partition, see
   also ["The Morning Paper" review](https://blog.acolyer.org/2018/01/23/why-is-random-testing-effective-for-partition-tolerance-bugs/)
-  or a [video](https://youtu.be/g5cehS7ZSJ8) from POPL 2018.
+  or [slide deck](https://fniksic.github.io/assets/files/popl2018/slides.pdf)
 * [FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems](https://dl.acm.org/doi/pdf/10.1145/3302424.3303986) —
   novel approach of systematically exploring interleavings in distributed systems augmented with static analysis and
   prioritization. This approach is faster than previous techniques and found old and new bugs in several systems
@@ -344,8 +344,8 @@ specifically regression testing for correctness and performance bugs.
 * [Efficient Exploratory Testing of Concurrent Systems](https://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf)—
   They don't mention it but looks like they describe testing of Google Omega
 * [Exploratory Testing Architecture (ETA) ](https://github.com/google/cluster-data/blob/master/ETAExplorationTraces.md)
-* [Paxos Made Live — An Engineering Perspective](https://research.google.com/pubs/pub33002.html) has a section on
-  testing
+* [Paxos Made Live — An Engineering Perspective](https://research.google/pubs/paxos-made-live-an-engineering-perspective-2006-invited-talk/)
+  has a section on testing
 * [10 Years of Crashing Google](https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan)
   describes some war stories from Disaster Recovery Testing (DiRT) team at Google
 * [Testing for Reliability](https://landing.google.com/sre/book/chapters/testing-reliability.html) chapter from Google
@@ -454,7 +454,7 @@ See also [deterministic simulation](#deterministic-simulation) and [autonomous t
   from Cassandra Summit 2015
 * [Testing Apache Cassandra with Jepsen: How to Understand and Produce Safe Distributed Systems](https://youtu.be/OnG1FCr5WTI)
   by Joel Knighton presented at Devoxx UK 2016
-* [Testing Apache Cassandra 4.0](https://cassandra.apache.org/blog/2018/08/21/testing_apache_cassandra.html) — quick
+* [Testing Apache Cassandra 4.0](https://cassandra.apache.org/_/blog/Testing-Apache-Cassandra-4.html) — quick
   overview of approaches used to test next major version of Cassandra
 * [Fallout](https://github.com/datastax/fallout) — tool to run distributed tests as a service. It is meant to easily
   orchestrate cluster creation and testing tools like [Jepsen](#jepsen), performance testing tools and others, though
