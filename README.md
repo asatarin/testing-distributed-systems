@@ -783,6 +783,19 @@ See also [deterministic simulation](#deterministic-simulation) section.
 
 See also [Jepsen](#jepsen).
 
+### Feldera
+
+* [Correctness at Feldera](https://www.feldera.com/blog/correctness-at-feldera) — overview of correctness approaches
+  used at Feldera, a strongly consistent incremental compute engine, includes:
+    * machine checked proof of the foundational DBSP algorithm using [Lean theorem prover](https://lean-lang.org/)
+    * differential (shadow) testing of the implementation
+    * large corpus of tests reused from other SQL systems (MySQL, Postgres, Data Fusion, SQL Logic Tests, etc)
+    * metamorphic tests with [SQLancer](https://github.com/sqlancer/sqlancer)
+    * manually written automatic tests
+    * fault tolerance, model-based and fuzzing tests for the control plane
+* [Formalization of DBSP](https://github.com/tchajed/database-stream-processing-theory) — GitHub repository with machine
+  checked proof of the DBSP algorithm using [Lean theorem prover](https://lean-lang.org/)
+
 ## Single Node Systems
 
 These examples are not about distributed systems, but they demonstrate testing concurrency and level of sophistication
