@@ -32,11 +32,11 @@ Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-
   in Hadoop MapReduce, HBase, Cassandra, ZooKeeper. There is review of this paper
   by [Murat Demirbas](https://twitter.com/muratdemirbas)
   in [his blog](https://muratbuffalo.blogspot.com/2019/01/paper-review-empirical-study-on-crash.html).
-* [An empirical study on the correctness of formally verified distributed systems](https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/)—
+* [An empirical study on the correctness of formally verified distributed systems](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/)—
   study of bugs in formally verified distributed systems. Analysis includes
   Microsoft's [IronFleet distributed key-value store](https://www.microsoft.com/en-us/research/publication/ironfleet-proving-practical-distributed-systems-correct/)
   built from formal model.
-* [What bugs cause cloud production incidents?](https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incidents/) —
+* [What bugs cause cloud production incidents?](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2019/06/21/what-bugs-cause-cloud-production-incidents/) —
   research focused on bugs (and their resolution strategies) that actually cause production incidents in large-scale
   distributed services at [Microsoft](#microsoft) Azure.
 
@@ -44,12 +44,12 @@ Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-
 
 * [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) —
   Great overview of how even simple testing can help a lot, you just need the right focus
-* [Early detection of configuration errors to reduce failure damage](https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/)—
+* [Early detection of configuration errors to reduce failure damage](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/)—
   why and how to test configuration files of your system
 * [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://dl.acm.org/doi/abs/10.1145/3158134) — just
   what it says in a title, authors try to explain why random testing ([Jepsen](#jepsen)) is effective and introduce
   notions of test coverage relating to network partition, see
-  also ["The Morning Paper" review](https://blog.acolyer.org/2018/01/23/why-is-random-testing-effective-for-partition-tolerance-bugs/)
+  also ["The Morning Paper" review](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2018/01/23/why-is-random-testing-effective-for-partition-tolerance-bugs/)
   or [slide deck](https://fniksic.github.io/assets/files/popl2018/slides.pdf)
 * [FlyMC: Highly Scalable Testing of Complex Interleavings in Distributed Systems](https://dl.acm.org/doi/pdf/10.1145/3302424.3303986) —
   novel approach of systematically exploring interleavings in distributed systems augmented with static analysis and
@@ -70,7 +70,7 @@ Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-
 
 #### Fault Tolerance
 
-* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/)—
+* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/)—
   study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault-tolerant
   they are to data corruption and read/write errors
 * [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577)— research on effect of limping
@@ -124,7 +124,7 @@ Elle transactional consistency checker for black-box databases:
 * [Elle: Inferring Isolation Anomalies from Experimental Observations](https://github.com/jepsen-io/elle/raw/master/paper/elle.pdf) —
   paper on Elle design by Kyle Kingsbury and Peter Alvaro. You might also check out overview of the paper
   from [Murat Demirbas](https://muratbuffalo.blogspot.com/2020/04/elle-inferring-isolation-anomalies-from.html)
-  or [The Morning Paper](https://blog.acolyer.org/2020/11/23/elle/) blog
+  or [The Morning Paper](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2020/11/23/elle/) blog
 * Elle [source code](https://github.com/jepsen-io/elle)
 * [Black-box Isolation Checking with Elle](https://youtu.be/OPJ_IcdSqig) — talk Kyle gave
   at [CMU DB](https://db.cs.cmu.edu/) database seminar describing Elle and results obtained with it
@@ -362,7 +362,7 @@ specifically regression testing for correctness and performance bugs.
 * [CACM Article "How Amazon Web Services Uses Formal Methods"](https://cacm.acm.org/magazines/2015/4/184701-how-amazon-web-services-uses-formal-methods/fulltext)
 * [Debugging Designs by Chris Newcombie](https://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also
   a  [source bundle](https://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
-* [Millions of tiny databases](https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/) — has a section on
+* [Millions of tiny databases](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/) — has a section on
   testing which describes several approaches: SimWorld simulation resembling the approach used
   at [Foundation DB](#foundationdb), use of [Jepsen](#jepsen) and [formal methods](#formal-methods)
   and [game days](#game-days).
@@ -519,7 +519,7 @@ They published series of blog posts on testing ScyllaDB:
 
 ### Elastic (Elasticsearch)
 
-* [Growing a protocol](https://blog.acolyer.org/2017/08/23/growing-a-protocol/) —
+* [Growing a protocol](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2017/08/23/growing-a-protocol/) —
   applying [lineage driven fault injection](#lineage-driven-fault-injection) to test Elasticsearch replication protocol
 * [Using TLA+ for fun and profit in the development of Elasticsearch](https://youtu.be/qYDcbcOVurc) by Yannick Welsch —
   Elasticsearch uses [TLA+](#formal-methods) to verify correctness of their replication protocol
