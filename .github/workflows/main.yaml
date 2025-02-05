@@ -18,4 +18,4 @@ jobs:
         with:
           fail: true
           jobSummary: true
-          args: --base . --verbose --no-progress './**/*.md'
+          args: --base . --verbose --no-progress './**/*.md' --timeout 60 --retry-wait-time 20 --max-concurrency 5
