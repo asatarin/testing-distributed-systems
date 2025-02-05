@@ -528,8 +528,8 @@ See also [formal methods](#formal-methods) section.
 
 ### MongoDB
 
-* [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://www.mongodb.com/blog/post/mongodbs-java-script-fuzzer-creating-chaos)
-* [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://www.mongodb.com/blog/post/mongodb-java-script-fuzzer-harnessing-havoc-2)
+* [MongoDB’s JavaScript Fuzzer: Creating Chaos (1/2)](https://web.archive.org/web/20231002154224/https://www.mongodb.com/blog/post/mongodbs-java-script-fuzzer-creating-chaos)
+* [MongoDB’s JavaScript Fuzzer: Harnessing the Havoc (2/2)](https://web.archive.org/web/20231003175950/https://www.mongodb.com/blog/post/mongodb-java-script-fuzzer-harnessing-havoc-2)
 * [MongoDB's JavaScript Fuzzer](https://queue.acm.org/detail.cfm?id=3059007) article in ACM Queue
 * [Fixing a MongoDB Replication Protocol Bug with TLA+](https://youtu.be/x9zSynTfLDE) by William Schultz — how MongoDB
   uses [formal verification](#formal-methods) with TLA+ to check correctness of their replication protocol. Describes
