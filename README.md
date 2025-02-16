@@ -362,7 +362,8 @@ specifically regression testing for correctness and performance bugs.
 * [CACM Article "How Amazon Web Services Uses Formal Methods"](https://cacm.acm.org/magazines/2015/4/184701-how-amazon-web-services-uses-formal-methods/fulltext)
 * [Debugging Designs by Chris Newcombie](https://www.hpts.ws/papers/2011/sessions_2011/Debugging.pdf) there is also
   a  [source bundle](https://www.hpts.ws/papers/2011/sessions_2011/amazonbundle.tar.gz)
-* [Millions of tiny databases](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/) — has a section on
+* [Millions of tiny databases](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/) —
+  has a section on
   testing which describes several approaches: SimWorld simulation resembling the approach used
   at [Foundation DB](#foundationdb), use of [Jepsen](#jepsen) and [formal methods](#formal-methods)
   and [game days](#game-days).
@@ -742,6 +743,9 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [TigerStyle! (Or How To Design Safer Systems in Less Time)](https://youtu.be/w3WYdYyjek4) by Joran Dirk Greef — talk
   about TigerStyle, philosophical approach to design and build distributed systems at TigerBeetle. This style greatly
   contributed to improving developer productivity, reliability and correctness in TigerBeetle.
+* [A Descent Into the Vᴏ̈ʀᴛᴇx](https://tigerbeetle.com/blog/2025-02-13-a-descent-into-the-vortex/) -- non-deterministic
+  testing framework to verify real production binaries and supplement any missed coverage from deterministic simulation
+  tests. Feels similar to [Jepsen](#jepsen).
 
 See also [deterministic simulation](#deterministic-simulation) section.
 
