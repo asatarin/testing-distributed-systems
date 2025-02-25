@@ -863,9 +863,9 @@ See also [deterministic simulation](#deterministic-simulation) section.
   query [fuzzing](#fuzzing) at Clickhouse
 * [Fuzzing Databases is Difficult](https://youtu.be/CW4Ntdtp7lg) — discusses the design of BuzzHouse, a new database
   fuzzer to test ClickHouse
+* [BuzzHouse: Bridging the database fuzzing gap for testing ClickHouse](https://clickhouse.com/blog/buzzhouse-bridging-the-database-fuzzing-gap-for-testing-clickhouse)
 * [ClickHouse Testing](https://clickhouse.com/docs/en/development/tests/) — documentation on various tests for
-  ClickHouse database
-  and how to contribute more tests
+  ClickHouse database and how to contribute more tests
 
 ### MariaDB
 
