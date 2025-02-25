@@ -855,6 +855,8 @@ See also [deterministic simulation](#deterministic-simulation) section.
 
 * [Fuzzing ClickHouse](https://clickhouse.com/blog/fuzzing-click-house) — high level overview of
   query [fuzzing](#fuzzing) at Clickhouse
+* [Fuzzing Databases is Difficult](https://youtu.be/CW4Ntdtp7lg) — discusses the design of BuzzHouse, a new database
+  fuzzer to test ClickHouse
 * [ClickHouse Testing](https://clickhouse.com/docs/en/development/tests/) — documentation on various tests for
   ClickHouse database
   and how to contribute more tests
