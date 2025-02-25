@@ -800,6 +800,12 @@ See also [Jepsen](#jepsen).
 * [Formalization of DBSP](https://github.com/tchajed/database-stream-processing-theory) — GitHub repository with machine
   checked proof of the DBSP algorithm using [Lean theorem prover](https://lean-lang.org/)
 
+## Datadog
+
+* [How we use formal modeling, lightweight simulations, and chaos testing to design reliable distributed systems](https://www.datadoghq.com/blog/engineering/formal-modeling-and-simulation/)
+
+See also [formal methods](#formal-methods), [chaos engineering](#chaos-engineering).
+
 ## Single Node Systems
 
 These examples are not about distributed systems, but they demonstrate testing concurrency and level of sophistication
