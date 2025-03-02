@@ -737,7 +737,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 
 ### TigerBeetle
 
-* [Simulation Tests in TigerBeetle](https://github.com/tigerbeetledb/tigerbeetle/blob/main/docs/HACKING.md#simulation-tests) —
+* [Simulation Tests in TigerBeetle](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/internals/HACKING.md#simulation-tests) —
   TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests
   inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
 * [TigerStyle! (Or How To Design Safer Systems in Less Time)](https://youtu.be/w3WYdYyjek4) by Joran Dirk Greef — talk
