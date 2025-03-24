@@ -800,7 +800,7 @@ See also [Jepsen](#jepsen).
 * [Formalization of DBSP](https://github.com/tchajed/database-stream-processing-theory) — GitHub repository with machine
   checked proof of the DBSP algorithm using [Lean theorem prover](https://lean-lang.org/)
 
-## Datadog
+### Datadog
 
 * [How we use formal modeling, lightweight simulations, and chaos testing to design reliable distributed systems](https://www.datadoghq.com/blog/engineering/formal-modeling-and-simulation/)
 
