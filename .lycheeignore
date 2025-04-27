@@ -1,3 +1,5 @@
 https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-BF9IZeTOXtIOg/edit
 # Ignore anything on Web Archive Wayback Machine. It timeouts often and links are assumed permanent.
 https://web.archive.org/web/.*
+# ACM Digital Library returns 403 for robots
+https://dl.acm.org/doi/*
