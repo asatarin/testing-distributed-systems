@@ -4,3 +4,4 @@ https://web.archive.org/web/.*
 # ACM Digital Library returns 403 for robots
 https://dl.acm.org/.*
 https://scholar.google.com/.*
+https://www.infoq.com/.*
