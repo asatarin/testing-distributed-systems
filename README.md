@@ -198,6 +198,8 @@ more popularity in recent years.
   file IO, network, scheduling out of your program to make it more amenable to simulation.
 * [What's the big deal about Deterministic Simulation Testing?](https://notes.eatonphil.com/2024-08-20-deterministic-simulation-testing.html) —
   Phil Eaton gives an introduction to deterministic simulation testing, discussing basics and challenges.
+* [What if we embraced simulation-driven development?](https://pierrezemb.fr/posts/simulation-driven-development/) by
+  Pierre Zemb
 
 More companies and systems adopt deterministic simulation as a primary testing strategy:
 
@@ -208,8 +210,17 @@ More companies and systems adopt deterministic simulation as a primary testing s
 * [Amazon Web Services](#amazon-web-services) uses SimWorld to test Elastic Block Storage control plane
 * [Red Planet Labs](#red-planet-labs)
 * [Sled](#sled)
+* [Polar Signals](#polar-signals) for FrostDB
 
-See also [autonomous testing](#autonomous-testing), [FoundationDB](#foundationdb).
+Other collections on deterministic simulation testing:
+
+* [Planet DST](https://deterministic-simulation-testing.github.io/planet-dst/) by Alex Miller
+* [So, You Want to Learn More About Deterministic Simulation Testing?](https://pierrezemb.fr/posts/learn-about-dst/) by
+  Pierre Zemb
+* [Awesome Deterministic Simulation Testing](https://github.com/ivanyu/awesome-deterministic-simulation-testing)
+  collection by Ivan Yurchenko
+
+See also [autonomous testing](#autonomous-testing).
 
 ### Autonomous Testing
 
@@ -422,6 +433,10 @@ See also [formal methods](#formal-methods) section.
   correct order from bottom to top.
 * [Vacuum Testing for Resiliency: Verifying Disaster Recovery in Complex](https://youtu.be/Qdn2MDMOmOo) — talk on how
   BellJar is used at Meta to test recovery of distributed systems
+* [Hermit: Deterministic Linux for Controlled Testing and Software Bug-finding](https://developers.facebook.com/blog/post/2022/11/22/hermit-deterministic-linux-testing/) —
+  the first practical deterministic operating system built as an emulation layer on top of Linux kernel. It's
+  deterministic execution capability help with regression, stress testing and allow for systematic diagnostics
+* https://github.com/facebookexperimental/hermit — code for Hermit
 
 ### FoundationDB
 
@@ -773,6 +788,7 @@ distributed SQL-based stream processing platform:
 * [Applying Deterministic Simulation: The RisingWave Story](https://www.risingwave.com/blog/applying-deterministic-simulation-the-risingwave-story-part-2-of-2)
   They talk about a few kinds of tests they built with the simulator (unit, end-to-end, recovery, scaling), pros, cons
   and challenges of this approach.
+* [How Randomized SQL Testing Can Help Detect Bugs?](https://risingwave.com/blog/how-randomized-sql-testing-can-help-detect-bugs/)
 
 As a result of this work, they open sourced [MadSim](https://github.com/madsim-rs/madsim) — Magical Deterministic
 Simulator for the Rust language ecosystem.
@@ -805,6 +821,12 @@ See also [Jepsen](#jepsen).
 * [How we use formal modeling, lightweight simulations, and chaos testing to design reliable distributed systems](https://www.datadoghq.com/blog/engineering/formal-modeling-and-simulation/)
 
 See also [formal methods](#formal-methods), [chaos engineering](#chaos-engineering).
+
+### Polar Signals
+
+* [(Mostly) Deterministic Simulation Testing in Go](https://www.polarsignals.com/blog/posts/2024/05/28/mostly-dst-in-go)
+
+See also [deterministic simulation](#deterministic-simulation).
 
 ## Single Node Systems
 
