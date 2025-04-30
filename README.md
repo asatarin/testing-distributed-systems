@@ -323,7 +323,7 @@ specifically regression testing for correctness and performance bugs.
 
 * [Technologies for Testing Distributed Systems, Part I](https://colin-scott.github.io/blog/2016/03/04/technologies-for-testing-and-debugging-distributed-systems/)
 * See also
-  post [Distributed Systems Testing: The Lost World](https://tagide.com/blog/research/distributed-systems-testing-the-lost-world/)
+  post [Distributed Systems Testing: The Lost World](https://web.archive.org/web/20250113044132/https://tagide.com/blog/research/distributed-systems-testing-the-lost-world/)
   by Crista Lopes
 
 #### Test Case Reduction
@@ -404,7 +404,7 @@ See also [chaos engineering](#chaos-engineering) and [lineage-driven fault injec
 * [Uncovering Bugs in Distributed Storage Systems during Testing (not in Production!)](https://www.usenix.org/system/files/conference/fast16/fast16-papers-deligiannis.pdf)
 * [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](https://www.sigops.org/sosp/sosp11/current/2011-Cascais/11-calder-online.pdf)
   describes "Pressure Point Testing" approach used for Azure Cloud Storage
-* [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/ru-ru/blog/inside-azure-search-chaos-engineering/)
+* [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/en-us/blog/inside-azure-search-chaos-engineering/)
 * [TLA+ at Microsoft: 16 Years in Production](https://youtu.be/azx6cX-BlCs) by David Langworthy — how rejuvenation of
   TLA+ happened at Microsoft in 2016 and onwards
 
