@@ -96,7 +96,7 @@ understanding of such systems.
 
 * [Velocity NY 2013: Richard Cook, "Resilience In Complex Adaptive Systems"](https://youtu.be/PGLYEDpNu60)
 * [Velocity 2012: Richard Cook, "How Complex Systems Fail"](https://youtu.be/2S0k12uZR14)
-* [How Complex Systems Fail](hhttps://www.cs.jhu.edu/~huang/cs624/spring22/readings/how-complex-systems-fail.pdf)
+* [How Complex Systems Fail](https://www.cs.jhu.edu/~huang/cs624/spring22/readings/how-complex-systems-fail.pdf)
 
 ### Jepsen
 
