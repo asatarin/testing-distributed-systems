@@ -200,6 +200,8 @@ more popularity in recent years.
   Phil Eaton gives an introduction to deterministic simulation testing, discussing basics and challenges.
 * [What if we embraced simulation-driven development?](https://pierrezemb.fr/posts/simulation-driven-development/) by
   Pierre Zemb
+* [Deterministic simulation testing - how it works and when to use it](https://antithesis.com/resources/deterministic_simulation_testing/) —
+  overview of deterministic simulation testing by Antithesis.  
 
 More companies and systems adopt deterministic simulation as a primary testing strategy:
 
