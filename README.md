@@ -706,7 +706,7 @@ There is also talk from Sean T. Allen on testing stream processing system at Wal
 * [Verifying Transactional Consistency with Jepsen](https://medium.com/fauna/verifying-transactional-consistency-with-jepsen-and-faunadb-561eddd123c7) —
   results of internal [Jepsen](#jepsen) testing at FaunaDB
 * [Jepsen: FaunaDB 2.5.4](https://jepsen.io/analyses/faunadb-2.5.4) — official [Jepsen](#jepsen) test for FaunaDB,
-  write-up in Fauna [blog](https://fauna.com/blog/faunadbs-official-jepsen-results)
+  write-up in Fauna [blog](https://web.archive.org/web/20250516064357/https://fauna.com/blog/faunadbs-official-jepsen-results)
 
 ### Shopify
 
