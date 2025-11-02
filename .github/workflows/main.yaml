@@ -18,4 +18,4 @@ jobs:
         with:
           fail: true
           jobSummary: true
-          args: --base ${{ github.workspace }} --verbose --no-progress './**/*.md' --timeout 60 --retry-wait-time 20 --max-concurrency 5
+          args: --root-dir ${{ github.workspace }} --verbose --no-progress './**/*.md' --timeout 60 --retry-wait-time 20 --max-concurrency 5
