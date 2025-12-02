@@ -897,6 +897,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 
 ## Tools
 
+* [BitDive](https://bitdive.io) — Zero-code integration testing for Java/Kotlin distributed systems. Captures runtime behavior and replays scenarios with auto-generated mocks.
 * [Hermitage: Testing transaction isolation levels](https://github.com/ept/hermitage)
 * [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
 * [faketime](https://manpages.ubuntu.com/manpages/trusty/man1/faketime.1.html)
