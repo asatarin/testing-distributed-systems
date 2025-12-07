@@ -465,6 +465,7 @@ See also [formal methods](#formal-methods) section.
   on determinism, test oracles, fault injection and limitations.
 * ["Unlucky Simulation"](https://youtu.be/0h9l6Ug_l5E) — talk on using various scheduling strategies (LibFuzzer, random,
   etc) with simulation testing in FoundationDB
+* [FoundationDB Testing: Past & Present](https://youtu.be/IaB8jvjW0kk)
 
 See also [deterministic simulation](#deterministic-simulation) and [autonomous testing](#autonomous-testing).
 
