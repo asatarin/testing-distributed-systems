@@ -388,6 +388,7 @@ specifically regression testing for correctness and performance bugs.
   on this paper for a reading group.
 * [Gain confidence in system correctness & resilience with formal methods](https://youtu.be/FdXZXnkMDxs) by Ankush Desai
 * [Fifteen years of formal methods at AWS](https://youtu.be/HxP4wi4DhA0) by Marc Brooker
+* [Proving the correctness of AWS authorization](https://youtu.be/oshxAJGrwMU)
 
 See also [formal methods](#formal-methods) and [deterministic simulation](#deterministic-simulation) sections.
 
