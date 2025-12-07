@@ -161,6 +161,7 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
   using formal verification to find a bug in TimSort sorting algorithm
 * [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/)— analyzing quicksort
   implementation in Java
+* [Formal Modeling and Analysis of Distributed Systems](https://youtu.be/5YjsSDDWFDY) by Ankush Desai
 
 #### TLA+
 
@@ -201,7 +202,7 @@ more popularity in recent years.
 * [What if we embraced simulation-driven development?](https://pierrezemb.fr/posts/simulation-driven-development/) by
   Pierre Zemb
 * [Deterministic simulation testing - how it works and when to use it](https://antithesis.com/resources/deterministic_simulation_testing/) —
-  overview of deterministic simulation testing by Antithesis.  
+  overview of deterministic simulation testing by Antithesis.
 
 More companies and systems adopt deterministic simulation as a primary testing strategy:
 
@@ -385,6 +386,8 @@ specifically regression testing for correctness and performance bugs.
   testing and stateless model checking extensively to balance trade-offs and follow pragmatic approach.
   I gave a talk ["Formal Methods at Amazon S3"](https://asatarin.github.io/talks/2022-02-formal-methods-at-amazon-s3/)
   on this paper for a reading group.
+* [Gain confidence in system correctness & resilience with formal methods](https://youtu.be/FdXZXnkMDxs) by Ankush Desai
+* [Fifteen years of formal methods at AWS](https://youtu.be/HxP4wi4DhA0) by Marc Brooker
 
 See also [formal methods](#formal-methods) and [deterministic simulation](#deterministic-simulation) sections.
 
@@ -420,6 +423,7 @@ See also [chaos engineering](#chaos-engineering) and [lineage-driven fault injec
 * [Inside Azure Search: Chaos Engineering](https://azure.microsoft.com/en-us/blog/inside-azure-search-chaos-engineering/)
 * [TLA+ at Microsoft: 16 Years in Production](https://youtu.be/azx6cX-BlCs) by David Langworthy — how rejuvenation of
   TLA+ happened at Microsoft in 2016 and onwards
+* [Formal Methods at Microsoft](https://youtu.be/GEsvGGp0jyQ) by Nikolaj Bjørner
 
 See also [formal methods](#formal-methods) section.
 
@@ -706,7 +710,8 @@ There is also talk from Sean T. Allen on testing stream processing system at Wal
 * [Verifying Transactional Consistency with Jepsen](https://medium.com/fauna/verifying-transactional-consistency-with-jepsen-and-faunadb-561eddd123c7) —
   results of internal [Jepsen](#jepsen) testing at FaunaDB
 * [Jepsen: FaunaDB 2.5.4](https://jepsen.io/analyses/faunadb-2.5.4) — official [Jepsen](#jepsen) test for FaunaDB,
-  write-up in Fauna [blog](https://web.archive.org/web/20250516064357/https://fauna.com/blog/faunadbs-official-jepsen-results)
+  write-up in
+  Fauna [blog](https://web.archive.org/web/20250516064357/https://fauna.com/blog/faunadbs-official-jepsen-results)
 
 ### Shopify
 
