@@ -559,13 +559,14 @@ See also [formal methods](#formal-methods) section.
   uses [formal verification](#formal-methods) with TLA+ to check correctness of their replication protocol. Describes
   how replication bugs could have been found with help of formal model.
 * [eXtreme Modelling in Practice](https://arxiv.org/abs/2006.00915) — two attempts at MongoDB to check that code
-  conforms to its formal model.
+  conforms to its formal model. Accompanying video [eXtreme Modelling in Practice](https://youtu.be/IIGzXX72weQ)
 * [Formal Verification of a Distributed Dynamic Reconfiguration Protocol](https://youtu.be/VwCBlmS7XEA) — talk on
   formally verifying MongoDB Raft-based replication reconfiguration protocol with TLAPS.
   Paper [preprint](https://arxiv.org/abs/2109.11987).
 * [Change Point Detection in Software Performance Testing](https://arxiv.org/abs/2003.00584) — paper on how MongoDB team
   automatically detects performance degradations in the presence of noise in continuous integration runs. The paper was
   presented at [ICPE 2020](https://youtu.be/rSBgcMFPkHU)
+* [Conformance Checking at MongoDB: Testing That Our Code Matches Our TLA+ Specs](https://www.mongodb.com/company/blog/engineering/conformance-checking-at-mongodb-testing-our-code-matches-our-tla-specs)
 
 See also [formal methods](#formal-methods) section.
 
