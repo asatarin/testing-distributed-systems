@@ -7,3 +7,7 @@ https://scholar.google.com/.*
 https://www.infoq.com/.*
 # Weird "SSL certificate verification failed" on Netflix Blog
 https://netflixtechblog.com/.*
+# Error 403 for robots
+https://blog.ydb.tech/.*
+*.medium.com
+https://news.ycombinator.com/.*
