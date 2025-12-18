@@ -3,6 +3,8 @@ https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-BF9IZeTOXtIOg/
 https://web.archive.org/web/.*
 # ACM Digital Library returns 403 for robots
 https://dl.acm.org/.*
+https://cacm.acm.org/.*
+https://queue.acm.org/.*
 https://scholar.google.com/.*
 https://www.infoq.com/.*
 # Weird "SSL certificate verification failed" on Netflix Blog
@@ -10,4 +12,5 @@ https://netflixtechblog.com/.*
 # Error 403 for robots
 https://blog.ydb.tech/.*
 https://copyconstruct.medium.com/.*
+https://medium.com/.*
 https://news.ycombinator.com/.*
