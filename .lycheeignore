@@ -9,5 +9,5 @@ https://www.infoq.com/.*
 https://netflixtechblog.com/.*
 # Error 403 for robots
 https://blog.ydb.tech/.*
-*.medium.com
+https://copyconstruct.medium.com/.*
 https://news.ycombinator.com/.*
