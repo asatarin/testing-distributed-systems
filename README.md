@@ -303,7 +303,7 @@ Series of blog posts specifically on testing in production — best practices, p
 ### Performance and Benchmarking
 
 * [Your Load Generator Is Probably Lying To You](https://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)
-* [Everything You Know About Latency Is Wrong](https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/)—
+* [Everything You Know About Latency Is Wrong](https://web.archive.org/web/20250625024158/https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/)—
   great overview of Gil Tene`s "How NOT to Measure Latency" talk
 * ["How NOT to Measure Latency" by Gil Tene](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 * ["Benchmarking: You're Doing It Wrong" by Aysylu Greenberg](https://www.youtube.com/watch?v=XmImGiVuJno)
@@ -328,7 +328,7 @@ Additional materials could be found in [this GitHub repo](https://github.com/Ran
 
 #### Game Days
 
-* [Sometimes Kill -9 Isn’t Enough](https://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
+* [Sometimes Kill -9 Isn’t Enough](https://web.archive.org/web/20250704152438/https://bravenewgeek.com/sometimes-kill-9-isnt-enough/)
 
 #### Technologies for Testing Distributed Systems
 
