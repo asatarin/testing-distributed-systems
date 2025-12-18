@@ -5,3 +5,5 @@ https://web.archive.org/web/.*
 https://dl.acm.org/.*
 https://scholar.google.com/.*
 https://www.infoq.com/.*
+# Weird "SSL certificate verification failed" on Netflix Blog
+https://netflixtechblog.com/.*
