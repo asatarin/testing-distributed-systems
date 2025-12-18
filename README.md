@@ -567,6 +567,7 @@ See also [formal methods](#formal-methods) section.
   automatically detects performance degradations in the presence of noise in continuous integration runs. The paper was
   presented at [ICPE 2020](https://youtu.be/rSBgcMFPkHU)
 * [Conformance Checking at MongoDB: Testing That Our Code Matches Our TLA+ Specs](https://www.mongodb.com/company/blog/engineering/conformance-checking-at-mongodb-testing-our-code-matches-our-tla-specs)
+* [Design and Modular Verification of Distributed Transactions in MongoDB](https://dl.acm.org/doi/abs/10.14778/3750601.3750626)
 
 See also [formal methods](#formal-methods) section.
 
