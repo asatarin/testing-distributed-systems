@@ -162,6 +162,8 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 * [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/)— analyzing quicksort
   implementation in Java
 * [Formal Modeling and Analysis of Distributed Systems](https://youtu.be/5YjsSDDWFDY) by Ankush Desai
+* [Gain confidence in system correctness using formal and semi-formal methods](https://youtu.be/pnfrWPFWbAA) by Ankush
+  Desai, presented at BugBash
 
 #### TLA+
 
