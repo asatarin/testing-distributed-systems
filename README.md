@@ -401,15 +401,15 @@ Automated failure injection (see also [Lineage-driven Fault Injection](#lineage-
 
 * [Monkeys in Lab Coats: Applying Failure Testing Research @Netflix](https://www.infoq.com/presentations/failure-test-research-netflix)
 * [“Monkeys in Labs Coats”: Applied Failure Testing Research at Netflix](https://www.infoq.com/news/2016/03/failure-testing-netflix)
-* [Automated Failure Testing](https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f)
+* [Automated Failure Testing](https://web.archive.org/web/https://netflixtechblog.com/automated-failure-testing-86c1b8bc841f)
 * [Automating Failure Testing Research at Internet Scale](https://dl.acm.org/doi/abs/10.1145/2987550.2987555)
   by P. Alvaro et. el.
 
 Random/manual failure injection testing:
 
-* [Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
-* [Failure Injection Testing](https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2)
-* [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4)
+* [Netflix Simian Army](https://web.archive.org/web/https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
+* [Failure Injection Testing](https://web.archive.org/web/https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2)
+* [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](https://web.archive.org/web/https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4)
 * [Breaking Bad at Netflix: Building Failure as a Service](https://www.infoq.com/presentations/failure-as-a-service-netflix)
 * [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4)—
   Netflix different testing strategies
@@ -606,11 +606,11 @@ See also:
 
 Formerly known as MemSQL.
 
-* [Running SingleStore’s 107 Node Test Infrastructure on CoreOS](https://www.singlestore.com/blog/running-memsqls-107-node-test-infrastructure-on-coreos/).
+* [Running SingleStore’s 107 Node Test Infrastructure on CoreOS](https://web.archive.org/web/https://www.singlestore.com/blog/running-memsqls-107-node-test-infrastructure-on-coreos/).
   See also accompanying [talk](https://youtu.be/uJirOCUg67o).
-* [Practical Techniques to Achieve Quality in Large Software Projects](https://www.singlestore.com/blog/test-coverage-manage-long-tail-surfaced-bugs-using-force-multipliers/)
-* [How to Make a Believable Benchmark](https://www.singlestore.com/blog/how-to-make-a-believable-benchmark/)
-* [Building an Infinitely Scalable Testing System](https://www.singlestore.com/blog/building-an-infinitely-scalable-testing-system/) —
+* [Practical Techniques to Achieve Quality in Large Software Projects](https://web.archive.org/web/https://www.singlestore.com/blog/test-coverage-manage-long-tail-surfaced-bugs-using-force-multipliers/)
+* [How to Make a Believable Benchmark](https://web.archive.org/web/https://www.singlestore.com/blog/how-to-make-a-believable-benchmark/)
+* [Building an Infinitely Scalable Testing System](https://web.archive.org/web/https://www.singlestore.com/blog/building-an-infinitely-scalable-testing-system/) —
   description of internal test system PsyDuck
 
 ### Twitter
@@ -945,7 +945,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [OLTP-Bench: An Extensible Testbed for Benchmarking Relational Databases](https://www.vldb.org/pvldb/vol7/p277-difallah.pdf)
 * [OLTP Benchmark on GitHub](https://github.com/oltpbenchmark)
 * [Py-TPCC](https://github.com/apavlo/py-tpcc)
-* [Netflix Data Benchmark: Benchmarking Cloud Data Stores](https://netflixtechblog.com/netflix-data-benchmark-benchmarking-cloud-data-stores-7266186ded11)
+* [Netflix Data Benchmark: Benchmarking Cloud Data Stores](https://web.archive.org/web/https://netflixtechblog.com/netflix-data-benchmark-benchmarking-cloud-data-stores-7266186ded11)
 
 ### Linkbench
 
