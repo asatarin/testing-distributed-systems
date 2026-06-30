@@ -14,3 +14,5 @@ https://blog.ydb.tech/.*
 https://copyconstruct.medium.com/.*
 https://medium.com/.*
 https://news.ycombinator.com/.*
+# LinkedIn return error 999 for robots
+https://www.linkedin.com/in/.*
