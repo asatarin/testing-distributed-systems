@@ -164,6 +164,8 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 * [Formal Modeling and Analysis of Distributed Systems](https://youtu.be/5YjsSDDWFDY) by Ankush Desai
 * [Gain confidence in system correctness using formal and semi-formal methods](https://youtu.be/pnfrWPFWbAA) by Ankush
   Desai, presented at BugBash
+* [Behaviors as the Backbone of Software Correctness](https://www.youtube.com/watch?v=mfkg2Szai88) by Gabriela Moreira at
+  BugBash 2026
 
 #### TLA+
 
@@ -188,6 +190,27 @@ Companies using TLA+ to verify correctness of algorithms:
 * [CockroachLabs](#cockroachlabs-cockroachdb)
 * [Microsoft](#microsoft) for services in Azure cloud
 * [Confluent](#confluent-kafka) for Apache Kafka
+
+#### Quint
+
+Talks:
+
+* [Quint — Protocol Specifications Made Executable](https://www.youtube.com/watch?v=c4BQ7v-CQfk) by Zarko Milosevic at
+  ConsensusDays
+* [Quint: A modern and executable specification language](https://www.youtube.com/watch?v=QnmreTnSaeI) by Gabriela
+  Moreira and Diego Torres at MACROCOSM
+* [Modelling and analysis of Starknet decentralization protocols in Quint](https://www.youtube.com/watch?v=_2A_6vPM8AA)
+  by Josef Widder at StarknetCC
+* [Can We Trust AI-Written Code? Why Executable Specs Are the Future of Software](https://www.youtube.com/watch?v=NL-xUDaSrrw)
+  by Gabriela Moreira
+* [Thinking Hard is not Enough](https://www.youtube.com/watch?v=r-popSzla40) by Ivan Gavran at Cosmoverse
+
+Blog posts:
+
+* [How we used Quint to find over 10 bugs in SQLite while hardening Turso](https://turso.tech/blog/how-we-used-quint-to-find-over-10-bugs-in-sqlite)
+* [Model-Based Testing Neutron's Liquidity Pool Migration with Quint](https://quint.sh/posts/neutron_mbt)
+* [Understanding Mysticeti Consensus with Quint](https://quint.sh/posts/mysticeti)
+* [Reliable Software in the LLM Era](https://quint.sh/posts/llm_era)
 
 ### Deterministic Simulation
 
