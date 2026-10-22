@@ -22,17 +22,17 @@ Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-
 
 #### Bugs
 
-* [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](https://dl.acm.org/doi/abs/10.1145/2670979.2670986)—
+* [What Bugs Live in the Cloud? A Study of 3000+ Issues in Cloud Systems](https://dl.acm.org/doi/abs/10.1145/2670979.2670986) —
   study of actual bugs in different popular distributed systems (Hadoop MapReduce, HDFS, HBase, Cassandra, ZooKeeper
   and Flume)
-* [TaxDC: A Taxonomy of Non-Deterministic Concurrency Bugs in Datacenter Distributed Systems](https://dl.acm.org/doi/abs/10.1145/2872362.2872374)—
+* [TaxDC: A Taxonomy of Non-Deterministic Concurrency Bugs in Datacenter Distributed Systems](https://dl.acm.org/doi/abs/10.1145/2872362.2872374) —
   comprehensive taxonomy of bugs in distributed systems (Cassandra, Hadoop MapReduce, HBase, ZooKeeper)
 * [An Empirical Study on Crash Recovery Bugs in Large-Scale Distributed Systems](https://dl.acm.org/doi/10.1145/3236024.3236030) —
   based on bug database from "What Bugs Live in the Cloud?" paper researchers focus specifically on crash recovery bugs
   in Hadoop MapReduce, HBase, Cassandra, ZooKeeper. There is review of this paper
   by [Murat Demirbas](https://twitter.com/muratdemirbas)
   in [his blog](https://muratbuffalo.blogspot.com/2019/01/paper-review-empirical-study-on-crash.html).
-* [An empirical study on the correctness of formally verified distributed systems](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/)—
+* [An empirical study on the correctness of formally verified distributed systems](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2017/05/29/an-empirical-study-on-the-correctness-of-formally-verified-distributed-systems/) —
   study of bugs in formally verified distributed systems. Analysis includes
   Microsoft's [IronFleet distributed key-value store](https://www.microsoft.com/en-us/research/publication/ironfleet-proving-practical-distributed-systems-correct/)
   built from formal model.
@@ -44,7 +44,7 @@ Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-
 
 * [Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan) —
   Great overview of how even simple testing can help a lot, you just need the right focus
-* [Early detection of configuration errors to reduce failure damage](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/)—
+* [Early detection of configuration errors to reduce failure damage](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2016/11/29/early-detection-of-configuration-errors-to-reduce-failure-damage/) —
   why and how to test configuration files of your system
 * [Why Is Random Testing Effective for Partition Tolerance Bugs?](https://dl.acm.org/doi/abs/10.1145/3158134) — just
   what it says in a title, authors try to explain why random testing ([Jepsen](#jepsen)) is effective and introduce
@@ -70,10 +70,10 @@ Private notes https://docs.google.com/document/d/1xHt_PK9yGMTP6JNDMydQLF4SHIdlq-
 
 #### Fault Tolerance
 
-* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/)—
+* [Redundancy does not imply fault tolerance: analysis of distributed storage reactions to single errors and corruptions](https://web.archive.org/web/20250126152902/https://blog.acolyer.org/2017/03/08/redundancy-does-not-imply-fault-tolerance-analysis-of-distributed-storage-reactions-to-single-errors-and-corruptions/) —
   study of several distributed systems (Redis, ZooKeeper, MongoDB, Cassandra, Kafka, RethinkDB) on how fault-tolerant
   they are to data corruption and read/write errors
-* [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577)— research on effect of limping
+* [The Case for Limping-Hardware Tolerant Clouds](https://www.usenix.org/node/174577) — research on effect of limping
   hardware on performance of a distributed systems (aka limplock), see also great blog post by Dan Luu on a similar
   topic [Distributed systems: when limping hardware is worse than dead hardware](https://danluu.com/limplock/)
 * [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) —
@@ -157,9 +157,9 @@ Jepsen is used by [CockroachDB](#cockroachlabs-cockroachdb), [VoltDB](#voltdb), 
 * [Comparisons of Alloy and Spin](https://www.pamelazave.com/compare.html)
 * [Verdi — A framework for formally verifying distributed systems implementations in Coq](https://github.com/uwplse/verdi)
 * [Network Semantics for Verifying Distributed Systems](https://homes.cs.washington.edu/~jrw12/network-semantics.html)
-* [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](https://web.archive.org/web/20220329052326/http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/)—
+* [Proving that Android’s, Java’s and Python’s sorting algorithm is broken (and showing how to fix it)](https://web.archive.org/web/20220329052326/http://envisage-project.eu/proving-android-java-and-python-sorting-algorithm-is-broken-and-how-to-fix-it/) —
   using formal verification to find a bug in TimSort sorting algorithm
-* [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/)— analyzing quicksort
+* [Proving JDK’s Dual Pivot Quicksort Correct](https://www.key-project.org/2017/08/17/dual-pivot/) — analyzing quicksort
   implementation in Java
 * [Formal Modeling and Analysis of Distributed Systems](https://youtu.be/5YjsSDDWFDY) by Ankush Desai
 * [Gain confidence in system correctness using formal and semi-formal methods](https://youtu.be/pnfrWPFWbAA) by Ankush
@@ -196,7 +196,7 @@ more popularity in recent years.
 
 * ["Simulation Testing"](https://youtu.be/N5HyVUPuU0E) by Michael Nygard gives a good introduction into simulation
   testing
-* [Designing Dope Distributed Systems for Outer Space with High-Fidelity Simulation](https://www.youtube.com/watch?v=prM-0i58XBM)—
+* [Designing Dope Distributed Systems for Outer Space with High-Fidelity Simulation](https://www.youtube.com/watch?v=prM-0i58XBM) —
   talk about using deterministic simulation to test a distributed space telescope. With recommendations on how to move
   file IO, network, scheduling out of your program to make it more amenable to simulation.
 * [What's the big deal about Deterministic Simulation Testing?](https://notes.eatonphil.com/2024-08-20-deterministic-simulation-testing.html) —
@@ -249,7 +249,7 @@ defining the space and the state of the art. Will Wilson (of [FoundationDB](#fou
 * [Autonomous Testing and the Future of Software Development](https://youtu.be/fFSPwJFXVlw) — Will Wilson
   talks about why testing sucks and how to fix it with the new autonomous testing approach by making testing less human
   involved. This talk is a precursor to above talks and posts on autonomous testing.
-* [Torturing Postgres: extreme autonomous testing for distributed architectures](https://medium.com/@thinkx_/torturing-postgres-extreme-autonomous-testing-for-distributed-architectures-e1c4139ed72e)—
+* [Torturing Postgres: extreme autonomous testing for distributed architectures](https://medium.com/@thinkx_/torturing-postgres-extreme-autonomous-testing-for-distributed-architectures-e1c4139ed72e) —
   how OrioleDB uses Antithesis to test the database
 * [Chaos Testing Stardog Cluster for Fun and Profit](https://web.archive.org/web/20250810132952/https://labs.stardog.ai/chaos-testing-fun-and-profit)
 * [Finding bugs in Raft implementations](https://antithesis.com/blog/2026/finding-bugs-in-raft-implementations/) --
@@ -309,7 +309,7 @@ Series of blog posts specifically on testing in production — best practices, p
 ### Performance and Benchmarking
 
 * [Your Load Generator Is Probably Lying To You](https://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)
-* [Everything You Know About Latency Is Wrong](https://web.archive.org/web/20250625024158/https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/)—
+* [Everything You Know About Latency Is Wrong](https://web.archive.org/web/20250625024158/https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/) —
   great overview of Gil Tene`s "How NOT to Measure Latency" talk
 * ["How NOT to Measure Latency" by Gil Tene](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 * ["Benchmarking: You're Doing It Wrong" by Aysylu Greenberg](https://www.youtube.com/watch?v=XmImGiVuJno)
@@ -361,7 +361,7 @@ specifically regression testing for correctness and performance bugs.
 
 ### Google
 
-* [Efficient Exploratory Testing of Concurrent Systems](https://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf)—
+* [Efficient Exploratory Testing of Concurrent Systems](https://www.pdl.cmu.edu/PDL-FTP/associated/CMU-PDL-11-113.pdf) —
   They don't mention it but looks like they describe testing of Google Omega
 * [Exploratory Testing Architecture (ETA) ](https://github.com/google/cluster-data/blob/master/ETAExplorationTraces.md)
 * [Paxos Made Live — An Engineering Perspective](https://research.google/pubs/paxos-made-live-an-engineering-perspective-2006-invited-talk/)
@@ -415,7 +415,7 @@ Random/manual failure injection testing:
 * [Failure Injection Testing](https://web.archive.org/web/https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2)
 * [From Chaos to Control — Testing the resiliency of Netflix’s Content Discovery Platform](https://web.archive.org/web/https://netflixtechblog.com/from-chaos-to-control-testing-the-resiliency-of-netflixs-content-discovery-platform-ce5566aef0a4)
 * [Breaking Bad at Netflix: Building Failure as a Service](https://www.infoq.com/presentations/failure-as-a-service-netflix)
-* [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4)—
+* [GTAC 2014: I Don't Test Often ... But When I Do, I Test in Production](https://www.youtube.com/watch?v=xkP70Zhhix4) —
   Netflix different testing strategies
 
 See also [chaos engineering](#chaos-engineering) and [lineage-driven fault injection](#lineage-driven-fault-injection).
@@ -523,7 +523,7 @@ They published series of blog posts on testing ScyllaDB:
 
 ### Dropbox
 
-* [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](https://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf)—
+* [Mysteries of Dropbox Property-Based Testing of a Distributed Synchronization Service](https://www.cis.upenn.edu/~bcpierce/papers/mysteriesofdropbox.pdf) —
   example of how to use QuickCheck to test synchronization in Dropbox and similar tools (Google Drive). John Hughes gave
   a [talk on this](https://youtu.be/H18vxq-VsCk). See also [QuickCheck](#quickcheck).
 * [Data Checking at Dropbox](https://youtu.be/WUaMN2kywR4) — If you have lots of data, you have to verify that it did
@@ -589,9 +589,9 @@ See also [formal methods](#formal-methods) section.
 
 ### CockroachLabs (CockroachDB)
 
-* [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/)— great read about
+* [DIY Jepsen Testing CockroachDB](https://www.cockroachlabs.com/blog/diy-jepsen-testing-cockroachdb/) — great read about
   using [Jepsen](#jepsen) at Cockroach Labs
-* [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/)—
+* [CockroachDB Beta Passes Jepsen Testing](https://www.cockroachlabs.com/blog/cockroachdb-beta-passes-jepsen-testing/) —
   CockroachDB tested by Kyle Kingsbury (Jepsen.io)
 * [Introducing Pebble: A RocksDB Inspired Key-Value Store Written in Go](https://www.cockroachlabs.com/blog/pebble-rocksdb-kv-store/) —
   introduces new storage engine and includes thorough discussion on what it takes to properly test storage engine
@@ -624,7 +624,7 @@ Formerly known as MemSQL.
 
 ### LinkedIn
 
-* [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg)— Failure inducer implemented in Python
+* [Simoorg Failure inducer framework](https://github.com/linkedin/simoorg) — Failure inducer implemented in Python
 * [A Deep Dive into Simoorg](https://engineering.linkedin.com/blog/2016/03/deep-dive-Simoorg-open-source-failure-induction-framework)
 * [Dynamometer: Scale Testing HDFS on Minimal Hardware with Maximum Fidelity](https://engineering.linkedin.com/blog/2018/02/dynamometer--scale-testing-hdfs-on-minimal-hardware-with-maximum) —
   testing scalability of large Hadoop clusters (namely NameNode) with just fraction of nodes
@@ -638,11 +638,11 @@ Formerly known as MemSQL.
 Series of post on testing at VoltDB:
 
 * [How We Test at VoltDB](https://www.voltdb.com/blog/2015/09/30/how-we-test-at-voltdb/)
-* [Testing at VoltDB: SQLCoverage](https://web.archive.org/web/20210126003050/https://voltdb.com/blog/2016/03/testing-voltdb-sqlcoverage/)—
+* [Testing at VoltDB: SQLCoverage](https://web.archive.org/web/20210126003050/https://voltdb.com/blog/2016/03/testing-voltdb-sqlcoverage/) —
   describes how they test SQL query functionality using 5 millions queries generated from templates and comparing
   results against HSQLDB
 * [Testing VoltDB Against PostgreSQL](https://web.archive.org/web/20210830070918/https://www.voltdb.com/blog/2016/04/testing-voltdb-postgresql/)
-* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/)—
+* [VoltDB 6.4 Passes Official Jepsen Testing](https://www.voltdb.com/blog/2016/07/12/voltdb-6-4-passes-official-jepsen-testing/) —
   VoltDB hired Kyle Kingsbury ([Jepsen](#jepsen)) to tests their database, they share results in this post
 
 Additional resources:
@@ -653,7 +653,7 @@ Additional resources:
 
 ### PingCap (TiDB)
 
-* [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d)—
+* [Use Chaos to test the distributed system linearizability](https://medium.com/@siddontang/use-chaos-to-test-the-distributed-system-linearizability-4e0e778dfc7d) —
   describes Jepsen-like framework implemented in Go and used at PingCap to test TiDB
 * [A test framework for linearizability check with Go](https://github.com/siddontang/chaos) — Chaos is a Jepsen-like
   framework written in Go, uses [Porcupine](#misc) linearizability checker
@@ -680,7 +680,7 @@ See also:
 
 ### Cloudera
 
-* [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](https://web.archive.org/web/20190718225437/https://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/)—
+* [Quality Assurance at Cloudera: Fault Injection and Elastic Partitioning](https://web.archive.org/web/20190718225437/https://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) —
   Cloudera describes their approach to fault injection testing
 * [Quality Assurance at Cloudera: Highly-Controlled Disk Injection](https://web.archive.org/web/20190701102035/http://blog.cloudera.com/blog/2016/08/quality-assurance-at-cloudera-highly-controlled-disk-injection/)
 
@@ -727,7 +727,8 @@ There is also talk from Sean T. Allen on testing stream processing system at Wal
 ### Shopify
 
 * [Resiliency Testing with Toxiproxy](https://www.usenix.org/conference/lisa17/conference-program/presentation/pittis)
-* [Toxiproxy — A TCP proxy to simulate network and system conditions for chaos and resiliency testing](https://github.com/Shopify/toxiproxy)
+
+See also [Toxiproxy](#network-simulation).
 
 ### Hazelcast
 
@@ -739,7 +740,7 @@ There is also talk from Sean T. Allen on testing stream processing system at Wal
 * [Testing Eventual Consistency in Riak](https://www.erlang-factory.com/conference/ErlangUserConference2012/speakers/UlfNorell) —
   how to model eventually consistent database in [QuickCheck](#quickcheck) and find bugs in it`s implementation, video
   available [on YouTube](https://youtu.be/x9mW54GJpG0)
-* [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830)— another talk on testing Riak
+* [Modeling Eventual Consistency Databases with QuickCheck](https://vimeo.com/23220830) — another talk on testing Riak
   eventual consistency guarantees with [QuickCheck](#quickcheck)
 
 ### Etcd
@@ -770,7 +771,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 
 ### TigerBeetle
 
-* [Simulation Tests in TigerBeetle](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/internals/HACKING.md#simulation-tests) —
+* [Simulation Tests in TigerBeetle](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/internals/HACKING.md#simulation) —
   TigerBeetle is a distributed financial accounting database built in Zig programming language and uses simulation tests
   inspired by [Dropbox](#dropbox) and [FoundationDB](#foundationdb).
 * [TigerStyle! (Or How To Design Safer Systems in Less Time)](https://youtu.be/w3WYdYyjek4) by Joran Dirk Greef — talk
@@ -885,7 +886,7 @@ test both lock based and lock-free concurrent code on various platforms.
 SQLite is not a distributed system by any stretch of the imagination, but provides good example of comprehensive testing
 of a database implementation.
 
-* [Finding bugs in SQLite, the easy way](https://lcamtuf.blogspot.ru/2015/04/finding-bugs-in-sqlite-easy-way.html)— how
+* [Finding bugs in SQLite, the easy way](https://lcamtuf.blogspot.com/2015/04/finding-bugs-in-sqlite-easy-way.html) — how
   fuzzing used in testing SQLite database
 * [How SQLite Is Tested](https://www.sqlite.org/testing.html)
 
@@ -937,7 +938,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [The Joy of Testing](https://www.infoq.com/presentations/The-Joy-of-Testing)
 * [John Hughes on InfoQ](https://www.infoq.com/author/John-Hughes)
 * [Hansei: Property-based Development of Concurrent Systems](https://speakerdeck.com/jtuple/hansei-property-based-development-of-concurrent-systems)
-* [QuickChecking Poolboy for Fun and Profit](https://web.archive.org/web/20230325231321/https://riak.com/posts/technical/quickchecking-poolboy-for-fun-and-profit/)—
+* [QuickChecking Poolboy for Fun and Profit](https://web.archive.org/web/20230325231321/https://riak.com/posts/technical/quickchecking-poolboy-for-fun-and-profit/) —
   from Basho
 * [Combining Fault-Injection with Property-Based Testing](https://dl.acm.org/doi/10.1145/2589650.2559629)
 * [Testing Telecoms Software with Quviq QuickCheck](https://web.archive.org/web/20120325030155id_/http://www.quviq.com/documents/erlang001-arts.pdf)
@@ -953,7 +954,7 @@ See also [deterministic simulation](#deterministic-simulation) section.
 
 ### Linkbench
 
-* [LinkBench from Facebook](https://www.facebook.com/notes/facebook-engineering/linkbench-a-database-benchmark-for-the-social-graph/10151391496443920)
+* [LinkBench from Facebook](https://engineering.fb.com/2013/04/01/core-infra/linkbench-a-database-benchmark-for-the-social-graph/)
   and [Github.com repo](https://github.com/facebookarchive/linkbench)
 * [LinkBenchX from Percona](https://www.percona.com/blog/2015/05/01/linkbenchx-benchmark-based-arrival-request-rate/)
 
@@ -962,5 +963,5 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [Yahoo! Cloud System Benchmark (YCSB)](https://github.com/brianfrankcooper/YCSB)
 * [YCSB+T: Benchmarking Web-scale Transactional Databases](https://scholar.google.com/scholar?cluster=5163098490260369747)
 * [YCSB++](https://www.pdl.cmu.edu/ycsb++/)
-* [Correcting YCSB's Coordinated Omission problem](https://psy-lob-saw.blogspot.ru/2015/03/fixing-ycsb-coordinated-omission.html)
+* [Correcting YCSB's Coordinated Omission problem](https://psy-lob-saw.blogspot.com/2015/03/fixing-ycsb-coordinated-omission.html)
 
