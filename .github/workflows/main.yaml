@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: lycheeverse/lychee-action@v2
         with:
           fail: true
           jobSummary: true
-          args: --root-dir ${{ github.workspace }} --verbose --no-progress './**/*.md' --timeout 60 --retry-wait-time 20 --max-concurrency 5
+          args: --root-dir ${{ github.workspace }} --include-fragments --verbose --no-progress './**/*.md' --timeout 60 --retry-wait-time 20 --max-concurrency 5
