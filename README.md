@@ -918,6 +918,11 @@ See also [deterministic simulation](#deterministic-simulation) section.
 * [RapidCheck — QuickCheck port to C++](https://github.com/emil-e/rapidcheck)
 * [faketime](https://manpages.ubuntu.com/manpages/trusty/man1/faketime.1.html)
 
+### Deterministic Simulation Testing
+
+* [Chronos](https://github.com/sx4im/chronos) — Deterministic simulation testing for Node.js and TypeScript, with a virtual
+  clock, seeded execution, simulated network faults, Vitest integration, and failure replay.
+
 ### Network Simulation
 
 * [Comcast — Simulating shitty network connections, so you can build better systems](https://github.com/tylertreat/comcast)
