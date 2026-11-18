@@ -205,7 +205,8 @@ more popularity in recent years.
   Pierre Zemb
 * [Deterministic simulation testing - how it works and when to use it](https://antithesis.com/resources/deterministic_simulation_testing/) —
   overview of deterministic simulation testing by Antithesis.
-
+* [Deterministic Simulation Testing](https://martinfowler.com/articles/deterministic-simulation-testing.html) -- overview by Unmesh Joshi
+ 
 More companies and systems adopt deterministic simulation as a primary testing strategy:
 
 * [FoundationDB](#foundationdb)
