@@ -11,6 +11,29 @@ $hr-border-color: #cdcdcd;
 
 @import "{{ site.theme }}";
 
+// Visually hidden until focused, but still announced by screen readers.
+// Overrides the theme's version, whose invert() background has poor contrast with the link text.
+#skip-to-content {
+  top: auto;
+  clip-path: inset(50%);
+  white-space: nowrap;
+
+  &:focus {
+    background: none;
+    outline: none;
+  }
+
+  &:focus-visible {
+    z-index: 1;
+    padding: 0.5rem 1rem;
+    clip-path: none;
+    color: #fff;
+    background-color: $body-link-color;
+    outline: 3px solid $body-text-color;
+    outline-offset: 2px;
+  }
+}
+
 a {
   color: $body-link-color;
   text-decoration: none;
@@ -118,16 +141,36 @@ a {
 
 .main-content {
 
+  // The header already ends with a margin, so drop the theme's top padding on mobile
+  @include small {
+    padding-top: 0;
+  }
+
   h2, h3, h4, h5, h6  {
     text-indent: -1em;
-  }
 
-  h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor  {
-    visibility: hidden;
-  }
+    .anchor {
+      visibility: hidden;
+    }
+    &:hover .anchor,
+    &:focus-within .anchor,
+    &:target .anchor {
+      visibility: visible;
+    }
+    // No hover on touch screens: the whole heading becomes a tap target for its anchor link,
+    // and tapping it makes the heading :target, which reveals the anchor.
+    // Skipped for headings that contain other links, so those stay tappable.
+    @media (hover: none) {
+      &:not(:has(a:not(.heading-anchor))) {
+        position: relative;
 
-  h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
-    visibility: visible;
+        .heading-anchor::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+        }
+      }
+    }
   }
 
   hr {
