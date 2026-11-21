@@ -260,6 +260,13 @@ defining the space and the state of the art. Will Wilson (of [FoundationDB](#fou
 
 See also [deterministic simulation](#deterministic-simulation), [FoundationDB](#foundationdb) and [fuzzing](#fuzzing).
 
+### Agentic / GenAI
+
+* [Specular](https://specularhq.ai/) -- An agentic tool for finding deep bugs in system code using TLA+.
+  [Specular code](https://github.com/specular-org/Specular) on Github. Specular uses coding agents to derive TLA+
+  specifications from real system code, validates them against implementation traces, and model-checks them to uncover
+  violations it can reproduce in code.
+
 ### Lineage-driven Fault Injection
 
 * [Lineage-driven Fault Injection](https://dl.acm.org/citation.cfm?id=2723711)
