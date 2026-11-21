@@ -11,6 +11,13 @@ $hr-border-color: #cdcdcd;
 
 @import "{{ site.theme }}";
 
+// Cross-fade between pages in browsers that support cross-document view transitions
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+
 // Visually hidden until focused, but still announced by screen readers.
 // Overrides the theme's version, whose invert() background has poor contrast with the link text.
 #skip-to-content {
@@ -62,6 +69,7 @@ a {
   margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7;
+  text-wrap: balance;
 
   @include large {
     font-size: 1.25rem;
@@ -80,6 +88,7 @@ a {
   margin-top: 0;
   margin-bottom: 0.1rem;
   font-weight: normal;
+  text-wrap: balance;
 
   @include large {
     font-size: 3.25rem;
@@ -144,6 +153,15 @@ a {
   // The header already ends with a margin, so drop the theme's top padding on mobile
   @include small {
     padding-top: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+
+  // Avoid single-word last lines in body text
+  p, li, blockquote {
+    text-wrap: pretty;
   }
 
   h2, h3, h4, h5, h6  {
