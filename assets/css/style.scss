@@ -151,7 +151,11 @@ a {
 .main-content {
 
   // The header already ends with a margin, so drop the theme's top padding on mobile
+  // (portrait is small, landscape is medium)
   @include small {
+    padding-top: 0;
+  }
+  @include medium {
     padding-top: 0;
   }
 
